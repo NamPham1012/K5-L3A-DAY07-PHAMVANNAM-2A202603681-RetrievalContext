@@ -1,0 +1,28 @@
+{
+  "query_id": "q05",
+  "status": "pending_review",
+  "question": "Tội phạm mạng là gì?",
+  "model": "openai/gpt-4o-mini",
+  "events": [
+    {
+      "event": "search",
+      "tool": "search_documents",
+      "model_query": "Tội phạm mạng là gì?",
+      "actual_query": "Tội phạm mạng là gì?",
+      "context_ids": [
+        "luat-anm-2018-p2-p3",
+        "luat-anm-2018-p2-p4",
+        "luat-anm-2018-p5-p4"
+      ],
+      "context": "[luat-anm-2018-p2-p3 | data\\24-2018-qh14.pdf | page 2]\nd) Cơ sở hạ tầng công nghệ thông tin của đô thị thông minh, Internet vạn vật, hệ thống phức hợp thực - ảo, điện toán đám mây, hệ thống dữ liệu lớn, hệ thống dữ liệu nhanh và hệ thống trí tuệ nhân tạo.\n6. Cổng kết nối mạng quốc tế là nơi diễn ra hoạt động chuyển nhận tín hiệu mạng qua lại giữa Việt Nam và các quốc gia, vùng lãnh thổ khác.\n7. Tội phạm mạng là hành vi sử dụng không gian mạng, công nghệ thông tin hoặc phương tiện điện tử để thực hiện tội phạm được quy định tại Bộ luật Hình sự.\n\n[luat-anm-2018-p2-p4 | data\\24-2018-qh14.pdf | page 2]\n8. Tấn công mạng là hành vi sử dụng không gian mạng, công nghệ thông tin hoặc phương tiện điện tử để phá hoại, gây gián đoạn hoạt động của mạng viễn thông, mạng Internet, mạng máy tính, hệ thống thông tin, hệ thống xử lý và điều khiển thông tin, cơ sở dữ liệu, phương tiện điện tử.\n9. Khủng bố mạng là việc sử dụng không gian mạng, công nghệ thông tin hoặc phương tiện điện tử để thực hiện hành vi khủng bố, tài trợ khủng bố.\n\n[luat-anm-2018-p5-p4 | data\\24-2018-qh14.pdf | page 5]\nc) Chia sẻ thông tin, kinh nghiệm; hỗ trợ đào tạo, trang thiết bị, công nghệ bảo vệ an ninh mạng;\nd) Phòng, chống tội phạm mạng, hành vi xâm phạm an ninh mạng; ngăn ngừa các nguy cơ đe dọa an ninh mạng;\nđ) Tư vấn, đào tạo và phát triển nguồn nhân lực an ninh mạng;"
+    }
+  ],
+  "answer": "Tội phạm mạng là hành vi sử dụng không gian mạng, công nghệ thông tin hoặc phương tiện điện tử để thực hiện các tội phạm được quy định tại Bộ luật Hình sự [luat-anm-2018-p2-p3].",
+  "citations": [
+    "luat-anm-2018-p2-p3"
+  ],
+  "invalid_citations": [],
+  "elapsed_ms": 3409.0650999860372,
+  "llm_prompt_tokens": 661,
+  "llm_completion_tokens": 71
+}

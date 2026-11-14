@@ -1,0 +1,28 @@
+{
+  "query_id": "q03",
+  "status": "pending_review",
+  "question": "Tấn công mạng là hành vi gì?",
+  "model": "openai/gpt-4o-mini",
+  "events": [
+    {
+      "event": "search",
+      "tool": "search_documents",
+      "model_query": "Tấn công mạng là hành vi gì?",
+      "actual_query": "Tấn công mạng là hành vi gì?",
+      "context_ids": [
+        "luat-anm-2018-p2-p4",
+        "luat-anm-2018-p18-p1",
+        "luat-anm-2018-p7-p0"
+      ],
+      "context": "[luat-anm-2018-p2-p4 | data\\24-2018-qh14.pdf | page 2]\n8. Tấn công mạng là hành vi sử dụng không gian mạng, công nghệ thông tin hoặc phương tiện điện tử để phá hoại, gây gián đoạn hoạt động của mạng viễn thông, mạng Internet, mạng máy tính, hệ thống thông tin, hệ thống xử lý và điều khiển thông tin, cơ sở dữ liệu, phương tiện điện tử.\n9. Khủng bố mạng là việc sử dụng không gian mạng, công nghệ thông tin hoặc phương tiện điện tử để thực hiện hành vi khủng bố, tài trợ khủng bố.\n\n[luat-anm-2018-p18-p1 | data\\24-2018-qh14.pdf | page 18]\ne) Hành vi khác sử dụng không gian mạng, công nghệ thông tin, phương tiện điện tử để vi phạm pháp luật về an ninh quốc gia, trật tự, an toàn xã hội.\n2. Lực lượng chuyên trách bảo vệ an ninh mạng có trách nhiệm phòng, chống hành vi sử dụng không gian mạng, công nghệ thông tin, phương tiện điện tử để vi phạm pháp luật về an ninh quốc gia, trật tự, an toàn xã hội.\nĐiều 19. Phòng, chống tấn công mạng\n1. Hành vi tấn công mạng và hành vi có liên quan đến tấn công mạng bao gồm:\n\n[luat-anm-2018-p7-p0 | data\\24-2018-qh14.pdf | page 7]\n2. Thực hiện tấn công mạng, khủng bố mạng, gián điệp mạng, tội phạm mạng; gây sự cố, tấn công, xâm nhập, chiếm quyền điều khiển, làm sai lệch, gián đoạn, ngưng trệ, tê liệt hoặc phá hoại hệ thống thông tin quan trọng về an ninh quốc gia."
+    }
+  ],
+  "answer": "Tấn công mạng là hành vi \"sử dụng không gian mạng, công nghệ thông tin hoặc phương tiện điện tử để phá hoại, gây gián đoạn hoạt động của mạng viễn thông, mạng Internet, mạng máy tính, hệ thống thông tin, hệ thống xử lý và điều khiển thông tin, cơ sở dữ liệu, phương tiện điện tử\" [luat-anm-2018-p2-p4].",
+  "citations": [
+    "luat-anm-2018-p2-p4"
+  ],
+  "invalid_citations": [],
+  "elapsed_ms": 4807.301900000311,
+  "llm_prompt_tokens": 715,
+  "llm_completion_tokens": 109
+}

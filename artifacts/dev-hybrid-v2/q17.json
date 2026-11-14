@@ -1,0 +1,68 @@
+{
+  "query_id": "q17",
+  "status": "pending_review",
+  "question": "Đấu tranh bảo vệ an ninh mạng là hoạt động gì?",
+  "model": "openai/gpt-4o-mini",
+  "strategy": "hybrid",
+  "budget_chars": 1600,
+  "events": [
+    {
+      "event": "search",
+      "tool": "search_documents",
+      "model_query": "Đấu tranh bảo vệ an ninh mạng là hoạt động gì?",
+      "actual_query": "Đấu tranh bảo vệ an ninh mạng là hoạt động gì?",
+      "context_ids": [
+        "luat-anm-2018-p22-p0",
+        "luat-anm-2018-p22-p1",
+        "luat-anm-2018-p22-p2"
+      ],
+      "context": "[luat-anm-2018-p22-p0 | data\\24-2018-qh14.pdf | page 22]\nĐiều 22. Đấu tranh bảo vệ an ninh mạng\n1. Đấu tranh bảo vệ an ninh mạng là hoạt động có tổ chức do lực lượng chuyên trách bảo vệ an ninh mạng thực hiện trên không gian mạng nhằm bảo vệ an ninh quốc gia và bảo đảm trật tự, an toàn xã hội.\n2. Nội dung đấu tranh bảo vệ an ninh mạng bao gồm:\na) Tổ chức nắm tình hình có liên quan đến hoạt động bảo vệ an ninh quốc gia;\nb) Phòng, chống tấn công và bảo vệ hoạt động ổn định của hệ thống thông tin quan trọng về an ninh quốc gia;\n\n[luat-anm-2018-p22-p1 | data\\24-2018-qh14.pdf | page 22]\nc) Làm tê liệt hoặc hạn chế hoạt động sử dụng không gian mạng nhằm gây phương hại an ninh quốc gia hoặc gây tổn hại đặc biệt nghiêm trọng trật tự, an toàn xã hội;\nd) Chủ động tấn công vô hiệu hóa mục tiêu trên không gian mạng nhằm bảo vệ an ninh quốc gia và bảo đảm trật tự, an toàn xã hội.\n3. Bộ Công an chủ trì, phối hợp với Bộ, ngành có liên quan thực hiện đấu tranh bảo vệ an ninh mạng.\nChương IV HOẠT ĐỘNG BẢO VỆ AN NINH MẠNG\n\n[luat-anm-2018-p22-p2 | data\\24-2018-qh14.pdf | page 22]\nĐiều 23. Triển khai hoạt động bảo vệ an ninh mạng trong cơ quan nhà nước, tổ chức chính trị ở trung ương và địa phương\n1. Nội dung triển khai hoạt động bảo vệ an ninh mạng bao gồm:\na) Xây dựng, hoàn thiện quy định, quy chế sử dụng mạng máy tính nội bộ, mạng máy tính có kết nối mạng Internet; phương án bảo đảm an ninh mạng đối với hệ thống thông tin; phương án ứng phó, khắc phục sự cố an ninh mạng;",
+      "results": [
+        {
+          "id": "luat-anm-2018-p22-p0",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 22,
+          "text": "Điều 22. Đấu tranh bảo vệ an ninh mạng\n1. Đấu tranh bảo vệ an ninh mạng là hoạt động có tổ chức do lực lượng chuyên trách bảo vệ an ninh mạng thực hiện trên không gian mạng nhằm bảo vệ an ninh quốc gia và bảo đảm trật tự, an toàn xã hội.\n2. Nội dung đấu tranh bảo vệ an ninh mạng bao gồm:\na) Tổ chức nắm tình hình có liên quan đến hoạt động bảo vệ an ninh quốc gia;\nb) Phòng, chống tấn công và bảo vệ hoạt động ổn định của hệ thống thông tin quan trọng về an ninh quốc gia;",
+          "metadata": {
+            "chapter": 3,
+            "chapter_title": "PHÒNG NGỪA, XỬ LÝ HÀNH VI XÂM PHẠM AN NINH MẠNG"
+          },
+          "score": 0.03278688524590164
+        },
+        {
+          "id": "luat-anm-2018-p22-p1",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 22,
+          "text": "c) Làm tê liệt hoặc hạn chế hoạt động sử dụng không gian mạng nhằm gây phương hại an ninh quốc gia hoặc gây tổn hại đặc biệt nghiêm trọng trật tự, an toàn xã hội;\nd) Chủ động tấn công vô hiệu hóa mục tiêu trên không gian mạng nhằm bảo vệ an ninh quốc gia và bảo đảm trật tự, an toàn xã hội.\n3. Bộ Công an chủ trì, phối hợp với Bộ, ngành có liên quan thực hiện đấu tranh bảo vệ an ninh mạng.\nChương IV HOẠT ĐỘNG BẢO VỆ AN NINH MẠNG",
+          "metadata": {
+            "chapter": 3,
+            "chapter_title": "PHÒNG NGỪA, XỬ LÝ HÀNH VI XÂM PHẠM AN NINH MẠNG"
+          },
+          "score": 0.03225806451612903
+        },
+        {
+          "id": "luat-anm-2018-p22-p2",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 22,
+          "text": "Điều 23. Triển khai hoạt động bảo vệ an ninh mạng trong cơ quan nhà nước, tổ chức chính trị ở trung ương và địa phương\n1. Nội dung triển khai hoạt động bảo vệ an ninh mạng bao gồm:\na) Xây dựng, hoàn thiện quy định, quy chế sử dụng mạng máy tính nội bộ, mạng máy tính có kết nối mạng Internet; phương án bảo đảm an ninh mạng đối với hệ thống thông tin; phương án ứng phó, khắc phục sự cố an ninh mạng;",
+          "metadata": {
+            "chapter": 3,
+            "chapter_title": "PHÒNG NGỪA, XỬ LÝ HÀNH VI XÂM PHẠM AN NINH MẠNG"
+          },
+          "score": 0.015873015873015872
+        }
+      ]
+    }
+  ],
+  "answer": "Đấu tranh bảo vệ an ninh mạng là hoạt động có tổ chức do lực lượng chuyên trách bảo vệ an ninh mạng thực hiện trên không gian mạng nhằm bảo vệ an ninh quốc gia và bảo đảm trật tự, an toàn xã hội. Nội dung của hoạt động này bao gồm nhiều các hoạt động khác nhau như nắm tình hình liên quan đến bảo vệ an ninh quốc gia, phòng chống tấn công, bảo vệ hệ thống thông tin quan trọng, làm tê liệt hoặc hạn chế hoạt động gây phương hại đến an ninh quốc gia, và chủ động tấn công vô hiệu hóa mục tiêu trên không gian mạng để bảo vệ an ninh quốc gia và trật tự, an toàn xã hội [luat-anm-2018-p22-p0].",
+  "citations": [
+    "luat-anm-2018-p22-p0"
+  ],
+  "invalid_citations": [],
+  "elapsed_ms": 5200.6125999905635,
+  "llm_prompt_tokens": 782,
+  "llm_completion_tokens": 190
+}

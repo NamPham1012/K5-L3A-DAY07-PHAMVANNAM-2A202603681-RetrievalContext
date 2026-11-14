@@ -1,0 +1,68 @@
+{
+  "query_id": "test_new_02",
+  "status": "pending_review",
+  "question": "Trẻ em có những quyền nào khi tham gia trên không gian mạng theo Điều 29?",
+  "model": "openai/gpt-4o-mini",
+  "strategy": "hybrid",
+  "budget_chars": 1600,
+  "events": [
+    {
+      "event": "search",
+      "tool": "search_documents",
+      "model_query": "quyền của trẻ em khi tham gia trên không gian mạng theo Điều 29",
+      "actual_query": "Trẻ em có những quyền nào khi tham gia trên không gian mạng theo Điều 29?",
+      "context_ids": [
+        "luat-anm-2018-p27-p1",
+        "luat-anm-2018-p26-p3",
+        "luat-anm-2018-p27-p0"
+      ],
+      "context": "[luat-anm-2018-p27-p1 | data\\24-2018-qh14.pdf | page 27]\n3. Cơ quan, tổ chức, cá nhân tham gia hoạt động trên không gian mạng có trách nhiệm phối hợp với cơ quan có thẩm quyền trong bảo đảm quyền của trẻ em trên không gian mạng, ngăn chặn thông tin có nội dung gây nguy hại cho trẻ em theo quy định của Luật này và pháp luật về trẻ em.\n4. Cơ quan, tổ chức, cha mẹ, giáo viên, người chăm sóc trẻ em và cá nhân khác liên quan có trách nhiệm bảo đảm quyền của trẻ em, bảo vệ trẻ em khi tham gia không gian mạng theo quy định của pháp luật về trẻ em.\n\n[luat-anm-2018-p26-p3 | data\\24-2018-qh14.pdf | page 26]\nd) Tăng cường môi trường kinh doanh, cải thiện điều kiện cạnh tranh hỗ trợ doanh nghiệp nghiên cứu, sản xuất sản phẩm, dịch vụ, ứng dụng để bảo vệ an ninh mạng.\nĐiều 29. Bảo vệ trẻ em trên không gian mạng\n1. Trẻ em có quyền được bảo vệ, tiếp cận thông tin, tham gia hoạt động xã hội, vui chơi, giải trí, giữ bí mật cá nhân, đời sống riêng tư và các quyền khác khi tham gia trên không gian mạng.\n\n[luat-anm-2018-p27-p0 | data\\24-2018-qh14.pdf | page 27]\nkiểm soát nội dung thông tin trên hệ thống thông tin hoặc trên dịch vụ do doanh nghiệp cung cấp để không gây nguy hại cho trẻ em, xâm phạm đến trẻ em, quyền trẻ em; ngăn chặn việc chia sẻ và xóa bỏ thông tin có nội dung gây nguy hại cho trẻ em, xâm phạm đến trẻ em, quyền trẻ em; kịp thời thông báo, phối hợp với lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an để xử lý.",
+      "results": [
+        {
+          "id": "luat-anm-2018-p27-p1",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 27,
+          "text": "3. Cơ quan, tổ chức, cá nhân tham gia hoạt động trên không gian mạng có trách nhiệm phối hợp với cơ quan có thẩm quyền trong bảo đảm quyền của trẻ em trên không gian mạng, ngăn chặn thông tin có nội dung gây nguy hại cho trẻ em theo quy định của Luật này và pháp luật về trẻ em.\n4. Cơ quan, tổ chức, cha mẹ, giáo viên, người chăm sóc trẻ em và cá nhân khác liên quan có trách nhiệm bảo đảm quyền của trẻ em, bảo vệ trẻ em khi tham gia không gian mạng theo quy định của pháp luật về trẻ em.",
+          "metadata": {
+            "chapter": 4,
+            "chapter_title": "HOẠT ĐỘNG BẢO VỆ AN NINH MẠNG"
+          },
+          "score": 0.03252247488101534
+        },
+        {
+          "id": "luat-anm-2018-p26-p3",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 26,
+          "text": "d) Tăng cường môi trường kinh doanh, cải thiện điều kiện cạnh tranh hỗ trợ doanh nghiệp nghiên cứu, sản xuất sản phẩm, dịch vụ, ứng dụng để bảo vệ an ninh mạng.\nĐiều 29. Bảo vệ trẻ em trên không gian mạng\n1. Trẻ em có quyền được bảo vệ, tiếp cận thông tin, tham gia hoạt động xã hội, vui chơi, giải trí, giữ bí mật cá nhân, đời sống riêng tư và các quyền khác khi tham gia trên không gian mạng.",
+          "metadata": {
+            "chapter": 4,
+            "chapter_title": "HOẠT ĐỘNG BẢO VỆ AN NINH MẠNG"
+          },
+          "score": 0.032266458495966696
+        },
+        {
+          "id": "luat-anm-2018-p27-p0",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 27,
+          "text": "kiểm soát nội dung thông tin trên hệ thống thông tin hoặc trên dịch vụ do doanh nghiệp cung cấp để không gây nguy hại cho trẻ em, xâm phạm đến trẻ em, quyền trẻ em; ngăn chặn việc chia sẻ và xóa bỏ thông tin có nội dung gây nguy hại cho trẻ em, xâm phạm đến trẻ em, quyền trẻ em; kịp thời thông báo, phối hợp với lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an để xử lý.",
+          "metadata": {
+            "chapter": 4,
+            "chapter_title": "HOẠT ĐỘNG BẢO VỆ AN NINH MẠNG"
+          },
+          "score": 0.03200204813108039
+        }
+      ]
+    }
+  ],
+  "answer": "Theo Điều 29, trẻ em có những quyền sau khi tham gia trên không gian mạng: \n\n1. Quyền được bảo vệ.\n2. Quyền tiếp cận thông tin.\n3. Quyền tham gia hoạt động xã hội.\n4. Quyền vui chơi, giải trí.\n5. Quyền giữ bí mật cá nhân và đời sống riêng tư.\n6. Các quyền khác theo quy định khi tham gia trên không gian mạng [luat-anm-2018-p26-p3].",
+  "citations": [
+    "luat-anm-2018-p26-p3"
+  ],
+  "invalid_citations": [],
+  "elapsed_ms": 4291.331299988087,
+  "llm_prompt_tokens": 755,
+  "llm_completion_tokens": 132
+}

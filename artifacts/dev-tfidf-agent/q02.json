@@ -1,0 +1,69 @@
+{
+  "query_id": "q02",
+  "status": "pending_review",
+  "question": "Luật An ninh mạng điều chỉnh những nội dung gì?",
+  "model": "openai/gpt-4o-mini",
+  "strategy": "tfidf",
+  "budget_chars": 800,
+  "events": [
+    {
+      "event": "search",
+      "tool": "search_documents",
+      "model_query": "Luật An ninh mạng điều chỉnh những nội dung gì?",
+      "actual_query": "Luật An ninh mạng điều chỉnh những nội dung gì?",
+      "context_ids": [
+        "luat-anm-2018-p1-p0"
+      ],
+      "context": "[luat-anm-2018-p1-p0 | data\\24-2018-qh14.pdf | page 1]\nQUỐC HỘI CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc Luật số: 24/2018/QH14 LUẬT AN NINH MẠNG Căn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam; Quốc hội ban hành Luật An ninh mạng.\nChương I NHỮNG QUY ĐỊNH CHUNG\nĐiều 1. Phạm vi điều chỉnh Luật này quy định về hoạt động bảo vệ an ninh quốc gia và bảo đảm trật tự, an toàn xã hội trên không gian mạng; trách nhiệm của cơ quan, tổ chức, cá nhân có liên quan.",
+      "results": [
+        {
+          "id": "luat-anm-2018-p1-p0",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 1,
+          "text": "QUỐC HỘI CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc Luật số: 24/2018/QH14 LUẬT AN NINH MẠNG Căn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam; Quốc hội ban hành Luật An ninh mạng.\nChương I NHỮNG QUY ĐỊNH CHUNG\nĐiều 1. Phạm vi điều chỉnh Luật này quy định về hoạt động bảo vệ an ninh quốc gia và bảo đảm trật tự, an toàn xã hội trên không gian mạng; trách nhiệm của cơ quan, tổ chức, cá nhân có liên quan.",
+          "metadata": {
+            "chapter": 1,
+            "chapter_title": "NHỮNG QUY ĐỊNH CHUNG"
+          },
+          "score": 0.2838678198916565,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-anm-2018-p28-p0",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 28,
+          "text": "3. Khi xảy ra tình huống nguy hiểm về an ninh mạng, khủng bố mạng, tấn công mạng, sự cố an ninh mạng hoặc nguy cơ đe dọa an ninh mạng, cơ quan nhà nước có thẩm quyền quyết định huy động nhân lực bảo vệ an ninh mạng. Thẩm quyền, trách nhiệm, trình tự, thủ tục huy động nhân lực bảo vệ an ninh mạng được thực hiện theo quy định của Luật An ninh quốc gia, Luật Quốc phòng, Luật Công an nhân dân và quy định khác của pháp luật có liên quan.",
+          "metadata": {
+            "chapter": 5,
+            "chapter_title": "BẢO ĐẢM HOẠT ĐỘNG BẢO VỆ AN NINH MẠNG"
+          },
+          "score": 0.17533284857323006,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-anm-2018-p22-p2",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 22,
+          "text": "Điều 23. Triển khai hoạt động bảo vệ an ninh mạng trong cơ quan nhà nước, tổ chức chính trị ở trung ương và địa phương\n1. Nội dung triển khai hoạt động bảo vệ an ninh mạng bao gồm:\na) Xây dựng, hoàn thiện quy định, quy chế sử dụng mạng máy tính nội bộ, mạng máy tính có kết nối mạng Internet; phương án bảo đảm an ninh mạng đối với hệ thống thông tin; phương án ứng phó, khắc phục sự cố an ninh mạng;",
+          "metadata": {
+            "chapter": 3,
+            "chapter_title": "PHÒNG NGỪA, XỬ LÝ HÀNH VI XÂM PHẠM AN NINH MẠNG"
+          },
+          "score": 0.16654229898410888,
+          "strategy": "tfidf"
+        }
+      ]
+    }
+  ],
+  "answer": "Luật An ninh mạng điều chỉnh về \"hoạt động bảo vệ an ninh quốc gia và bảo đảm trật tự, an toàn xã hội trên không gian mạng; trách nhiệm của cơ quan, tổ chức, cá nhân có liên quan\" [luat-anm-2018-p1-p0].",
+  "citations": [
+    "luat-anm-2018-p1-p0"
+  ],
+  "invalid_citations": [],
+  "elapsed_ms": 3606.0541000042576,
+  "llm_prompt_tokens": 500,
+  "llm_completion_tokens": 90
+}

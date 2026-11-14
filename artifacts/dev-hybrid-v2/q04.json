@@ -1,0 +1,68 @@
+{
+  "query_id": "q04",
+  "status": "pending_review",
+  "question": "Gián điệp mạng được định nghĩa thế nào?",
+  "model": "openai/gpt-4o-mini",
+  "strategy": "hybrid",
+  "budget_chars": 1600,
+  "events": [
+    {
+      "event": "search",
+      "tool": "search_documents",
+      "model_query": "Gián điệp mạng được định nghĩa thế nào?",
+      "actual_query": "Gián điệp mạng được định nghĩa thế nào?",
+      "context_ids": [
+        "luat-anm-2018-p2-p5",
+        "luat-anm-2018-p7-p0",
+        "luat-anm-2018-p1-p0"
+      ],
+      "context": "[luat-anm-2018-p2-p5 | data\\24-2018-qh14.pdf | page 2]\n10. Gián điệp mạng là hành vi cố ý vượt qua cảnh báo, mã truy cập, mật mã, tường lửa, sử dụng quyền quản trị của người khác hoặc bằng phương thức khác để chiếm đoạt, thu thập trái phép thông tin, tài nguyên thông tin trên mạng viễn thông, mạng Internet, mạng máy tính, hệ thống thông tin, hệ thống xử lý và điều khiển thông tin, cơ sở dữ liệu, phương tiện điện tử của cơ quan, tổ chức, cá nhân.\n\n[luat-anm-2018-p7-p0 | data\\24-2018-qh14.pdf | page 7]\n2. Thực hiện tấn công mạng, khủng bố mạng, gián điệp mạng, tội phạm mạng; gây sự cố, tấn công, xâm nhập, chiếm quyền điều khiển, làm sai lệch, gián đoạn, ngưng trệ, tê liệt hoặc phá hoại hệ thống thông tin quan trọng về an ninh quốc gia.\n\n[luat-anm-2018-p1-p0 | data\\24-2018-qh14.pdf | page 1]\nQUỐC HỘI CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc Luật số: 24/2018/QH14 LUẬT AN NINH MẠNG Căn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam; Quốc hội ban hành Luật An ninh mạng.\nChương I NHỮNG QUY ĐỊNH CHUNG\nĐiều 1. Phạm vi điều chỉnh Luật này quy định về hoạt động bảo vệ an ninh quốc gia và bảo đảm trật tự, an toàn xã hội trên không gian mạng; trách nhiệm của cơ quan, tổ chức, cá nhân có liên quan.",
+      "results": [
+        {
+          "id": "luat-anm-2018-p2-p5",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 2,
+          "text": "10. Gián điệp mạng là hành vi cố ý vượt qua cảnh báo, mã truy cập, mật mã, tường lửa, sử dụng quyền quản trị của người khác hoặc bằng phương thức khác để chiếm đoạt, thu thập trái phép thông tin, tài nguyên thông tin trên mạng viễn thông, mạng Internet, mạng máy tính, hệ thống thông tin, hệ thống xử lý và điều khiển thông tin, cơ sở dữ liệu, phương tiện điện tử của cơ quan, tổ chức, cá nhân.",
+          "metadata": {
+            "chapter": 1,
+            "chapter_title": "NHỮNG QUY ĐỊNH CHUNG"
+          },
+          "score": 0.01639344262295082
+        },
+        {
+          "id": "luat-anm-2018-p7-p0",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 7,
+          "text": "2. Thực hiện tấn công mạng, khủng bố mạng, gián điệp mạng, tội phạm mạng; gây sự cố, tấn công, xâm nhập, chiếm quyền điều khiển, làm sai lệch, gián đoạn, ngưng trệ, tê liệt hoặc phá hoại hệ thống thông tin quan trọng về an ninh quốc gia.",
+          "metadata": {
+            "chapter": 1,
+            "chapter_title": "NHỮNG QUY ĐỊNH CHUNG"
+          },
+          "score": 0.01639344262295082
+        },
+        {
+          "id": "luat-anm-2018-p1-p0",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 1,
+          "text": "QUỐC HỘI CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc Luật số: 24/2018/QH14 LUẬT AN NINH MẠNG Căn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam; Quốc hội ban hành Luật An ninh mạng.\nChương I NHỮNG QUY ĐỊNH CHUNG\nĐiều 1. Phạm vi điều chỉnh Luật này quy định về hoạt động bảo vệ an ninh quốc gia và bảo đảm trật tự, an toàn xã hội trên không gian mạng; trách nhiệm của cơ quan, tổ chức, cá nhân có liên quan.",
+          "metadata": {
+            "chapter": 1,
+            "chapter_title": "NHỮNG QUY ĐỊNH CHUNG"
+          },
+          "score": 0.016129032258064516
+        }
+      ]
+    }
+  ],
+  "answer": "Gián điệp mạng được định nghĩa là hành vi cố ý vượt qua cảnh báo, mã truy cập, mật mã, tường lửa, sử dụng quyền quản trị của người khác hoặc bằng phương thức khác để chiếm đoạt, thu thập trái phép thông tin, tài nguyên thông tin trên mạng viễn thông, mạng Internet, mạng máy tính, hệ thống thông tin, hệ thống xử lý và điều khiển thông tin, cơ sở dữ liệu, phương tiện điện tử của cơ quan, tổ chức, cá nhân [luat-anm-2018-p2-p5].",
+  "citations": [
+    "luat-anm-2018-p2-p5"
+  ],
+  "invalid_citations": [],
+  "elapsed_ms": 4032.0015999895986,
+  "llm_prompt_tokens": 739,
+  "llm_completion_tokens": 145
+}

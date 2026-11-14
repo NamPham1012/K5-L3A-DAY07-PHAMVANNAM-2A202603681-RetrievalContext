@@ -1,0 +1,66 @@
+{
+  "query_id": "test_absent_01",
+  "status": "pending_review",
+  "question": "Luật An ninh mạng năm 2018 quy định số điện thoại đường dây nóng báo sự cố an ninh mạng là số nào?",
+  "model": "openai/gpt-4o-mini",
+  "strategy": "hybrid",
+  "budget_chars": 1600,
+  "events": [
+    {
+      "event": "search",
+      "tool": "search_documents",
+      "model_query": "số điện thoại đường dây nóng báo sự cố an ninh mạng",
+      "actual_query": "Luật An ninh mạng năm 2018 quy định số điện thoại đường dây nóng báo sự cố an ninh mạng là số nào?",
+      "context_ids": [
+        "luat-anm-2018-p28-p0",
+        "luat-anm-2018-p6-p3",
+        "luat-anm-2018-p13-p2"
+      ],
+      "context": "[luat-anm-2018-p28-p0 | data\\24-2018-qh14.pdf | page 28]\n3. Khi xảy ra tình huống nguy hiểm về an ninh mạng, khủng bố mạng, tấn công mạng, sự cố an ninh mạng hoặc nguy cơ đe dọa an ninh mạng, cơ quan nhà nước có thẩm quyền quyết định huy động nhân lực bảo vệ an ninh mạng. Thẩm quyền, trách nhiệm, trình tự, thủ tục huy động nhân lực bảo vệ an ninh mạng được thực hiện theo quy định của Luật An ninh quốc gia, Luật Quốc phòng, Luật Công an nhân dân và quy định khác của pháp luật có liên quan.\n\n[luat-anm-2018-p6-p3 | data\\24-2018-qh14.pdf | page 6]\n4. Hoạt động hợp tác quốc tế về an ninh mạng của Bộ, ngành khác, của địa phương phải có văn bản tham gia ý kiến của Bộ Công an trước khi triển khai, trừ hoạt động hợp tác quốc tế của Bộ Quốc phòng.\nĐiều 8. Các hành vi bị nghiêm cấm về an ninh mạng\n1. Sử dụng không gian mạng để thực hiện hành vi sau đây:\na) Hành vi quy định tại khoản 1 Điều 18 của Luật này;\n\n[luat-anm-2018-p13-p2 | data\\24-2018-qh14.pdf | page 13]\na) Lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an chủ trì điều phối hoạt động ứng phó, khắc phục sự cố an ninh mạng xảy ra đối với hệ thống thông tin quan trọng về an ninh quốc gia, trừ trường hợp quy định tại điểm b và điểm c khoản này; tham gia ứng phó, khắc phục sự cố an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia khi có yêu cầu; thông báo cho chủ quản hệ thống thông tin khi phát hiện có tấn công mạng, sự cố an ninh mạng;",
+      "results": [
+        {
+          "id": "luat-anm-2018-p28-p0",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 28,
+          "text": "3. Khi xảy ra tình huống nguy hiểm về an ninh mạng, khủng bố mạng, tấn công mạng, sự cố an ninh mạng hoặc nguy cơ đe dọa an ninh mạng, cơ quan nhà nước có thẩm quyền quyết định huy động nhân lực bảo vệ an ninh mạng. Thẩm quyền, trách nhiệm, trình tự, thủ tục huy động nhân lực bảo vệ an ninh mạng được thực hiện theo quy định của Luật An ninh quốc gia, Luật Quốc phòng, Luật Công an nhân dân và quy định khác của pháp luật có liên quan.",
+          "metadata": {
+            "chapter": 5,
+            "chapter_title": "BẢO ĐẢM HOẠT ĐỘNG BẢO VỆ AN NINH MẠNG"
+          },
+          "score": 0.01639344262295082
+        },
+        {
+          "id": "luat-anm-2018-p6-p3",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 6,
+          "text": "4. Hoạt động hợp tác quốc tế về an ninh mạng của Bộ, ngành khác, của địa phương phải có văn bản tham gia ý kiến của Bộ Công an trước khi triển khai, trừ hoạt động hợp tác quốc tế của Bộ Quốc phòng.\nĐiều 8. Các hành vi bị nghiêm cấm về an ninh mạng\n1. Sử dụng không gian mạng để thực hiện hành vi sau đây:\na) Hành vi quy định tại khoản 1 Điều 18 của Luật này;",
+          "metadata": {
+            "chapter": 1,
+            "chapter_title": "NHỮNG QUY ĐỊNH CHUNG"
+          },
+          "score": 0.01639344262295082
+        },
+        {
+          "id": "luat-anm-2018-p13-p2",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 13,
+          "text": "a) Lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an chủ trì điều phối hoạt động ứng phó, khắc phục sự cố an ninh mạng xảy ra đối với hệ thống thông tin quan trọng về an ninh quốc gia, trừ trường hợp quy định tại điểm b và điểm c khoản này; tham gia ứng phó, khắc phục sự cố an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia khi có yêu cầu; thông báo cho chủ quản hệ thống thông tin khi phát hiện có tấn công mạng, sự cố an ninh mạng;",
+          "metadata": {
+            "chapter": 2,
+            "chapter_title": "BẢO VỆ AN NINH MẠNG ĐỐI VỚI HỆ THỐNG THÔNG TIN"
+          },
+          "score": 0.016129032258064516
+        }
+      ]
+    }
+  ],
+  "answer": "Không đủ bằng chứng.",
+  "citations": [],
+  "invalid_citations": [],
+  "elapsed_ms": 3055.048500013072,
+  "llm_prompt_tokens": 788,
+  "llm_completion_tokens": 32
+}

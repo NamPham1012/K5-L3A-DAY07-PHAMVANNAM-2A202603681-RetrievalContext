@@ -1,0 +1,68 @@
+{
+  "query_id": "test_new_04",
+  "status": "pending_review",
+  "question": "Doanh nghiệp cung cấp dịch vụ trên không gian mạng phải cảnh báo và hướng dẫn khách hàng về điều gì?",
+  "model": "openai/gpt-4o-mini",
+  "strategy": "hybrid",
+  "budget_chars": 1600,
+  "events": [
+    {
+      "event": "search",
+      "tool": "search_documents",
+      "model_query": "Doanh nghiệp cung cấp dịch vụ trên không gian mạng phải cảnh báo và hướng dẫn khách hàng về điều gì?",
+      "actual_query": "Doanh nghiệp cung cấp dịch vụ trên không gian mạng phải cảnh báo và hướng dẫn khách hàng về điều gì?",
+      "context_ids": [
+        "luat-anm-2018-p31-p2",
+        "luat-anm-2018-p26-p4",
+        "luat-anm-2018-p15-p3"
+      ],
+      "context": "[luat-anm-2018-p31-p2 | data\\24-2018-qh14.pdf | page 31]\n1. Doanh nghiệp cung cấp dịch vụ trên không gian mạng tại Việt Nam có trách nhiệm sau đây:\na) Cảnh báo khả năng mất an ninh mạng trong việc sử dụng dịch vụ trên không gian mạng do mình cung cấp và hướng dẫn biện pháp phòng ngừa;\n\n[luat-anm-2018-p26-p4 | data\\24-2018-qh14.pdf | page 26]\n2. Chủ quản hệ thống thông tin, doanh nghiệp cung cấp dịch vụ trên mạng viễn thông, mạng Internet, các dịch vụ gia tăng trên không gian mạng có trách nhiệm\n\n[luat-anm-2018-p15-p3 | data\\24-2018-qh14.pdf | page 15]\n8. Doanh nghiệp cung cấp dịch vụ trên mạng viễn thông, mạng Internet, các dịch vụ gia tăng trên không gian mạng và chủ quản hệ thống thông tin có trách nhiệm phối hợp với cơ quan chức năng xử lý thông tin trên không gian mạng có nội dung quy định tại các khoản 1, 2, 3, 4 và 5 Điều này.",
+      "results": [
+        {
+          "id": "luat-anm-2018-p31-p2",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 31,
+          "text": "1. Doanh nghiệp cung cấp dịch vụ trên không gian mạng tại Việt Nam có trách nhiệm sau đây:\na) Cảnh báo khả năng mất an ninh mạng trong việc sử dụng dịch vụ trên không gian mạng do mình cung cấp và hướng dẫn biện pháp phòng ngừa;",
+          "metadata": {
+            "chapter": 6,
+            "chapter_title": "TRÁCH NHIỆM CỦA CƠ QUAN, TỔ CHỨC, CÁ NHÂN"
+          },
+          "score": 0.03278688524590164
+        },
+        {
+          "id": "luat-anm-2018-p26-p4",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 26,
+          "text": "2. Chủ quản hệ thống thông tin, doanh nghiệp cung cấp dịch vụ trên mạng viễn thông, mạng Internet, các dịch vụ gia tăng trên không gian mạng có trách nhiệm",
+          "metadata": {
+            "chapter": 4,
+            "chapter_title": "HOẠT ĐỘNG BẢO VỆ AN NINH MẠNG"
+          },
+          "score": 0.03200204813108039
+        },
+        {
+          "id": "luat-anm-2018-p15-p3",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 15,
+          "text": "8. Doanh nghiệp cung cấp dịch vụ trên mạng viễn thông, mạng Internet, các dịch vụ gia tăng trên không gian mạng và chủ quản hệ thống thông tin có trách nhiệm phối hợp với cơ quan chức năng xử lý thông tin trên không gian mạng có nội dung quy định tại các khoản 1, 2, 3, 4 và 5 Điều này.",
+          "metadata": {
+            "chapter": 3,
+            "chapter_title": "PHÒNG NGỪA, XỬ LÝ HÀNH VI XÂM PHẠM AN NINH MẠNG"
+          },
+          "score": 0.016129032258064516
+        }
+      ]
+    }
+  ],
+  "answer": "Doanh nghiệp cung cấp dịch vụ trên không gian mạng có trách nhiệm \"cảnh báo khả năng mất an ninh mạng trong việc sử dụng dịch vụ trên không gian mạng do mình cung cấp và hướng dẫn biện pháp phòng ngừa\" [luat-anm-2018-p31-p2].",
+  "citations": [
+    "luat-anm-2018-p31-p2"
+  ],
+  "invalid_citations": [],
+  "elapsed_ms": 4408.319100009976,
+  "llm_prompt_tokens": 597,
+  "llm_completion_tokens": 98
+}

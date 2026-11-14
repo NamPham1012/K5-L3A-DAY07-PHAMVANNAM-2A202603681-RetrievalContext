@@ -1,0 +1,68 @@
+{
+  "query_id": "q09",
+  "status": "pending_review",
+  "question": "Giám sát an ninh mạng là hoạt động gì?",
+  "model": "openai/gpt-4o-mini",
+  "strategy": "hybrid",
+  "budget_chars": 1600,
+  "events": [
+    {
+      "event": "search",
+      "tool": "search_documents",
+      "model_query": "Giám sát an ninh mạng là hoạt động gì?",
+      "actual_query": "Giám sát an ninh mạng là hoạt động gì?",
+      "context_ids": [
+        "luat-anm-2018-p12-p2",
+        "luat-anm-2018-p12-p1",
+        "luat-anm-2018-p4-p3"
+      ],
+      "context": "[luat-anm-2018-p12-p2 | data\\24-2018-qh14.pdf | page 12]\n1. Giám sát an ninh mạng là hoạt động thu thập, phân tích tình hình nhằm xác định nguy cơ đe dọa an ninh mạng, sự cố an ninh mạng, điểm yếu, lỗ hổng bảo mật, mã độc, phần cứng độc hại để cảnh báo, khắc phục, xử lý.\n\n[luat-anm-2018-p12-p1 | data\\24-2018-qh14.pdf | page 12]\nd) Chủ quản hệ thống thông tin quan trọng về an ninh quốc gia có trách nhiệm phối hợp với lực lượng chuyên trách bảo vệ an ninh mạng tiến hành kiểm tra an ninh mạng đột xuất.\n6. Kết quả kiểm tra an ninh mạng được bảo mật theo quy định của pháp luật.\nĐiều 14. Giám sát an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia\n\n[luat-anm-2018-p4-p3 | data\\24-2018-qh14.pdf | page 4]\nc) Kiểm tra an ninh mạng;\nd) Giám sát an ninh mạng;\nđ) Ứng phó, khắc phục sự cố an ninh mạng;\ne) Đấu tranh bảo vệ an ninh mạng;\ng) Sử dụng mật mã để bảo vệ thông tin mạng;\nh) Ngăn chặn, yêu cầu tạm ngừng, ngừng cung cấp thông tin mạng; đình chỉ, tạm đình chỉ các hoạt động thiết lập, cung cấp và sử dụng mạng viễn thông, mạng Internet, sản xuất và sử dụng thiết bị phát, thu phát sóng vô tuyến theo quy định của pháp luật;",
+      "results": [
+        {
+          "id": "luat-anm-2018-p12-p2",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 12,
+          "text": "1. Giám sát an ninh mạng là hoạt động thu thập, phân tích tình hình nhằm xác định nguy cơ đe dọa an ninh mạng, sự cố an ninh mạng, điểm yếu, lỗ hổng bảo mật, mã độc, phần cứng độc hại để cảnh báo, khắc phục, xử lý.",
+          "metadata": {
+            "chapter": 2,
+            "chapter_title": "BẢO VỆ AN NINH MẠNG ĐỐI VỚI HỆ THỐNG THÔNG TIN"
+          },
+          "score": 0.03278688524590164
+        },
+        {
+          "id": "luat-anm-2018-p12-p1",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 12,
+          "text": "d) Chủ quản hệ thống thông tin quan trọng về an ninh quốc gia có trách nhiệm phối hợp với lực lượng chuyên trách bảo vệ an ninh mạng tiến hành kiểm tra an ninh mạng đột xuất.\n6. Kết quả kiểm tra an ninh mạng được bảo mật theo quy định của pháp luật.\nĐiều 14. Giám sát an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia",
+          "metadata": {
+            "chapter": 2,
+            "chapter_title": "BẢO VỆ AN NINH MẠNG ĐỐI VỚI HỆ THỐNG THÔNG TIN"
+          },
+          "score": 0.016129032258064516
+        },
+        {
+          "id": "luat-anm-2018-p4-p3",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 4,
+          "text": "c) Kiểm tra an ninh mạng;\nd) Giám sát an ninh mạng;\nđ) Ứng phó, khắc phục sự cố an ninh mạng;\ne) Đấu tranh bảo vệ an ninh mạng;\ng) Sử dụng mật mã để bảo vệ thông tin mạng;\nh) Ngăn chặn, yêu cầu tạm ngừng, ngừng cung cấp thông tin mạng; đình chỉ, tạm đình chỉ các hoạt động thiết lập, cung cấp và sử dụng mạng viễn thông, mạng Internet, sản xuất và sử dụng thiết bị phát, thu phát sóng vô tuyến theo quy định của pháp luật;",
+          "metadata": {
+            "chapter": 1,
+            "chapter_title": "NHỮNG QUY ĐỊNH CHUNG"
+          },
+          "score": 0.016129032258064516
+        }
+      ]
+    }
+  ],
+  "answer": "Giám sát an ninh mạng là hoạt động thu thập, phân tích tình hình nhằm xác định nguy cơ đe dọa an ninh mạng, sự cố an ninh mạng, điểm yếu, lỗ hổng bảo mật, mã độc, phần cứng độc hại để cảnh báo, khắc phục, xử lý [luat-anm-2018-p12-p2].",
+  "citations": [
+    "luat-anm-2018-p12-p2"
+  ],
+  "invalid_citations": [],
+  "elapsed_ms": 3719.922999996925,
+  "llm_prompt_tokens": 690,
+  "llm_completion_tokens": 107
+}

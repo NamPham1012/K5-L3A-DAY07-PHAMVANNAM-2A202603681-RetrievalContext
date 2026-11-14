@@ -1,0 +1,68 @@
+{
+  "query_id": "q13",
+  "status": "pending_review",
+  "question": "Doanh nghiệp phải xóa bỏ thông tin vi phạm trong thời hạn tối đa bao lâu kể từ khi có yêu cầu?",
+  "model": "openai/gpt-4o-mini",
+  "strategy": "hybrid",
+  "budget_chars": 1600,
+  "events": [
+    {
+      "event": "search",
+      "tool": "search_documents",
+      "model_query": "Doanh nghiệp phải xóa bỏ thông tin vi phạm trong thời hạn tối đa bao lâu kể từ khi có yêu cầu?",
+      "actual_query": "Doanh nghiệp phải xóa bỏ thông tin vi phạm trong thời hạn tối đa bao lâu kể từ khi có yêu cầu?",
+      "context_ids": [
+        "luat-anm-2018-p25-p1",
+        "luat-anm-2018-p11-p4",
+        "luat-anm-2018-p5-p0"
+      ],
+      "context": "[luat-anm-2018-p25-p1 | data\\24-2018-qh14.pdf | page 25]\nb) Ngăn chặn việc chia sẻ thông tin, xóa bỏ thông tin có nội dung quy định tại các khoản 1, 2, 3, 4 và 5 Điều 16 của Luật này trên dịch vụ hoặc hệ thống thông tin do cơ quan, tổ chức trực tiếp quản lý chậm nhất là 24 giờ kể từ thời điểm có yêu cầu của lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an hoặc cơ quan có thẩm quyền của Bộ Thông tin và Truyền thông và lưu nhật ký hệ thống để phục vụ điều tra, xử lý hành vi vi phạm pháp luật về an ninh mạng trong thời gian theo quy định của C\n\n[luat-anm-2018-p11-p4 | data\\24-2018-qh14.pdf | page 11]\nb) Trong thời hạn 30 ngày kể từ ngày kết thúc kiểm tra, lực lượng chuyên trách bảo vệ an ninh mạng thông báo kết quả kiểm tra và đưa ra yêu cầu đối với chủ quản hệ thống thông tin trong trường hợp phát hiện điểm yếu, lỗ hổng bảo mật; hướng dẫn hoặc tham gia khắc phục khi có đề nghị của chủ quản hệ thống thông tin;\n\n[luat-anm-2018-p5-p0 | data\\24-2018-qh14.pdf | page 5]\ni) Yêu cầu xóa bỏ, truy cập xóa bỏ thông tin trái pháp luật hoặc thông tin sai sự thật trên không gian mạng xâm phạm an ninh quốc gia, trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân;\nk) Thu thập dữ liệu điện tử liên quan đến hoạt động xâm phạm an ninh quốc gia, trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân trên không gian mạng;",
+      "results": [
+        {
+          "id": "luat-anm-2018-p25-p1",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 25,
+          "text": "b) Ngăn chặn việc chia sẻ thông tin, xóa bỏ thông tin có nội dung quy định tại các khoản 1, 2, 3, 4 và 5 Điều 16 của Luật này trên dịch vụ hoặc hệ thống thông tin do cơ quan, tổ chức trực tiếp quản lý chậm nhất là 24 giờ kể từ thời điểm có yêu cầu của lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an hoặc cơ quan có thẩm quyền của Bộ Thông tin và Truyền thông và lưu nhật ký hệ thống để phục vụ điều tra, xử lý hành vi vi phạm pháp luật về an ninh mạng trong thời gian theo quy định của C",
+          "metadata": {
+            "chapter": 4,
+            "chapter_title": "HOẠT ĐỘNG BẢO VỆ AN NINH MẠNG"
+          },
+          "score": 0.03278688524590164
+        },
+        {
+          "id": "luat-anm-2018-p11-p4",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 11,
+          "text": "b) Trong thời hạn 30 ngày kể từ ngày kết thúc kiểm tra, lực lượng chuyên trách bảo vệ an ninh mạng thông báo kết quả kiểm tra và đưa ra yêu cầu đối với chủ quản hệ thống thông tin trong trường hợp phát hiện điểm yếu, lỗ hổng bảo mật; hướng dẫn hoặc tham gia khắc phục khi có đề nghị của chủ quản hệ thống thông tin;",
+          "metadata": {
+            "chapter": 2,
+            "chapter_title": "BẢO VỆ AN NINH MẠNG ĐỐI VỚI HỆ THỐNG THÔNG TIN"
+          },
+          "score": 0.016129032258064516
+        },
+        {
+          "id": "luat-anm-2018-p5-p0",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 5,
+          "text": "i) Yêu cầu xóa bỏ, truy cập xóa bỏ thông tin trái pháp luật hoặc thông tin sai sự thật trên không gian mạng xâm phạm an ninh quốc gia, trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân;\nk) Thu thập dữ liệu điện tử liên quan đến hoạt động xâm phạm an ninh quốc gia, trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân trên không gian mạng;",
+          "metadata": {
+            "chapter": 1,
+            "chapter_title": "NHỮNG QUY ĐỊNH CHUNG"
+          },
+          "score": 0.016129032258064516
+        }
+      ]
+    }
+  ],
+  "answer": "Doanh nghiệp phải xóa bỏ thông tin vi phạm trong thời hạn tối đa là 24 giờ kể từ thời điểm có yêu cầu của lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an hoặc cơ quan có thẩm quyền của Bộ Thông tin và Truyền thông [luat-anm-2018-p25-p1].",
+  "citations": [
+    "luat-anm-2018-p25-p1"
+  ],
+  "invalid_citations": [],
+  "elapsed_ms": 4051.6260000003967,
+  "llm_prompt_tokens": 770,
+  "llm_completion_tokens": 110
+}

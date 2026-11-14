@@ -1,0 +1,21 @@
+[
+ {"query_id":"q01","answer_grade":2,"citation_support":[true],"reason":"Định nghĩa có trong p1-p1."},
+ {"query_id":"q02","answer_grade":2,"citation_support":[true],"reason":"Phạm vi điều chỉnh trong p1-p0."},
+ {"query_id":"q03","answer_grade":2,"citation_support":[true],"reason":"Định nghĩa trong p2-p4."},
+ {"query_id":"q04","answer_grade":2,"citation_support":[true],"reason":"Định nghĩa trong p2-p5."},
+ {"query_id":"q05","answer_grade":2,"citation_support":[true],"reason":"Định nghĩa trong p2-p3."},
+ {"query_id":"q06","answer_grade":2,"citation_support":[true],"reason":"Định nghĩa trong p3-p0."},
+ {"query_id":"q07","answer_grade":2,"citation_support":[true],"reason":"Định nghĩa trong p8-p3."},
+ {"query_id":"q08","answer_grade":2,"citation_support":[true],"reason":"Điều kiện sự cố và 12 giờ trong p11-p3."},
+ {"query_id":"q09","answer_grade":2,"citation_support":[true],"reason":"Định nghĩa trong p12-p2."},
+ {"query_id":"q10","answer_grade":1,"citation_support":[true],"reason":"Nêu định nghĩa được p2-p4 hỗ trợ thay vì ví dụ cụ thể trong gold; xem lại đáp án thay thế."},
+ {"query_id":"q11","answer_grade":1,"citation_support":[false],"reason":"Có ý đúng nhưng gộp các loại hành vi khác nhau; p14-p0 không hỗ trợ toàn bộ danh sách."},
+ {"query_id":"q12","answer_grade":2,"citation_support":[true],"reason":"Trách nhiệm kiểm tra và mã độc ở p16-p1."},
+ {"query_id":"q13","answer_grade":2,"citation_support":[true],"reason":"Điều kiện và thời hạn 24 giờ ở p25-p1."},
+ {"query_id":"q14","answer_grade":2,"citation_support":[true],"reason":"Lưu dữ liệu tại Việt Nam ở p25-p4."},
+ {"query_id":"q15","answer_grade":1,"citation_support":[true,false],"reason":"Phân biệt lực lượng chuyên trách với lực lượng bảo vệ nói chung; p27-p3 không nói các cơ quan đó đều là lực lượng chuyên trách."},
+ {"query_id":"q16","answer_grade":2,"citation_support":[true],"reason":"Định nghĩa trong p1-p2."},
+ {"query_id":"q17","answer_grade":1,"citation_support":[false],"reason":"Định nghĩa đúng, nhưng một số nội dung bổ sung nằm tại p22-p1 chứ không phải citation duy nhất p22-p0."},
+ {"query_id":"dev_absent_01","abstention_correct":true,"citation_support":[],"reason":"Agent từ chối; xác nhận dựa trên trích xuất toàn văn, người học cần review."},
+ {"query_id":"dev_absent_02","abstention_correct":true,"citation_support":[],"reason":"Agent từ chối; xác nhận dựa trên trích xuất toàn văn, người học cần review."}
+]

@@ -1,0 +1,28 @@
+{
+  "query_id": "q08",
+  "status": "pending_review",
+  "question": "Khi kiểm tra đột xuất do xảy ra sự cố an ninh mạng, phải thông báo trước cho chủ quản ít nhất bao nhiêu giờ?",
+  "model": "openai/gpt-4o-mini",
+  "events": [
+    {
+      "event": "search",
+      "tool": "search_documents",
+      "model_query": "Khi kiểm tra đột xuất do xảy ra sự cố an ninh mạng, phải thông báo trước cho chủ quản ít nhất bao nhiêu giờ?",
+      "actual_query": "Khi kiểm tra đột xuất do xảy ra sự cố an ninh mạng, phải thông báo trước cho chủ quản ít nhất bao nhiêu giờ?",
+      "context_ids": [
+        "luat-anm-2018-p11-p3",
+        "luat-anm-2018-p24-p0",
+        "luat-anm-2018-p10-p3"
+      ],
+      "context": "[luat-anm-2018-p11-p3 | data\\24-2018-qh14.pdf | page 11]\na) Trước thời điểm tiến hành kiểm tra, lực lượng chuyên trách bảo vệ an ninh mạng có trách nhiệm thông báo bằng văn bản cho chủ quản hệ thống thông tin ít nhất là 12 giờ trong trường hợp xảy ra sự cố an ninh mạng, hành vi xâm phạm an ninh mạng; ít nhất là 72 giờ trong trường hợp có yêu cầu quản lý nhà nước về an ninh mạng hoặc hết thời hạn khắc phục điểm yếu, lỗ hổng bảo mật theo khuyến cáo của lực lượng chuyên trách bảo vệ an ninh mạng;\n\n[luat-anm-2018-p24-p0 | data\\24-2018-qh14.pdf | page 24]\n5. Trước thời điểm tiến hành kiểm tra, lực lượng chuyên trách bảo vệ an ninh mạng thông báo bằng văn bản cho chủ quản hệ thống thông tin ít nhất là 12 giờ. Trong thời hạn 30 ngày kể từ ngày kết thúc kiểm tra, lực lượng chuyên trách bảo vệ an ninh mạng thông báo kết quả kiểm tra và đưa ra yêu cầu đối với chủ quản hệ thống thông tin trong trường hợp phát hiện điểm yếu, lỗ hổng bảo mật; hướng dẫn hoặc tham gia khắc phục khi có đề nghị của chủ quản hệ thống thông tin.\n\n[luat-anm-2018-p10-p3 | data\\24-2018-qh14.pdf | page 10]\na) Khi đưa phương tiện điện tử, dịch vụ an toàn thông tin mạng vào sử dụng trong hệ thống thông tin;\nb) Khi có thay đổi hiện trạng hệ thống thông tin;\nc) Kiểm tra định kỳ hàng năm;\nd) Kiểm tra đột xuất khi xảy ra sự cố an ninh mạng, hành vi xâm phạm an ninh mạng; khi có yêu cầu quản lý nhà nước về an ninh mạng; khi hết thời hạn khắc phục điểm yếu, lỗ hổng bảo mật theo khuyến cáo của lực lượng chuyên trách bảo vệ an ninh mạng."
+    }
+  ],
+  "answer": "Khi kiểm tra đột xuất do xảy ra sự cố an ninh mạng, phải thông báo cho chủ quản ít nhất là 12 giờ trước thời điểm tiến hành kiểm tra [luat-anm-2018-p11-p3].",
+  "citations": [
+    "luat-anm-2018-p11-p3"
+  ],
+  "invalid_citations": [],
+  "elapsed_ms": 3603.4903000108898,
+  "llm_prompt_tokens": 752,
+  "llm_completion_tokens": 93
+}

@@ -1,0 +1,69 @@
+{
+  "query_id": "q13",
+  "status": "pending_review",
+  "question": "Doanh nghiệp phải xóa bỏ thông tin vi phạm trong thời hạn tối đa bao lâu kể từ khi có yêu cầu?",
+  "model": "openai/gpt-4o-mini",
+  "strategy": "tfidf",
+  "budget_chars": 800,
+  "events": [
+    {
+      "event": "search",
+      "tool": "search_documents",
+      "model_query": "Doanh nghiệp phải xóa bỏ thông tin vi phạm trong thời hạn tối đa bao lâu kể từ khi có yêu cầu?",
+      "actual_query": "Doanh nghiệp phải xóa bỏ thông tin vi phạm trong thời hạn tối đa bao lâu kể từ khi có yêu cầu?",
+      "context_ids": [
+        "luat-anm-2018-p25-p1"
+      ],
+      "context": "[luat-anm-2018-p25-p1 | data\\24-2018-qh14.pdf | page 25]\nb) Ngăn chặn việc chia sẻ thông tin, xóa bỏ thông tin có nội dung quy định tại các khoản 1, 2, 3, 4 và 5 Điều 16 của Luật này trên dịch vụ hoặc hệ thống thông tin do cơ quan, tổ chức trực tiếp quản lý chậm nhất là 24 giờ kể từ thời điểm có yêu cầu của lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an hoặc cơ quan có thẩm quyền của Bộ Thông tin và Truyền thông và lưu nhật ký hệ thống để phục vụ điều tra, xử lý hành vi vi phạm pháp luật về an ninh mạng trong thời gian theo quy định của C",
+      "results": [
+        {
+          "id": "luat-anm-2018-p25-p1",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 25,
+          "text": "b) Ngăn chặn việc chia sẻ thông tin, xóa bỏ thông tin có nội dung quy định tại các khoản 1, 2, 3, 4 và 5 Điều 16 của Luật này trên dịch vụ hoặc hệ thống thông tin do cơ quan, tổ chức trực tiếp quản lý chậm nhất là 24 giờ kể từ thời điểm có yêu cầu của lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an hoặc cơ quan có thẩm quyền của Bộ Thông tin và Truyền thông và lưu nhật ký hệ thống để phục vụ điều tra, xử lý hành vi vi phạm pháp luật về an ninh mạng trong thời gian theo quy định của C",
+          "metadata": {
+            "chapter": 4,
+            "chapter_title": "HOẠT ĐỘNG BẢO VỆ AN NINH MẠNG"
+          },
+          "score": 0.31948107211699744,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-anm-2018-p11-p4",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 11,
+          "text": "b) Trong thời hạn 30 ngày kể từ ngày kết thúc kiểm tra, lực lượng chuyên trách bảo vệ an ninh mạng thông báo kết quả kiểm tra và đưa ra yêu cầu đối với chủ quản hệ thống thông tin trong trường hợp phát hiện điểm yếu, lỗ hổng bảo mật; hướng dẫn hoặc tham gia khắc phục khi có đề nghị của chủ quản hệ thống thông tin;",
+          "metadata": {
+            "chapter": 2,
+            "chapter_title": "BẢO VỆ AN NINH MẠNG ĐỐI VỚI HỆ THỐNG THÔNG TIN"
+          },
+          "score": 0.27964876465317146,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-anm-2018-p30-p3",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 30,
+          "text": "3. Yêu cầu doanh nghiệp cung cấp dịch vụ trên mạng viễn thông, mạng Internet, các dịch vụ gia tăng trên không gian mạng, chủ quản hệ thống thông tin loại bỏ thông tin có nội dung vi phạm pháp luật về an ninh mạng trên dịch vụ, hệ thống thông tin do doanh nghiệp, cơ quan, tổ chức trực tiếp quản lý.\nĐiều 39. Trách nhiệm của Ban Cơ yếu Chính phủ",
+          "metadata": {
+            "chapter": 6,
+            "chapter_title": "TRÁCH NHIỆM CỦA CƠ QUAN, TỔ CHỨC, CÁ NHÂN"
+          },
+          "score": 0.2529882491292112,
+          "strategy": "tfidf"
+        }
+      ]
+    }
+  ],
+  "answer": "Doanh nghiệp phải xóa bỏ thông tin vi phạm trong thời hạn tối đa 24 giờ kể từ thời điểm có yêu cầu của lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an hoặc cơ quan có thẩm quyền của Bộ Thông tin và Truyền thông [luat-anm-2018-p25-p1].",
+  "citations": [
+    "luat-anm-2018-p25-p1"
+  ],
+  "invalid_citations": [],
+  "elapsed_ms": 3264.806999999564,
+  "llm_prompt_tokens": 518,
+  "llm_completion_tokens": 109
+}

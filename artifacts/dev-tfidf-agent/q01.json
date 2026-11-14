@@ -1,0 +1,69 @@
+{
+  "query_id": "q01",
+  "status": "pending_review",
+  "question": "An ninh mạng là gì?",
+  "model": "openai/gpt-4o-mini",
+  "strategy": "tfidf",
+  "budget_chars": 800,
+  "events": [
+    {
+      "event": "search",
+      "tool": "search_documents",
+      "model_query": "An ninh mạng là gì?",
+      "actual_query": "An ninh mạng là gì?",
+      "context_ids": [
+        "luat-anm-2018-p1-p1"
+      ],
+      "context": "[luat-anm-2018-p1-p1 | data\\24-2018-qh14.pdf | page 1]\nĐiều 2. Giải thích từ ngữ Trong Luật này, các từ ngữ dưới đây được hiểu như sau:\n1. An ninh mạng là sự bảo đảm hoạt động trên không gian mạng không gây phương hại đến an ninh quốc gia, trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân.\n2. Bảo vệ an ninh mạng là phòng ngừa, phát hiện, ngăn chặn, xử lý hành vi xâm phạm an ninh mạng.",
+      "results": [
+        {
+          "id": "luat-anm-2018-p1-p1",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 1,
+          "text": "Điều 2. Giải thích từ ngữ Trong Luật này, các từ ngữ dưới đây được hiểu như sau:\n1. An ninh mạng là sự bảo đảm hoạt động trên không gian mạng không gây phương hại đến an ninh quốc gia, trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân.\n2. Bảo vệ an ninh mạng là phòng ngừa, phát hiện, ngăn chặn, xử lý hành vi xâm phạm an ninh mạng.",
+          "metadata": {
+            "chapter": 1,
+            "chapter_title": "NHỮNG QUY ĐỊNH CHUNG"
+          },
+          "score": 0.3708765249173945,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-anm-2018-p3-p1",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 3,
+          "text": "13. Sự cố an ninh mạng là sự việc bất ngờ xảy ra trên không gian mạng xâm phạm an ninh quốc gia, trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân.\n14. Tình huống nguy hiểm về an ninh mạng là sự việc xảy ra trên không gian mạng khi có hành vi xâm phạm nghiêm trọng an ninh quốc gia, gây tổn hại đặc biệt nghiêm trọng trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân.\nĐiều 3. Chính sách của Nhà nước về an ninh mạng",
+          "metadata": {
+            "chapter": 1,
+            "chapter_title": "NHỮNG QUY ĐỊNH CHUNG"
+          },
+          "score": 0.3339219946318766,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-anm-2018-p11-p3",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 11,
+          "text": "a) Trước thời điểm tiến hành kiểm tra, lực lượng chuyên trách bảo vệ an ninh mạng có trách nhiệm thông báo bằng văn bản cho chủ quản hệ thống thông tin ít nhất là 12 giờ trong trường hợp xảy ra sự cố an ninh mạng, hành vi xâm phạm an ninh mạng; ít nhất là 72 giờ trong trường hợp có yêu cầu quản lý nhà nước về an ninh mạng hoặc hết thời hạn khắc phục điểm yếu, lỗ hổng bảo mật theo khuyến cáo của lực lượng chuyên trách bảo vệ an ninh mạng;",
+          "metadata": {
+            "chapter": 2,
+            "chapter_title": "BẢO VỆ AN NINH MẠNG ĐỐI VỚI HỆ THỐNG THÔNG TIN"
+          },
+          "score": 0.3244926594257802,
+          "strategy": "tfidf"
+        }
+      ]
+    }
+  ],
+  "answer": "An ninh mạng là sự bảo đảm hoạt động trên không gian mạng không gây phương hại đến an ninh quốc gia, trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân [luat-anm-2018-p1-p1].",
+  "citations": [
+    "luat-anm-2018-p1-p1"
+  ],
+  "invalid_citations": [],
+  "elapsed_ms": 3360.520500020357,
+  "llm_prompt_tokens": 435,
+  "llm_completion_tokens": 83
+}

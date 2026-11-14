@@ -1,0 +1,28 @@
+{
+  "query_id": "q06",
+  "status": "pending_review",
+  "question": "Tài khoản số là gì?",
+  "model": "openai/gpt-4o-mini",
+  "events": [
+    {
+      "event": "search",
+      "tool": "search_documents",
+      "model_query": "Tài khoản số là gì?",
+      "actual_query": "Tài khoản số là gì?",
+      "context_ids": [
+        "luat-anm-2018-p3-p0",
+        "luat-anm-2018-p25-p0",
+        "luat-anm-2018-p14-p3"
+      ],
+      "context": "[luat-anm-2018-p3-p0 | data\\24-2018-qh14.pdf | page 3]\n11. Tài khoản số là thông tin dùng để chứng thực, xác thực, phân quyền sử dụng các ứng dụng, dịch vụ trên không gian mạng.\n12. Nguy cơ đe dọa an ninh mạng là tình trạng không gian mạng xuất hiện dấu hiệu đe dọa xâm phạm an ninh quốc gia, gây tổn hại nghiêm trọng trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân.\n\n[luat-anm-2018-p25-p0 | data\\24-2018-qh14.pdf | page 25]\na) Xác thực thông tin khi người dùng đăng ký tài khoản số; bảo mật thông tin, tài khoản của người dùng; cung cấp thông tin người dùng cho lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an khi có yêu cầu bằng văn bản để phục vụ điều tra, xử lý hành vi vi phạm pháp luật về an ninh mạng;\n\n[luat-anm-2018-p14-p3 | data\\24-2018-qh14.pdf | page 14]\n4. Thông tin trên không gian mạng có nội dung xâm phạm trật tự quản lý kinh tế bao gồm:\na) Thông tin bịa đặt, sai sự thật về sản phẩm, hàng hóa, tiền, trái phiếu, tín phiếu, công trái, séc và các loại giấy tờ có giá khác;\nb) Thông tin bịa đặt, sai sự thật trong lĩnh vực tài chính, ngân hàng, thương mại điện tử, thanh toán điện tử, kinh doanh tiền tệ, huy động vốn, kinh doanh đa cấp, chứng khoán."
+    }
+  ],
+  "answer": "Tài khoản số là thông tin dùng để chứng thực, xác thực, phân quyền sử dụng các ứng dụng, dịch vụ trên không gian mạng [luat-anm-2018-p3-p0].",
+  "citations": [
+    "luat-anm-2018-p3-p0"
+  ],
+  "invalid_citations": [],
+  "elapsed_ms": 2785.2663999947254,
+  "llm_prompt_tokens": 620,
+  "llm_completion_tokens": 62
+}

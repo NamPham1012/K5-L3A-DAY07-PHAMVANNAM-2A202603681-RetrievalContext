@@ -1,0 +1,30 @@
+{
+  "query_id": "q14",
+  "status": "pending_review",
+  "question": "Doanh nghiệp xử lý dữ liệu người dùng tại Việt Nam phải lưu dữ liệu ở đâu?",
+  "model": "openai/gpt-4o-mini",
+  "events": [
+    {
+      "event": "search",
+      "tool": "search_documents",
+      "model_query": "Doanh nghiệp xử lý dữ liệu người dùng tại Việt Nam phải lưu dữ liệu ở đâu?",
+      "actual_query": "Doanh nghiệp xử lý dữ liệu người dùng tại Việt Nam phải lưu dữ liệu ở đâu?",
+      "context_ids": [
+        "luat-anm-2018-p25-p4",
+        "luat-anm-2018-p24-p4",
+        "luat-anm-2018-p7-p2"
+      ],
+      "context": "[luat-anm-2018-p25-p4 | data\\24-2018-qh14.pdf | page 25]\n3. Doanh nghiệp trong nước và ngoài nước cung cấp dịch vụ trên mạng viễn thông, mạng Internet, các dịch vụ gia tăng trên không gian mạng tại Việt Nam có hoạt động thu thập, khai thác, phân tích, xử lý dữ liệu về thông tin cá nhân, dữ liệu về mối quan hệ của người sử dụng dịch vụ, dữ liệu do người sử dụng dịch vụ tại Việt Nam tạo ra phải lưu trữ dữ liệu này tại Việt Nam trong thời gian theo quy định của Chính phủ. Doanh nghiệp ngoài nước quy định tại khoản này phải đặt chi nhánh hoặc văn phòng đạ\n\n[luat-anm-2018-p24-p4 | data\\24-2018-qh14.pdf | page 24]\n1. Trang thông tin điện tử, cổng thông tin điện tử hoặc chuyên trang trên mạng xã hội của cơ quan, tổ chức, cá nhân không được cung cấp, đăng tải, truyền đưa thông tin có nội dung quy định tại các khoản 1, 2, 3, 4 và 5 Điều 16 của Luật này và thông tin khác có nội dung xâm phạm an ninh quốc gia.\n2. Doanh nghiệp trong nước và ngoài nước cung cấp dịch vụ trên mạng viễn thông, mạng Internet, các dịch vụ gia tăng trên không gian mạng tại Việt Nam có trách nhiệm sau đây:\n\n[luat-anm-2018-p7-p2 | data\\24-2018-qh14.pdf | page 7]\nệ thống xử lý và điều khiển thông tin, cơ sở dữ liệu, phương tiện điện tử của người khác."
+    }
+  ],
+  "answer": "Doanh nghiệp xử lý dữ liệu người dùng tại Việt Nam phải lưu trữ dữ liệu này tại Việt Nam trong thời gian theo quy định của Chính phủ. Điều này áp dụng cho cả doanh nghiệp trong nước và doanh nghiệp nước ngoài cung cấp dịch vụ trên mạng tại Việt Nam [chunk-id: luat-anm-2018-p25-p4].",
+  "citations": [
+    "chunk-id: luat-anm-2018-p25-p4"
+  ],
+  "invalid_citations": [
+    "chunk-id: luat-anm-2018-p25-p4"
+  ],
+  "elapsed_ms": 3707.4958000157494,
+  "llm_prompt_tokens": 638,
+  "llm_completion_tokens": 104
+}

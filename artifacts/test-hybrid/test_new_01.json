@@ -1,0 +1,68 @@
+{
+  "query_id": "test_new_01",
+  "status": "pending_review",
+  "question": "Hợp tác quốc tế về an ninh mạng được thực hiện trên những cơ sở nào?",
+  "model": "openai/gpt-4o-mini",
+  "strategy": "hybrid",
+  "budget_chars": 1600,
+  "events": [
+    {
+      "event": "search",
+      "tool": "search_documents",
+      "model_query": "Hợp tác quốc tế về an ninh mạng được thực hiện trên những cơ sở nào?",
+      "actual_query": "Hợp tác quốc tế về an ninh mạng được thực hiện trên những cơ sở nào?",
+      "context_ids": [
+        "luat-anm-2018-p5-p3",
+        "luat-anm-2018-p6-p0",
+        "luat-anm-2018-p24-p2"
+      ],
+      "context": "[luat-anm-2018-p5-p3 | data\\24-2018-qh14.pdf | page 5]\n1. Hợp tác quốc tế về an ninh mạng được thực hiện trên cơ sở tôn trọng độc lập, chủ quyền và toàn vẹn lãnh thổ, không can thiệp vào công việc nội bộ của nhau, bình đẳng và cùng có lợi.\n2. Nội dung hợp tác quốc tế về an ninh mạng bao gồm:\na) Nghiên cứu, phân tích xu hướng an ninh mạng;\nb) Xây dựng cơ chế, chính sách nhằm đẩy mạnh hợp tác giữa tổ chức, cá nhân Việt Nam với tổ chức, cá nhân nước ngoài, tổ chức quốc tế hoạt động về an ninh mạng;\n\n[luat-anm-2018-p6-p0 | data\\24-2018-qh14.pdf | page 6]\ne) Tổ chức hội nghị, hội thảo và diễn đàn quốc tế về an ninh mạng;\ng) Ký kết và thực hiện điều ước quốc tế, thỏa thuận quốc tế về an ninh mạng;\nh) Thực hiện chương trình, dự án hợp tác quốc tế về an ninh mạng;\ni) Hoạt động hợp tác quốc tế khác về an ninh mạng.\n\n[luat-anm-2018-p24-p2 | data\\24-2018-qh14.pdf | page 24]\n1. Bảo vệ an ninh mạng đối với cơ sở hạ tầng không gian mạng quốc gia, cổng kết nối mạng quốc tế phải bảo đảm kết hợp chặt chẽ giữa yêu cầu bảo vệ an ninh mạng với yêu cầu phát triển kinh tế - xã hội; khuyến khích cổng kết nối quốc tế đặt trên lãnh thổ Việt Nam; khuyến khích tổ chức, cá nhân tham gia đầu tư xây dựng cơ sở hạ tầng không gian mạng quốc gia.\n2. Cơ quan, tổ chức, cá nhân quản lý, khai thác cơ sở hạ tầng không gian mạng quốc gia, cổng kết nối mạng quốc tế có trách nhiệm sau đây:",
+      "results": [
+        {
+          "id": "luat-anm-2018-p5-p3",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 5,
+          "text": "1. Hợp tác quốc tế về an ninh mạng được thực hiện trên cơ sở tôn trọng độc lập, chủ quyền và toàn vẹn lãnh thổ, không can thiệp vào công việc nội bộ của nhau, bình đẳng và cùng có lợi.\n2. Nội dung hợp tác quốc tế về an ninh mạng bao gồm:\na) Nghiên cứu, phân tích xu hướng an ninh mạng;\nb) Xây dựng cơ chế, chính sách nhằm đẩy mạnh hợp tác giữa tổ chức, cá nhân Việt Nam với tổ chức, cá nhân nước ngoài, tổ chức quốc tế hoạt động về an ninh mạng;",
+          "metadata": {
+            "chapter": 1,
+            "chapter_title": "NHỮNG QUY ĐỊNH CHUNG"
+          },
+          "score": 0.032266458495966696
+        },
+        {
+          "id": "luat-anm-2018-p6-p0",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 6,
+          "text": "e) Tổ chức hội nghị, hội thảo và diễn đàn quốc tế về an ninh mạng;\ng) Ký kết và thực hiện điều ước quốc tế, thỏa thuận quốc tế về an ninh mạng;\nh) Thực hiện chương trình, dự án hợp tác quốc tế về an ninh mạng;\ni) Hoạt động hợp tác quốc tế khác về an ninh mạng.",
+          "metadata": {
+            "chapter": 1,
+            "chapter_title": "NHỮNG QUY ĐỊNH CHUNG"
+          },
+          "score": 0.032266458495966696
+        },
+        {
+          "id": "luat-anm-2018-p24-p2",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 24,
+          "text": "1. Bảo vệ an ninh mạng đối với cơ sở hạ tầng không gian mạng quốc gia, cổng kết nối mạng quốc tế phải bảo đảm kết hợp chặt chẽ giữa yêu cầu bảo vệ an ninh mạng với yêu cầu phát triển kinh tế - xã hội; khuyến khích cổng kết nối quốc tế đặt trên lãnh thổ Việt Nam; khuyến khích tổ chức, cá nhân tham gia đầu tư xây dựng cơ sở hạ tầng không gian mạng quốc gia.\n2. Cơ quan, tổ chức, cá nhân quản lý, khai thác cơ sở hạ tầng không gian mạng quốc gia, cổng kết nối mạng quốc tế có trách nhiệm sau đây:",
+          "metadata": {
+            "chapter": 4,
+            "chapter_title": "HOẠT ĐỘNG BẢO VỆ AN NINH MẠNG"
+          },
+          "score": 0.016129032258064516
+        }
+      ]
+    }
+  ],
+  "answer": "Hợp tác quốc tế về an ninh mạng được thực hiện trên cơ sở tôn trọng độc lập, chủ quyền và toàn vẹn lãnh thổ, không can thiệp vào công việc nội bộ của nhau, bình đẳng và cùng có lợi [luat-anm-2018-p5-p3].",
+  "citations": [
+    "luat-anm-2018-p5-p3"
+  ],
+  "invalid_citations": [],
+  "elapsed_ms": 3621.3420999993104,
+  "llm_prompt_tokens": 772,
+  "llm_completion_tokens": 97
+}

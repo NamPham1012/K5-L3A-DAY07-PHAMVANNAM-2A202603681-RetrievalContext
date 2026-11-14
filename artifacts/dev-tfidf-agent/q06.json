@@ -1,0 +1,70 @@
+{
+  "query_id": "q06",
+  "status": "pending_review",
+  "question": "Tài khoản số là gì?",
+  "model": "openai/gpt-4o-mini",
+  "strategy": "tfidf",
+  "budget_chars": 800,
+  "events": [
+    {
+      "event": "search",
+      "tool": "search_documents",
+      "model_query": "Tài khoản số",
+      "actual_query": "Tài khoản số là gì?",
+      "context_ids": [
+        "luat-anm-2018-p3-p0",
+        "luat-anm-2018-p25-p0"
+      ],
+      "context": "[luat-anm-2018-p3-p0 | data\\24-2018-qh14.pdf | page 3]\n11. Tài khoản số là thông tin dùng để chứng thực, xác thực, phân quyền sử dụng các ứng dụng, dịch vụ trên không gian mạng.\n12. Nguy cơ đe dọa an ninh mạng là tình trạng không gian mạng xuất hiện dấu hiệu đe dọa xâm phạm an ninh quốc gia, gây tổn hại nghiêm trọng trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân.\n\n[luat-anm-2018-p25-p0 | data\\24-2018-qh14.pdf | page 25]\na) Xác thực thông tin khi người dùng đăng ký tài khoản số; bảo mật thông tin, tài khoản của người dùng; cung cấp thông tin người dùng cho lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an khi có yêu cầu bằng văn bản để phục vụ điều tra, xử lý hành vi vi phạm pháp luật về an ninh mạng;",
+      "results": [
+        {
+          "id": "luat-anm-2018-p3-p0",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 3,
+          "text": "11. Tài khoản số là thông tin dùng để chứng thực, xác thực, phân quyền sử dụng các ứng dụng, dịch vụ trên không gian mạng.\n12. Nguy cơ đe dọa an ninh mạng là tình trạng không gian mạng xuất hiện dấu hiệu đe dọa xâm phạm an ninh quốc gia, gây tổn hại nghiêm trọng trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân.",
+          "metadata": {
+            "chapter": 1,
+            "chapter_title": "NHỮNG QUY ĐỊNH CHUNG"
+          },
+          "score": 0.30532188309554964,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-anm-2018-p25-p0",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 25,
+          "text": "a) Xác thực thông tin khi người dùng đăng ký tài khoản số; bảo mật thông tin, tài khoản của người dùng; cung cấp thông tin người dùng cho lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an khi có yêu cầu bằng văn bản để phục vụ điều tra, xử lý hành vi vi phạm pháp luật về an ninh mạng;",
+          "metadata": {
+            "chapter": 4,
+            "chapter_title": "HOẠT ĐỘNG BẢO VỆ AN NINH MẠNG"
+          },
+          "score": 0.28455734960044066,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-anm-2018-p29-p2",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 29,
+          "text": "2. Xây dựng, đề xuất chiến lược, chủ trương, chính sách, kế hoạch và phương án bảo vệ an ninh mạng.\n3. Phòng ngừa, đấu tranh với hoạt động sử dụng không gian mạng xâm phạm chủ quyền, lợi ích, an ninh quốc gia, trật tự, an toàn xã hội và phòng, chống tội phạm mạng.\n4. Bảo đảm an ninh thông tin trên không gian mạng; xây dựng cơ chế xác thực thông tin đăng ký tài khoản số; cảnh báo, chia sẻ thông tin an ninh mạng, nguy cơ đe dọa an ninh mạng.",
+          "metadata": {
+            "chapter": 6,
+            "chapter_title": "TRÁCH NHIỆM CỦA CƠ QUAN, TỔ CHỨC, CÁ NHÂN"
+          },
+          "score": 0.16532677759706263,
+          "strategy": "tfidf"
+        }
+      ]
+    }
+  ],
+  "answer": "Tài khoản số là thông tin dùng để chứng thực, xác thực, phân quyền sử dụng các ứng dụng, dịch vụ trên không gian mạng [luat-anm-2018-p3-p0].",
+  "citations": [
+    "luat-anm-2018-p3-p0"
+  ],
+  "invalid_citations": [],
+  "elapsed_ms": 2569.633899984183,
+  "llm_prompt_tokens": 524,
+  "llm_completion_tokens": 59
+}

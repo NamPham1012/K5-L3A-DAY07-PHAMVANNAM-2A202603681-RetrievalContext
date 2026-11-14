@@ -1,0 +1,69 @@
+{
+  "query_id": "q12",
+  "status": "pending_review",
+  "question": "Chủ quản hệ thống thông tin có trách nhiệm gì để phát hiện mã độc?",
+  "model": "openai/gpt-4o-mini",
+  "strategy": "tfidf",
+  "budget_chars": 800,
+  "events": [
+    {
+      "event": "search",
+      "tool": "search_documents",
+      "model_query": "Chủ quản hệ thống thông tin có trách nhiệm gì để phát hiện mã độc?",
+      "actual_query": "Chủ quản hệ thống thông tin có trách nhiệm gì để phát hiện mã độc?",
+      "context_ids": [
+        "luat-anm-2018-p15-p1"
+      ],
+      "context": "[luat-anm-2018-p15-p1 | data\\24-2018-qh14.pdf | page 15]\n6. Chủ quản hệ thống thông tin có trách nhiệm triển khai biện pháp quản lý, kỹ thuật để phòng ngừa, phát hiện, ngăn chặn, gỡ bỏ thông tin có nội dung quy định tại các khoản 1, 2, 3, 4 và 5 Điều này trên hệ thống thông tin thuộc phạm vi quản lý khi có yêu cầu của lực lượng chuyên trách bảo vệ an ninh mạng.",
+      "results": [
+        {
+          "id": "luat-anm-2018-p15-p1",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 15,
+          "text": "6. Chủ quản hệ thống thông tin có trách nhiệm triển khai biện pháp quản lý, kỹ thuật để phòng ngừa, phát hiện, ngăn chặn, gỡ bỏ thông tin có nội dung quy định tại các khoản 1, 2, 3, 4 và 5 Điều này trên hệ thống thông tin thuộc phạm vi quản lý khi có yêu cầu của lực lượng chuyên trách bảo vệ an ninh mạng.",
+          "metadata": {
+            "chapter": 3,
+            "chapter_title": "PHÒNG NGỪA, XỬ LÝ HÀNH VI XÂM PHẠM AN NINH MẠNG"
+          },
+          "score": 0.4220609051948471,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-anm-2018-p12-p4",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 12,
+          "text": "3. Lực lượng chuyên trách bảo vệ an ninh mạng thực hiện giám sát an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia thuộc phạm vi quản lý; cảnh báo và phối hợp với chủ quản hệ thống thông tin trong khắc phục, xử lý các nguy cơ đe dọa an ninh mạng, sự cố an ninh mạng, điểm yếu, lỗ hổng bảo mật, mã độc, phần cứng độc hại xảy ra đối với hệ thống thông tin quan trọng về an ninh quốc gia.",
+          "metadata": {
+            "chapter": 2,
+            "chapter_title": "BẢO VỆ AN NINH MẠNG ĐỐI VỚI HỆ THỐNG THÔNG TIN"
+          },
+          "score": 0.3891140801234702,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-anm-2018-p12-p3",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 12,
+          "text": "2. Chủ quản hệ thống thông tin quan trọng về an ninh quốc gia chủ trì, phối hợp với lực lượng chuyên trách bảo vệ an ninh mạng có thẩm quyền thường xuyên thực hiện giám sát an ninh mạng đối với hệ thống thông tin thuộc phạm vi quản lý; xây dựng cơ chế tự cảnh báo và tiếp nhận cảnh báo về nguy cơ đe dọa an ninh mạng, sự cố an ninh mạng, điểm yếu, lỗ hổng bảo mật, mã độc, phần cứng độc hại và đề ra phương án ứng phó, khắc phục khẩn cấp.",
+          "metadata": {
+            "chapter": 2,
+            "chapter_title": "BẢO VỆ AN NINH MẠNG ĐỐI VỚI HỆ THỐNG THÔNG TIN"
+          },
+          "score": 0.3527225615162041,
+          "strategy": "tfidf"
+        }
+      ]
+    }
+  ],
+  "answer": "Chủ quản hệ thống thông tin có trách nhiệm \"triển khai biện pháp quản lý, kỹ thuật để phòng ngừa, phát hiện, ngăn chặn, gỡ bỏ thông tin có nội dung quy định\" liên quan đến mã độc trên hệ thống thông tin thuộc phạm vi quản lý khi có yêu cầu của lực lượng chuyên trách bảo vệ an ninh mạng [luat-anm-2018-p15-p1].",
+  "citations": [
+    "luat-anm-2018-p15-p1"
+  ],
+  "invalid_citations": [],
+  "elapsed_ms": 3732.476500008488,
+  "llm_prompt_tokens": 440,
+  "llm_completion_tokens": 119
+}

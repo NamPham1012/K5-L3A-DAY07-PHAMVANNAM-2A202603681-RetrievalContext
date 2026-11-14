@@ -1,0 +1,242 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "An ninh mạng là gì?",
+    "gold": [
+      {
+        "source_id": "luat-anm-2018",
+        "page": 1,
+        "evidence": "An ninh mạng là sự bảo đảm hoạt động trên không gian mạng không gây phương hại đến an ninh quốc gia"
+      }
+    ],
+    "expected_answer": "Là sự bảo đảm hoạt động trên không gian mạng không gây phương hại đến an ninh quốc gia, trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân.",
+    "filter": null
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "Luật An ninh mạng điều chỉnh những nội dung gì?",
+    "gold": [
+      {
+        "source_id": "luat-anm-2018",
+        "page": 1,
+        "evidence": "Luật này quy định về hoạt động bảo vệ an ninh quốc gia và bảo đảm trật tự, an toàn xã hội trên không gian mạng"
+      }
+    ],
+    "expected_answer": "Hoạt động bảo vệ an ninh quốc gia và bảo đảm trật tự, an toàn xã hội trên không gian mạng; trách nhiệm của cơ quan, tổ chức, cá nhân có liên quan.",
+    "filter": null
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "Tấn công mạng là hành vi gì?",
+    "gold": [
+      {
+        "source_id": "luat-anm-2018",
+        "page": 2,
+        "evidence": "Tấn công mạng là hành vi sử dụng không gian mạng, công nghệ thông tin"
+      }
+    ],
+    "expected_answer": "Là hành vi sử dụng không gian mạng, công nghệ thông tin hoặc phương tiện điện tử để phá hoại, gây gián đoạn hoạt động của mạng.",
+    "filter": null
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "Gián điệp mạng được định nghĩa thế nào?",
+    "gold": [
+      {
+        "source_id": "luat-anm-2018",
+        "page": 2,
+        "evidence": "Gián điệp mạng là hành vi cố ý vượt qua cảnh báo, mã truy cập, mật mã"
+      }
+    ],
+    "expected_answer": "Là hành vi cố ý vượt qua cảnh báo, mã truy cập, mật mã, tường lửa... để chiếm đoạt, thu thập trái phép thông tin.",
+    "filter": null
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "Tội phạm mạng là gì?",
+    "gold": [
+      {
+        "source_id": "luat-anm-2018",
+        "page": 2,
+        "evidence": "Tội phạm mạng là hành vi sử dụng không gian mạng, công nghệ thông tin"
+      }
+    ],
+    "expected_answer": "Là hành vi sử dụng không gian mạng, công nghệ thông tin hoặc phương tiện điện tử để thực hiện tội phạm được quy định tại Bộ luật Hình sự.",
+    "filter": null
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "Tài khoản số là gì?",
+    "gold": [
+      {
+        "source_id": "luat-anm-2018",
+        "page": 3,
+        "evidence": "Tài khoản số là thông tin dùng để chứng thực, xác thực, phân quyền sử dụng các ứng dụng"
+      }
+    ],
+    "expected_answer": "Là thông tin dùng để chứng thực, xác thực, phân quyền sử dụng các ứng dụng, dịch vụ trên không gian mạng.",
+    "filter": null
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "Thẩm định an ninh mạng là hoạt động gì?",
+    "gold": [
+      {
+        "source_id": "luat-anm-2018",
+        "page": 8,
+        "evidence": "Thẩm định an ninh mạng là hoạt động xem xét, đánh giá những nội dung về"
+      }
+    ],
+    "expected_answer": "Là hoạt động xem xét, đánh giá những nội dung về an ninh mạng để làm cơ sở cho việc quyết định xây dựng hoặc nâng cấp hệ thống thông tin.",
+    "filter": null
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "Khi kiểm tra đột xuất do xảy ra sự cố an ninh mạng, phải thông báo trước cho chủ quản ít nhất bao nhiêu giờ?",
+    "gold": [
+      {
+        "source_id": "luat-anm-2018",
+        "page": 11,
+        "evidence": "thông báo bằng văn bản cho chủ quản hệ thống thông tin ít nhất là 12 giờ"
+      }
+    ],
+    "expected_answer": "Ít nhất là 12 giờ.",
+    "filter": null
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "Giám sát an ninh mạng là hoạt động gì?",
+    "gold": [
+      {
+        "source_id": "luat-anm-2018",
+        "page": 12,
+        "evidence": "Giám sát an ninh mạng là hoạt động thu thập, phân tích tình hình"
+      }
+    ],
+    "expected_answer": "Là hoạt động thu thập, phân tích tình hình nhằm xác định nguy cơ đe dọa an ninh mạng, sự cố, điểm yếu, lỗ hổng bảo mật, mã độc.",
+    "filter": null
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "Một hành vi nào được xem là tấn công mạng?",
+    "gold": [
+      {
+        "source_id": "luat-anm-2018",
+        "page": 18,
+        "evidence": "Phát tán chương trình tin học gây hại cho mạng viễn thông"
+      }
+    ],
+    "expected_answer": "Phát tán chương trình tin học gây hại cho mạng viễn thông, mạng Internet, mạng máy tính, hệ thống thông tin.",
+    "filter": null
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "Thông tin tuyên truyền chống Nhà nước gồm hành vi nào?",
+    "gold": [
+      {
+        "source_id": "luat-anm-2018",
+        "page": 14,
+        "evidence": "Tuyên truyền xuyên tạc, phỉ báng chính quyền nhân dân"
+      }
+    ],
+    "expected_answer": "Tuyên truyền xuyên tạc, phỉ báng chính quyền nhân dân.",
+    "filter": null
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "Chủ quản hệ thống thông tin có trách nhiệm gì để phát hiện mã độc?",
+    "gold": [
+      {
+        "source_id": "luat-anm-2018",
+        "page": 16,
+        "evidence": "Kiểm tra an ninh mạng nhằm phát hiện, loại bỏ mã độc, phần cứng độc hại"
+      }
+    ],
+    "expected_answer": "Kiểm tra an ninh mạng nhằm phát hiện, loại bỏ mã độc, phần cứng độc hại, khắc phục điểm yếu, lỗ hổng bảo mật.",
+    "filter": null
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "Doanh nghiệp phải xóa bỏ thông tin vi phạm trong thời hạn tối đa bao lâu kể từ khi có yêu cầu?",
+    "gold": [
+      {
+        "source_id": "luat-anm-2018",
+        "page": 25,
+        "evidence": "chậm nhất là 24 giờ kể từ thời điểm có yêu cầu"
+      }
+    ],
+    "expected_answer": "Chậm nhất là 24 giờ.",
+    "filter": null
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "Doanh nghiệp xử lý dữ liệu người dùng tại Việt Nam phải lưu dữ liệu ở đâu?",
+    "gold": [
+      {
+        "source_id": "luat-anm-2018",
+        "page": 25,
+        "evidence": "phải lưu trữ dữ liệu này tại Việt Nam"
+      }
+    ],
+    "expected_answer": "Phải lưu trữ dữ liệu này tại Việt Nam.",
+    "filter": null
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "Lực lượng chuyên trách bảo vệ an ninh mạng được bố trí ở đâu?",
+    "gold": [
+      {
+        "source_id": "luat-anm-2018",
+        "page": 27,
+        "evidence": "Lực lượng chuyên trách bảo vệ an ninh mạng được bố trí tại Bộ Công an"
+      }
+    ],
+    "expected_answer": "Tại Bộ Công an, Bộ Quốc phòng.",
+    "filter": null
+  },
+  {
+    "id": "q16",
+    "split": "dev",
+    "question": "Không gian mạng được hiểu là gì?",
+    "gold": [
+      {
+        "source_id": "luat-anm-2018",
+        "page": 1,
+        "evidence": "Không gian mạng là mạng lưới kết nối của cơ sở hạ tầng công nghệ thông"
+      }
+    ],
+    "expected_answer": "Là mạng lưới kết nối của cơ sở hạ tầng công nghệ thông tin, gồm mạng viễn thông, Internet, máy tính, hệ thống thông tin.",
+    "filter": null
+  },
+  {
+    "id": "q17",
+    "split": "dev",
+    "question": "Đấu tranh bảo vệ an ninh mạng là hoạt động gì?",
+    "gold": [
+      {
+        "source_id": "luat-anm-2018",
+        "page": 22,
+        "evidence": "Đấu tranh bảo vệ an ninh mạng là hoạt động có tổ chức do lực lượng chuyên"
+      }
+    ],
+    "expected_answer": "Là hoạt động có tổ chức do lực lượng chuyên trách bảo vệ an ninh mạng thực hiện trên không gian mạng nhằm bảo vệ an ninh quốc gia.",
+    "filter": {
+      "chapter": 3
+    }
+  }
+]

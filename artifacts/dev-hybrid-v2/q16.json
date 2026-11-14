@@ -1,0 +1,68 @@
+{
+  "query_id": "q16",
+  "status": "pending_review",
+  "question": "Không gian mạng được hiểu là gì?",
+  "model": "openai/gpt-4o-mini",
+  "strategy": "hybrid",
+  "budget_chars": 1600,
+  "events": [
+    {
+      "event": "search",
+      "tool": "search_documents",
+      "model_query": "Không gian mạng được hiểu là gì?",
+      "actual_query": "Không gian mạng được hiểu là gì?",
+      "context_ids": [
+        "luat-anm-2018-p1-p1",
+        "luat-anm-2018-p1-p2",
+        "luat-anm-2018-p2-p4"
+      ],
+      "context": "[luat-anm-2018-p1-p1 | data\\24-2018-qh14.pdf | page 1]\nĐiều 2. Giải thích từ ngữ Trong Luật này, các từ ngữ dưới đây được hiểu như sau:\n1. An ninh mạng là sự bảo đảm hoạt động trên không gian mạng không gây phương hại đến an ninh quốc gia, trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân.\n2. Bảo vệ an ninh mạng là phòng ngừa, phát hiện, ngăn chặn, xử lý hành vi xâm phạm an ninh mạng.\n\n[luat-anm-2018-p1-p2 | data\\24-2018-qh14.pdf | page 1]\n3. Không gian mạng là mạng lưới kết nối của cơ sở hạ tầng công nghệ thông tin, bao gồm mạng viễn thông, mạng Internet, mạng máy tính, hệ thống thông tin, hệ thống xử lý và điều khiển thông tin, cơ sở dữ liệu; là nơi con người thực hiện các hành vi xã hội không bị giới hạn bởi không gian và thời gian.\n4. Không gian mạng quốc gia là không gian mạng do Chính phủ xác lập, quản lý và kiểm soát.\n\n[luat-anm-2018-p2-p4 | data\\24-2018-qh14.pdf | page 2]\n8. Tấn công mạng là hành vi sử dụng không gian mạng, công nghệ thông tin hoặc phương tiện điện tử để phá hoại, gây gián đoạn hoạt động của mạng viễn thông, mạng Internet, mạng máy tính, hệ thống thông tin, hệ thống xử lý và điều khiển thông tin, cơ sở dữ liệu, phương tiện điện tử.\n9. Khủng bố mạng là việc sử dụng không gian mạng, công nghệ thông tin hoặc phương tiện điện tử để thực hiện hành vi khủng bố, tài trợ khủng bố.",
+      "results": [
+        {
+          "id": "luat-anm-2018-p1-p1",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 1,
+          "text": "Điều 2. Giải thích từ ngữ Trong Luật này, các từ ngữ dưới đây được hiểu như sau:\n1. An ninh mạng là sự bảo đảm hoạt động trên không gian mạng không gây phương hại đến an ninh quốc gia, trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân.\n2. Bảo vệ an ninh mạng là phòng ngừa, phát hiện, ngăn chặn, xử lý hành vi xâm phạm an ninh mạng.",
+          "metadata": {
+            "chapter": 1,
+            "chapter_title": "NHỮNG QUY ĐỊNH CHUNG"
+          },
+          "score": 0.03252247488101534
+        },
+        {
+          "id": "luat-anm-2018-p1-p2",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 1,
+          "text": "3. Không gian mạng là mạng lưới kết nối của cơ sở hạ tầng công nghệ thông tin, bao gồm mạng viễn thông, mạng Internet, mạng máy tính, hệ thống thông tin, hệ thống xử lý và điều khiển thông tin, cơ sở dữ liệu; là nơi con người thực hiện các hành vi xã hội không bị giới hạn bởi không gian và thời gian.\n4. Không gian mạng quốc gia là không gian mạng do Chính phủ xác lập, quản lý và kiểm soát.",
+          "metadata": {
+            "chapter": 1,
+            "chapter_title": "NHỮNG QUY ĐỊNH CHUNG"
+          },
+          "score": 0.03252247488101534
+        },
+        {
+          "id": "luat-anm-2018-p2-p4",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 2,
+          "text": "8. Tấn công mạng là hành vi sử dụng không gian mạng, công nghệ thông tin hoặc phương tiện điện tử để phá hoại, gây gián đoạn hoạt động của mạng viễn thông, mạng Internet, mạng máy tính, hệ thống thông tin, hệ thống xử lý và điều khiển thông tin, cơ sở dữ liệu, phương tiện điện tử.\n9. Khủng bố mạng là việc sử dụng không gian mạng, công nghệ thông tin hoặc phương tiện điện tử để thực hiện hành vi khủng bố, tài trợ khủng bố.",
+          "metadata": {
+            "chapter": 1,
+            "chapter_title": "NHỮNG QUY ĐỊNH CHUNG"
+          },
+          "score": 0.015873015873015872
+        }
+      ]
+    }
+  ],
+  "answer": "Không gian mạng được hiểu là \"mạng lưới kết nối của cơ sở hạ tầng công nghệ thông tin, bao gồm mạng viễn thông, mạng Internet, mạng máy tính, hệ thống thông tin, hệ thống xử lý và điều khiển thông tin, cơ sở dữ liệu; là nơi con người thực hiện các hành vi xã hội không bị giới hạn bởi không gian và thời gian\" [luat-anm-2018-p1-p2].",
+  "citations": [
+    "luat-anm-2018-p1-p2"
+  ],
+  "invalid_citations": [],
+  "elapsed_ms": 3897.01650000643,
+  "llm_prompt_tokens": 713,
+  "llm_completion_tokens": 116
+}

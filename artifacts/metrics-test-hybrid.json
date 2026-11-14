@@ -1,0 +1,78 @@
+{
+  "cases": 7,
+  "provider_errors": 0,
+  "tool_use": {
+    "n": 7,
+    "N": 7
+  },
+  "grounded_answer": {
+    "0": 0,
+    "1": 0,
+    "2": 5,
+    "N": 5,
+    "mean": 2.0
+  },
+  "citation_validity": {
+    "n": 5,
+    "N": 5
+  },
+  "answer_citation_coverage": {
+    "n": 5,
+    "N": 5
+  },
+  "abstention": {
+    "n": 2,
+    "N": 2
+  },
+  "false_abstention": {
+    "n": 0,
+    "N": 5
+  },
+  "retrieval": {
+    "n": 5,
+    "hit1": 3,
+    "hit3": 5,
+    "context_hit": 5,
+    "per_query": [
+      {
+        "id": "test_new_01",
+        "hit1": true,
+        "hit3": true,
+        "context_hit": true
+      },
+      {
+        "id": "test_new_02",
+        "hit1": false,
+        "hit3": true,
+        "context_hit": true
+      },
+      {
+        "id": "test_new_03",
+        "hit1": false,
+        "hit3": true,
+        "context_hit": true
+      },
+      {
+        "id": "test_new_04",
+        "hit1": true,
+        "hit3": true,
+        "context_hit": true
+      },
+      {
+        "id": "test_new_05",
+        "hit1": true,
+        "hit3": true,
+        "context_hit": true
+      }
+    ]
+  },
+  "context_grades": {
+    "0": 0,
+    "1": 0,
+    "2": 5
+  },
+  "median_elapsed_ms": 4166.403500013985,
+  "llm_prompt_tokens": 5127,
+  "llm_completion_tokens": 569,
+  "service_cost_usd": null
+}

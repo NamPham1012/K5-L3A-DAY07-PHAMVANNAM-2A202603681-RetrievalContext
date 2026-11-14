@@ -1,0 +1,11 @@
+{
+  "strategy": "dense_pgvector_B",
+  "split": "dev",
+  "n": 17,
+  "hit1": 12,
+  "hit3": 13,
+  "context_hit": 12,
+  "avg_context_chars": 624.8823529411765,
+  "median_ms": 689.5048000151291,
+  "service_cost_usd": null
+}

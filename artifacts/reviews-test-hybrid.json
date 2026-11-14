@@ -1,0 +1,9 @@
+[
+ {"query_id":"test_new_01","answer_grade":2,"citation_support":[true],"context_grade":2,"reason":"p5-p3 nêu các nguyên tắc hợp tác quốc tế."},
+ {"query_id":"test_new_02","answer_grade":2,"citation_support":[true],"context_grade":2,"reason":"p26-p3 nêu các quyền của trẻ em, đúng câu hỏi."},
+ {"query_id":"test_new_03","answer_grade":2,"citation_support":[true],"context_grade":2,"reason":"p28-p2 nêu môn học giáo dục quốc phòng và an ninh."},
+ {"query_id":"test_new_04","answer_grade":2,"citation_support":[true],"context_grade":2,"reason":"p31-p2 nêu cảnh báo và biện pháp phòng ngừa."},
+ {"query_id":"test_new_05","answer_grade":2,"citation_support":[true],"context_grade":2,"reason":"p28-p5 nêu trách nhiệm của UBND cấp tỉnh."},
+ {"query_id":"test_absent_01","abstention_correct":true,"citation_support":[],"reason":"Từ chối; rà soát PDF trích xuất không tìm được số đường dây nóng; cần người học đối chiếu."},
+ {"query_id":"test_absent_02","abstention_correct":true,"citation_support":[],"reason":"Từ chối; rà soát PDF trích xuất không tìm được độ dài khóa tính bằng bit; cần người học đối chiếu."}
+]

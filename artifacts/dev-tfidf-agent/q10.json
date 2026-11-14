@@ -1,0 +1,69 @@
+{
+  "query_id": "q10",
+  "status": "pending_review",
+  "question": "Một hành vi nào được xem là tấn công mạng?",
+  "model": "openai/gpt-4o-mini",
+  "strategy": "tfidf",
+  "budget_chars": 800,
+  "events": [
+    {
+      "event": "search",
+      "tool": "search_documents",
+      "model_query": "Một hành vi nào được xem là tấn công mạng?",
+      "actual_query": "Một hành vi nào được xem là tấn công mạng?",
+      "context_ids": [
+        "luat-anm-2018-p18-p1"
+      ],
+      "context": "[luat-anm-2018-p18-p1 | data\\24-2018-qh14.pdf | page 18]\ne) Hành vi khác sử dụng không gian mạng, công nghệ thông tin, phương tiện điện tử để vi phạm pháp luật về an ninh quốc gia, trật tự, an toàn xã hội.\n2. Lực lượng chuyên trách bảo vệ an ninh mạng có trách nhiệm phòng, chống hành vi sử dụng không gian mạng, công nghệ thông tin, phương tiện điện tử để vi phạm pháp luật về an ninh quốc gia, trật tự, an toàn xã hội.\nĐiều 19. Phòng, chống tấn công mạng\n1. Hành vi tấn công mạng và hành vi có liên quan đến tấn công mạng bao gồm:",
+      "results": [
+        {
+          "id": "luat-anm-2018-p18-p1",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 18,
+          "text": "e) Hành vi khác sử dụng không gian mạng, công nghệ thông tin, phương tiện điện tử để vi phạm pháp luật về an ninh quốc gia, trật tự, an toàn xã hội.\n2. Lực lượng chuyên trách bảo vệ an ninh mạng có trách nhiệm phòng, chống hành vi sử dụng không gian mạng, công nghệ thông tin, phương tiện điện tử để vi phạm pháp luật về an ninh quốc gia, trật tự, an toàn xã hội.\nĐiều 19. Phòng, chống tấn công mạng\n1. Hành vi tấn công mạng và hành vi có liên quan đến tấn công mạng bao gồm:",
+          "metadata": {
+            "chapter": 3,
+            "chapter_title": "PHÒNG NGỪA, XỬ LÝ HÀNH VI XÂM PHẠM AN NINH MẠNG"
+          },
+          "score": 0.2493687404904451,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-anm-2018-p21-p3",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 21,
+          "text": "b) Thủ tướng Chính phủ xem xét, quyết định hoặc ủy quyền cho Bộ trưởng Bộ Công an xem xét, quyết định, xử lý tình huống nguy hiểm về an ninh mạng trong phạm vi cả nước hoặc từng địa phương hoặc đối với một mục tiêu cụ thể. Thủ tướng Chính phủ xem xét, quyết định hoặc ủy quyền cho Bộ trưởng Bộ Quốc phòng xem xét, quyết định, xử lý tình huống nguy hiểm về an ninh mạng đối với hệ thống thông tin quân sự và hệ thống thông tin cơ yếu thuộc Ban Cơ yếu Chính phủ;",
+          "metadata": {
+            "chapter": 3,
+            "chapter_title": "PHÒNG NGỪA, XỬ LÝ HÀNH VI XÂM PHẠM AN NINH MẠNG"
+          },
+          "score": 0.23809545372585997,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-anm-2018-p29-p3",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 29,
+          "text": "5. Tham mưu, đề xuất Chính phủ, Thủ tướng Chính phủ xem xét, quyết định việc phân công, phối hợp thực hiện các biện pháp bảo vệ an ninh mạng, phòng ngừa, xử lý hành vi xâm phạm an ninh mạng trong trường hợp nội dung quản lý nhà nước liên quan đến phạm vi quản lý của nhiều Bộ, ngành.\n6. Tổ chức diễn tập phòng, chống tấn công mạng; diễn tập ứng phó, khắc phục sự cố an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia.",
+          "metadata": {
+            "chapter": 6,
+            "chapter_title": "TRÁCH NHIỆM CỦA CƠ QUAN, TỔ CHỨC, CÁ NHÂN"
+          },
+          "score": 0.1684706125461179,
+          "strategy": "tfidf"
+        }
+      ]
+    }
+  ],
+  "answer": "Theo tài liệu, hành vi tấn công mạng được định nghĩa là \"hành vi tấn công mạng và hành vi có liên quan đến tấn công mạng\" [luat-anm-2018-p18-p1].",
+  "citations": [
+    "luat-anm-2018-p18-p1"
+  ],
+  "invalid_citations": [],
+  "elapsed_ms": 2921.6747999889776,
+  "llm_prompt_tokens": 472,
+  "llm_completion_tokens": 72
+}

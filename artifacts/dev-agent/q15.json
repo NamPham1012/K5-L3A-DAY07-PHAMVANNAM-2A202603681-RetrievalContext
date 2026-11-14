@@ -1,0 +1,28 @@
+{
+  "query_id": "q15",
+  "status": "pending_review",
+  "question": "Lực lượng chuyên trách bảo vệ an ninh mạng được bố trí ở đâu?",
+  "model": "openai/gpt-4o-mini",
+  "events": [
+    {
+      "event": "search",
+      "tool": "search_documents",
+      "model_query": "Lực lượng chuyên trách bảo vệ an ninh mạng được bố trí ở đâu",
+      "actual_query": "Lực lượng chuyên trách bảo vệ an ninh mạng được bố trí ở đâu?",
+      "context_ids": [
+        "luat-anm-2018-p27-p3",
+        "luat-anm-2018-p27-p2",
+        "luat-anm-2018-p23-p4"
+      ],
+      "context": "[luat-anm-2018-p27-p3 | data\\24-2018-qh14.pdf | page 27]\n2. Lực lượng bảo vệ an ninh mạng được bố trí tại Bộ, ngành, Ủy ban nhân dân cấp tỉnh, cơ quan, tổ chức quản lý trực tiếp hệ thống thông tin quan trọng về an ninh quốc gia.\n3. Tổ chức, cá nhân được huy động tham gia bảo vệ an ninh mạng.\nĐiều 31. Bảo đảm nguồn nhân lực bảo vệ an ninh mạng\n1. Công dân Việt Nam có kiến thức về an ninh mạng, an toàn thông tin mạng, công nghệ thông tin là nguồn lực cơ bản, chủ yếu bảo vệ an ninh mạng.\n\n[luat-anm-2018-p27-p2 | data\\24-2018-qh14.pdf | page 27]\n5. Lực lượng chuyên trách bảo vệ an ninh mạng và các cơ quan chức năng có trách nhiệm áp dụng biện pháp để phòng ngừa, phát hiện, ngăn chặn, xử lý nghiêm hành vi sử dụng không gian mạng gây nguy hại cho trẻ em, xâm phạm đến trẻ em, quyền trẻ em.\nChương V BẢO ĐẢM HOẠT ĐỘNG BẢO VỆ AN NINH MẠNG\nĐiều 30. Lực lượng bảo vệ an ninh mạng\n1. Lực lượng chuyên trách bảo vệ an ninh mạng được bố trí tại Bộ Công an, Bộ Quốc phòng.\n\n[luat-anm-2018-p23-p4 | data\\24-2018-qh14.pdf | page 23]\n4. Lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an tiến hành kiểm tra an ninh mạng đối với hệ thống thông tin của cơ quan, tổ chức trong các trường hợp quy định tại khoản 1 Điều này."
+    }
+  ],
+  "answer": "Lực lượng chuyên trách bảo vệ an ninh mạng được bố trí tại Bộ Công an và Bộ Quốc phòng [luat-anm-2018-p27-p2].",
+  "citations": [
+    "luat-anm-2018-p27-p2"
+  ],
+  "invalid_citations": [],
+  "elapsed_ms": 3459.2949000070803,
+  "llm_prompt_tokens": 668,
+  "llm_completion_tokens": 64
+}

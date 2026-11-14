@@ -1,0 +1,549 @@
+[
+  {
+    "query_id": "q01",
+    "status": "answered",
+    "question": "An ninh mạng là gì?",
+    "model": "openai/gpt-4o-mini",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "model_query": "An ninh mạng là gì?",
+        "actual_query": "An ninh mạng là gì?",
+        "context_ids": [
+          "luat-anm-2018-p1-p1",
+          "luat-anm-2018-p12-p2",
+          "luat-anm-2018-p3-p1"
+        ],
+        "context": "[luat-anm-2018-p1-p1 | data\\24-2018-qh14.pdf | page 1]\nĐiều 2. Giải thích từ ngữ Trong Luật này, các từ ngữ dưới đây được hiểu như sau:\n1. An ninh mạng là sự bảo đảm hoạt động trên không gian mạng không gây phương hại đến an ninh quốc gia, trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân.\n2. Bảo vệ an ninh mạng là phòng ngừa, phát hiện, ngăn chặn, xử lý hành vi xâm phạm an ninh mạng.\n\n[luat-anm-2018-p12-p2 | data\\24-2018-qh14.pdf | page 12]\n1. Giám sát an ninh mạng là hoạt động thu thập, phân tích tình hình nhằm xác định nguy cơ đe dọa an ninh mạng, sự cố an ninh mạng, điểm yếu, lỗ hổng bảo mật, mã độc, phần cứng độc hại để cảnh báo, khắc phục, xử lý.\n\n[luat-anm-2018-p3-p1 | data\\24-2018-qh14.pdf | page 3]\n13. Sự cố an ninh mạng là sự việc bất ngờ xảy ra trên không gian mạng xâm phạm an ninh quốc gia, trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân.\n14. Tình huống nguy hiểm về an ninh mạng là sự việc xảy ra trên không gian mạng khi có hành vi xâm phạm nghiêm trọng an ninh quốc gia, gây tổn hại đặc biệt nghiêm trọng trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân.\nĐiều 3. Chính sách của Nhà nước về an ninh mạng"
+      }
+    ],
+    "answer": "An ninh mạng là sự bảo đảm hoạt động trên không gian mạng không gây phương hại đến an ninh quốc gia, trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân. Bảo vệ an ninh mạng bao gồm các hoạt động như phòng ngừa, phát hiện, ngăn chặn và xử lý hành vi xâm phạm an ninh mạng [luat-anm-2018-p1-p1].",
+    "citations": [
+      "luat-anm-2018-p1-p1"
+    ],
+    "invalid_citations": [],
+    "elapsed_ms": 5823.546599975089,
+    "llm_prompt_tokens": 652,
+    "llm_completion_tokens": 120
+  },
+  {
+    "query_id": "q02",
+    "status": "answered",
+    "question": "Luật An ninh mạng điều chỉnh những nội dung gì?",
+    "model": "openai/gpt-4o-mini",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "model_query": "Luật An ninh mạng điều chỉnh những nội dung gì?",
+        "actual_query": "Luật An ninh mạng điều chỉnh những nội dung gì?",
+        "context_ids": [
+          "luat-anm-2018-p1-p0",
+          "luat-anm-2018-p21-p1",
+          "luat-anm-2018-p1-p1"
+        ],
+        "context": "[luat-anm-2018-p1-p0 | data\\24-2018-qh14.pdf | page 1]\nQUỐC HỘI CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc Luật số: 24/2018/QH14 LUẬT AN NINH MẠNG Căn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam; Quốc hội ban hành Luật An ninh mạng.\nChương I NHỮNG QUY ĐỊNH CHUNG\nĐiều 1. Phạm vi điều chỉnh Luật này quy định về hoạt động bảo vệ an ninh quốc gia và bảo đảm trật tự, an toàn xã hội trên không gian mạng; trách nhiệm của cơ quan, tổ chức, cá nhân có liên quan.\n\n[luat-anm-2018-p21-p1 | data\\24-2018-qh14.pdf | page 21]\nd) Phân tích, đánh giá thông tin, dự báo khả năng, phạm vi ảnh hưởng và mức độ thiệt hại do tình huống nguy hiểm về an ninh mạng gây ra;\nđ) Ngừng cung cấp thông tin mạng tại khu vực cụ thể hoặc ngắt cổng kết nối mạng quốc tế;\ne) Bố trí lực lượng, phương tiện ngăn chặn, loại bỏ tình huống nguy hiểm về an ninh mạng;\ng) Biện pháp khác theo quy định của Luật An ninh quốc gia.\n4. Việc xử lý tình huống nguy hiểm về an ninh mạng được quy định như sau:\n\n[luat-anm-2018-p1-p1 | data\\24-2018-qh14.pdf | page 1]\nĐiều 2. Giải thích từ ngữ Trong Luật này, các từ ngữ dưới đây được hiểu như sau:\n1. An ninh mạng là sự bảo đảm hoạt động trên không gian mạng không gây phương hại đến an ninh quốc gia, trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân.\n2. Bảo vệ an ninh mạng là phòng ngừa, phát hiện, ngăn chặn, xử lý hành vi xâm phạm an ninh mạng."
+      }
+    ],
+    "answer": "Luật An ninh mạng Điều 1 quy định về phạm vi điều chỉnh của luật này, bao gồm các nội dung liên quan đến hoạt động bảo vệ an ninh quốc gia và bảo đảm trật tự, an toàn xã hội trên không gian mạng, cũng như trách nhiệm của các cơ quan, tổ chức, cá nhân có liên quan [luat-anm-2018-p1-p0]. \n\nNgoài ra, Luật An ninh mạng còn nêu rõ các định nghĩa và khái niệm, trong đó \"an ninh mạng\" được hiểu là sự bảo đảm hoạt động trên không gian mạng không gây phương hại đến an ninh quốc gia, trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân. Bảo vệ an ninh mạng bao gồm các hoạt động như phòng ngừa, phát hiện, ngăn chặn và xử lý hành vi xâm phạm an ninh mạng [luat-anm-2018-p1-p1].",
+    "citations": [
+      "luat-anm-2018-p1-p0",
+      "luat-anm-2018-p1-p1"
+    ],
+    "invalid_citations": [],
+    "elapsed_ms": 5295.709800004261,
+    "llm_prompt_tokens": 750,
+    "llm_completion_tokens": 239
+  },
+  {
+    "query_id": "q03",
+    "status": "answered",
+    "question": "Tấn công mạng là hành vi gì?",
+    "model": "openai/gpt-4o-mini",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "model_query": "Tấn công mạng là hành vi gì",
+        "actual_query": "Tấn công mạng là hành vi gì?",
+        "context_ids": [
+          "luat-anm-2018-p2-p4",
+          "luat-anm-2018-p18-p1",
+          "luat-anm-2018-p7-p0"
+        ],
+        "context": "[luat-anm-2018-p2-p4 | data\\24-2018-qh14.pdf | page 2]\n8. Tấn công mạng là hành vi sử dụng không gian mạng, công nghệ thông tin hoặc phương tiện điện tử để phá hoại, gây gián đoạn hoạt động của mạng viễn thông, mạng Internet, mạng máy tính, hệ thống thông tin, hệ thống xử lý và điều khiển thông tin, cơ sở dữ liệu, phương tiện điện tử.\n9. Khủng bố mạng là việc sử dụng không gian mạng, công nghệ thông tin hoặc phương tiện điện tử để thực hiện hành vi khủng bố, tài trợ khủng bố.\n\n[luat-anm-2018-p18-p1 | data\\24-2018-qh14.pdf | page 18]\ne) Hành vi khác sử dụng không gian mạng, công nghệ thông tin, phương tiện điện tử để vi phạm pháp luật về an ninh quốc gia, trật tự, an toàn xã hội.\n2. Lực lượng chuyên trách bảo vệ an ninh mạng có trách nhiệm phòng, chống hành vi sử dụng không gian mạng, công nghệ thông tin, phương tiện điện tử để vi phạm pháp luật về an ninh quốc gia, trật tự, an toàn xã hội.\nĐiều 19. Phòng, chống tấn công mạng\n1. Hành vi tấn công mạng và hành vi có liên quan đến tấn công mạng bao gồm:\n\n[luat-anm-2018-p7-p0 | data\\24-2018-qh14.pdf | page 7]\n2. Thực hiện tấn công mạng, khủng bố mạng, gián điệp mạng, tội phạm mạng; gây sự cố, tấn công, xâm nhập, chiếm quyền điều khiển, làm sai lệch, gián đoạn, ngưng trệ, tê liệt hoặc phá hoại hệ thống thông tin quan trọng về an ninh quốc gia."
+      }
+    ],
+    "answer": "Tấn công mạng là hành vi sử dụng không gian mạng, công nghệ thông tin hoặc phương tiện điện tử để phá hoại, gây gián đoạn hoạt động của mạng viễn thông, mạng Internet, mạng máy tính, hệ thống thông tin, hệ thống xử lý và điều khiển thông tin, cơ sở dữ liệu, phương tiện điện tử [chunk-id: luat-anm-2018-p2-p4].",
+    "citations": [
+      "chunk-id: luat-anm-2018-p2-p4"
+    ],
+    "invalid_citations": [
+      "chunk-id: luat-anm-2018-p2-p4"
+    ],
+    "elapsed_ms": 3896.9727999938186,
+    "llm_prompt_tokens": 660,
+    "llm_completion_tokens": 108
+  },
+  {
+    "query_id": "q04",
+    "status": "answered",
+    "question": "Gián điệp mạng được định nghĩa thế nào?",
+    "model": "openai/gpt-4o-mini",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "model_query": "Gián điệp mạng",
+        "actual_query": "Gián điệp mạng được định nghĩa thế nào?",
+        "context_ids": [
+          "luat-anm-2018-p2-p5",
+          "luat-anm-2018-p7-p0",
+          "luat-anm-2018-p1-p0"
+        ],
+        "context": "[luat-anm-2018-p2-p5 | data\\24-2018-qh14.pdf | page 2]\n10. Gián điệp mạng là hành vi cố ý vượt qua cảnh báo, mã truy cập, mật mã, tường lửa, sử dụng quyền quản trị của người khác hoặc bằng phương thức khác để chiếm đoạt, thu thập trái phép thông tin, tài nguyên thông tin trên mạng viễn thông, mạng Internet, mạng máy tính, hệ thống thông tin, hệ thống xử lý và điều khiển thông tin, cơ sở dữ liệu, phương tiện điện tử của cơ quan, tổ chức, cá nhân.\n\n[luat-anm-2018-p7-p0 | data\\24-2018-qh14.pdf | page 7]\n2. Thực hiện tấn công mạng, khủng bố mạng, gián điệp mạng, tội phạm mạng; gây sự cố, tấn công, xâm nhập, chiếm quyền điều khiển, làm sai lệch, gián đoạn, ngưng trệ, tê liệt hoặc phá hoại hệ thống thông tin quan trọng về an ninh quốc gia.\n\n[luat-anm-2018-p1-p0 | data\\24-2018-qh14.pdf | page 1]\nQUỐC HỘI CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc Luật số: 24/2018/QH14 LUẬT AN NINH MẠNG Căn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam; Quốc hội ban hành Luật An ninh mạng.\nChương I NHỮNG QUY ĐỊNH CHUNG\nĐiều 1. Phạm vi điều chỉnh Luật này quy định về hoạt động bảo vệ an ninh quốc gia và bảo đảm trật tự, an toàn xã hội trên không gian mạng; trách nhiệm của cơ quan, tổ chức, cá nhân có liên quan."
+      }
+    ],
+    "answer": "Gián điệp mạng được định nghĩa là hành vi cố ý vượt qua cảnh báo, mã truy cập, mật mã, tường lửa, sử dụng quyền quản trị của người khác hoặc bằng phương thức khác để chiếm đoạt, thu thập trái phép thông tin, tài nguyên thông tin trên mạng viễn thông, mạng Internet, mạng máy tính, hệ thống thông tin, hệ thống xử lý và điều khiển thông tin, cơ sở dữ liệu, phương tiện điện tử của cơ quan, tổ chức, cá nhân [chunk-id: luat-anm-2018-p2-p5].",
+    "citations": [
+      "chunk-id: luat-anm-2018-p2-p5"
+    ],
+    "invalid_citations": [
+      "chunk-id: luat-anm-2018-p2-p5"
+    ],
+    "elapsed_ms": 5110.83590000635,
+    "llm_prompt_tokens": 679,
+    "llm_completion_tokens": 142
+  },
+  {
+    "query_id": "q05",
+    "status": "answered",
+    "question": "Tội phạm mạng là gì?",
+    "model": "openai/gpt-4o-mini",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "model_query": "Tội phạm mạng là gì?",
+        "actual_query": "Tội phạm mạng là gì?",
+        "context_ids": [
+          "luat-anm-2018-p2-p3",
+          "luat-anm-2018-p2-p4",
+          "luat-anm-2018-p5-p4"
+        ],
+        "context": "[luat-anm-2018-p2-p3 | data\\24-2018-qh14.pdf | page 2]\nd) Cơ sở hạ tầng công nghệ thông tin của đô thị thông minh, Internet vạn vật, hệ thống phức hợp thực - ảo, điện toán đám mây, hệ thống dữ liệu lớn, hệ thống dữ liệu nhanh và hệ thống trí tuệ nhân tạo.\n6. Cổng kết nối mạng quốc tế là nơi diễn ra hoạt động chuyển nhận tín hiệu mạng qua lại giữa Việt Nam và các quốc gia, vùng lãnh thổ khác.\n7. Tội phạm mạng là hành vi sử dụng không gian mạng, công nghệ thông tin hoặc phương tiện điện tử để thực hiện tội phạm được quy định tại Bộ luật Hình sự.\n\n[luat-anm-2018-p2-p4 | data\\24-2018-qh14.pdf | page 2]\n8. Tấn công mạng là hành vi sử dụng không gian mạng, công nghệ thông tin hoặc phương tiện điện tử để phá hoại, gây gián đoạn hoạt động của mạng viễn thông, mạng Internet, mạng máy tính, hệ thống thông tin, hệ thống xử lý và điều khiển thông tin, cơ sở dữ liệu, phương tiện điện tử.\n9. Khủng bố mạng là việc sử dụng không gian mạng, công nghệ thông tin hoặc phương tiện điện tử để thực hiện hành vi khủng bố, tài trợ khủng bố.\n\n[luat-anm-2018-p5-p4 | data\\24-2018-qh14.pdf | page 5]\nc) Chia sẻ thông tin, kinh nghiệm; hỗ trợ đào tạo, trang thiết bị, công nghệ bảo vệ an ninh mạng;\nd) Phòng, chống tội phạm mạng, hành vi xâm phạm an ninh mạng; ngăn ngừa các nguy cơ đe dọa an ninh mạng;\nđ) Tư vấn, đào tạo và phát triển nguồn nhân lực an ninh mạng;"
+      }
+    ],
+    "answer": "Tội phạm mạng là hành vi sử dụng không gian mạng, công nghệ thông tin hoặc phương tiện điện tử để thực hiện các tội phạm được quy định tại Bộ luật Hình sự [luat-anm-2018-p2-p3].",
+    "citations": [
+      "luat-anm-2018-p2-p3"
+    ],
+    "invalid_citations": [],
+    "elapsed_ms": 3409.0650999860372,
+    "llm_prompt_tokens": 661,
+    "llm_completion_tokens": 71
+  },
+  {
+    "query_id": "q06",
+    "status": "answered",
+    "question": "Tài khoản số là gì?",
+    "model": "openai/gpt-4o-mini",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "model_query": "Tài khoản số là gì?",
+        "actual_query": "Tài khoản số là gì?",
+        "context_ids": [
+          "luat-anm-2018-p3-p0",
+          "luat-anm-2018-p25-p0",
+          "luat-anm-2018-p14-p3"
+        ],
+        "context": "[luat-anm-2018-p3-p0 | data\\24-2018-qh14.pdf | page 3]\n11. Tài khoản số là thông tin dùng để chứng thực, xác thực, phân quyền sử dụng các ứng dụng, dịch vụ trên không gian mạng.\n12. Nguy cơ đe dọa an ninh mạng là tình trạng không gian mạng xuất hiện dấu hiệu đe dọa xâm phạm an ninh quốc gia, gây tổn hại nghiêm trọng trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân.\n\n[luat-anm-2018-p25-p0 | data\\24-2018-qh14.pdf | page 25]\na) Xác thực thông tin khi người dùng đăng ký tài khoản số; bảo mật thông tin, tài khoản của người dùng; cung cấp thông tin người dùng cho lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an khi có yêu cầu bằng văn bản để phục vụ điều tra, xử lý hành vi vi phạm pháp luật về an ninh mạng;\n\n[luat-anm-2018-p14-p3 | data\\24-2018-qh14.pdf | page 14]\n4. Thông tin trên không gian mạng có nội dung xâm phạm trật tự quản lý kinh tế bao gồm:\na) Thông tin bịa đặt, sai sự thật về sản phẩm, hàng hóa, tiền, trái phiếu, tín phiếu, công trái, séc và các loại giấy tờ có giá khác;\nb) Thông tin bịa đặt, sai sự thật trong lĩnh vực tài chính, ngân hàng, thương mại điện tử, thanh toán điện tử, kinh doanh tiền tệ, huy động vốn, kinh doanh đa cấp, chứng khoán."
+      }
+    ],
+    "answer": "Tài khoản số là thông tin dùng để chứng thực, xác thực, phân quyền sử dụng các ứng dụng, dịch vụ trên không gian mạng [luat-anm-2018-p3-p0].",
+    "citations": [
+      "luat-anm-2018-p3-p0"
+    ],
+    "invalid_citations": [],
+    "elapsed_ms": 2785.2663999947254,
+    "llm_prompt_tokens": 620,
+    "llm_completion_tokens": 62
+  },
+  {
+    "query_id": "q07",
+    "status": "answered",
+    "question": "Thẩm định an ninh mạng là hoạt động gì?",
+    "model": "openai/gpt-4o-mini",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "model_query": "Thẩm định an ninh mạng là hoạt động gì?",
+        "actual_query": "Thẩm định an ninh mạng là hoạt động gì?",
+        "context_ids": [
+          "luat-anm-2018-p8-p3",
+          "luat-anm-2018-p9-p0",
+          "luat-anm-2018-p1-p1"
+        ],
+        "context": "[luat-anm-2018-p8-p3 | data\\24-2018-qh14.pdf | page 8]\n1. Thẩm định an ninh mạng là hoạt động xem xét, đánh giá những nội dung về an ninh mạng để làm cơ sở cho việc quyết định xây dựng hoặc nâng cấp hệ thống thông tin.\n2. Đối tượng thẩm định an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia bao gồm:\na) Báo cáo nghiên cứu tiền khả thi, hồ sơ thiết kế thi công dự án đầu tư xây dựng hệ thống thông tin trước khi phê duyệt;\nb) Đề án nâng cấp hệ thống thông tin trước khi phê duyệt.\n\n[luat-anm-2018-p9-p0 | data\\24-2018-qh14.pdf | page 9]\n3. Nội dung thẩm định an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia bao gồm:\na) Việc tuân thủ quy định, điều kiện an ninh mạng trong thiết kế;\nb) Sự phù hợp với phương án bảo vệ, ứng phó, khắc phục sự cố và bố trí nhân lực bảo vệ an ninh mạng.\n4. Thẩm quyền thẩm định an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia được quy định như sau:\n\n[luat-anm-2018-p1-p1 | data\\24-2018-qh14.pdf | page 1]\nĐiều 2. Giải thích từ ngữ Trong Luật này, các từ ngữ dưới đây được hiểu như sau:\n1. An ninh mạng là sự bảo đảm hoạt động trên không gian mạng không gây phương hại đến an ninh quốc gia, trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân.\n2. Bảo vệ an ninh mạng là phòng ngừa, phát hiện, ngăn chặn, xử lý hành vi xâm phạm an ninh mạng."
+      }
+    ],
+    "answer": "Thẩm định an ninh mạng là hoạt động xem xét, đánh giá những nội dung về an ninh mạng để làm cơ sở cho việc quyết định xây dựng hoặc nâng cấp hệ thống thông tin [luat-anm-2018-p8-p3].",
+    "citations": [
+      "luat-anm-2018-p8-p3"
+    ],
+    "invalid_citations": [],
+    "elapsed_ms": 3479.745599994203,
+    "llm_prompt_tokens": 689,
+    "llm_completion_tokens": 78
+  },
+  {
+    "query_id": "q08",
+    "status": "answered",
+    "question": "Khi kiểm tra đột xuất do xảy ra sự cố an ninh mạng, phải thông báo trước cho chủ quản ít nhất bao nhiêu giờ?",
+    "model": "openai/gpt-4o-mini",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "model_query": "Khi kiểm tra đột xuất do xảy ra sự cố an ninh mạng, phải thông báo trước cho chủ quản ít nhất bao nhiêu giờ?",
+        "actual_query": "Khi kiểm tra đột xuất do xảy ra sự cố an ninh mạng, phải thông báo trước cho chủ quản ít nhất bao nhiêu giờ?",
+        "context_ids": [
+          "luat-anm-2018-p11-p3",
+          "luat-anm-2018-p24-p0",
+          "luat-anm-2018-p10-p3"
+        ],
+        "context": "[luat-anm-2018-p11-p3 | data\\24-2018-qh14.pdf | page 11]\na) Trước thời điểm tiến hành kiểm tra, lực lượng chuyên trách bảo vệ an ninh mạng có trách nhiệm thông báo bằng văn bản cho chủ quản hệ thống thông tin ít nhất là 12 giờ trong trường hợp xảy ra sự cố an ninh mạng, hành vi xâm phạm an ninh mạng; ít nhất là 72 giờ trong trường hợp có yêu cầu quản lý nhà nước về an ninh mạng hoặc hết thời hạn khắc phục điểm yếu, lỗ hổng bảo mật theo khuyến cáo của lực lượng chuyên trách bảo vệ an ninh mạng;\n\n[luat-anm-2018-p24-p0 | data\\24-2018-qh14.pdf | page 24]\n5. Trước thời điểm tiến hành kiểm tra, lực lượng chuyên trách bảo vệ an ninh mạng thông báo bằng văn bản cho chủ quản hệ thống thông tin ít nhất là 12 giờ. Trong thời hạn 30 ngày kể từ ngày kết thúc kiểm tra, lực lượng chuyên trách bảo vệ an ninh mạng thông báo kết quả kiểm tra và đưa ra yêu cầu đối với chủ quản hệ thống thông tin trong trường hợp phát hiện điểm yếu, lỗ hổng bảo mật; hướng dẫn hoặc tham gia khắc phục khi có đề nghị của chủ quản hệ thống thông tin.\n\n[luat-anm-2018-p10-p3 | data\\24-2018-qh14.pdf | page 10]\na) Khi đưa phương tiện điện tử, dịch vụ an toàn thông tin mạng vào sử dụng trong hệ thống thông tin;\nb) Khi có thay đổi hiện trạng hệ thống thông tin;\nc) Kiểm tra định kỳ hàng năm;\nd) Kiểm tra đột xuất khi xảy ra sự cố an ninh mạng, hành vi xâm phạm an ninh mạng; khi có yêu cầu quản lý nhà nước về an ninh mạng; khi hết thời hạn khắc phục điểm yếu, lỗ hổng bảo mật theo khuyến cáo của lực lượng chuyên trách bảo vệ an ninh mạng."
+      }
+    ],
+    "answer": "Khi kiểm tra đột xuất do xảy ra sự cố an ninh mạng, phải thông báo cho chủ quản ít nhất là 12 giờ trước thời điểm tiến hành kiểm tra [luat-anm-2018-p11-p3].",
+    "citations": [
+      "luat-anm-2018-p11-p3"
+    ],
+    "invalid_citations": [],
+    "elapsed_ms": 3603.4903000108898,
+    "llm_prompt_tokens": 752,
+    "llm_completion_tokens": 93
+  },
+  {
+    "query_id": "q09",
+    "status": "answered",
+    "question": "Giám sát an ninh mạng là hoạt động gì?",
+    "model": "openai/gpt-4o-mini",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "model_query": "Giám sát an ninh mạng là hoạt động gì?",
+        "actual_query": "Giám sát an ninh mạng là hoạt động gì?",
+        "context_ids": [
+          "luat-anm-2018-p12-p2",
+          "luat-anm-2018-p12-p1",
+          "luat-anm-2018-p4-p3"
+        ],
+        "context": "[luat-anm-2018-p12-p2 | data\\24-2018-qh14.pdf | page 12]\n1. Giám sát an ninh mạng là hoạt động thu thập, phân tích tình hình nhằm xác định nguy cơ đe dọa an ninh mạng, sự cố an ninh mạng, điểm yếu, lỗ hổng bảo mật, mã độc, phần cứng độc hại để cảnh báo, khắc phục, xử lý.\n\n[luat-anm-2018-p12-p1 | data\\24-2018-qh14.pdf | page 12]\nd) Chủ quản hệ thống thông tin quan trọng về an ninh quốc gia có trách nhiệm phối hợp với lực lượng chuyên trách bảo vệ an ninh mạng tiến hành kiểm tra an ninh mạng đột xuất.\n6. Kết quả kiểm tra an ninh mạng được bảo mật theo quy định của pháp luật.\nĐiều 14. Giám sát an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia\n\n[luat-anm-2018-p4-p3 | data\\24-2018-qh14.pdf | page 4]\nc) Kiểm tra an ninh mạng;\nd) Giám sát an ninh mạng;\nđ) Ứng phó, khắc phục sự cố an ninh mạng;\ne) Đấu tranh bảo vệ an ninh mạng;\ng) Sử dụng mật mã để bảo vệ thông tin mạng;\nh) Ngăn chặn, yêu cầu tạm ngừng, ngừng cung cấp thông tin mạng; đình chỉ, tạm đình chỉ các hoạt động thiết lập, cung cấp và sử dụng mạng viễn thông, mạng Internet, sản xuất và sử dụng thiết bị phát, thu phát sóng vô tuyến theo quy định của pháp luật;"
+      }
+    ],
+    "answer": "Giám sát an ninh mạng là hoạt động thu thập, phân tích tình hình nhằm xác định nguy cơ đe dọa an ninh mạng, sự cố an ninh mạng, điểm yếu, lỗ hổng bảo mật, mã độc, phần cứng độc hại để cảnh báo, khắc phục, xử lý [luat-anm-2018-p12-p2].",
+    "citations": [
+      "luat-anm-2018-p12-p2"
+    ],
+    "invalid_citations": [],
+    "elapsed_ms": 3731.876600009855,
+    "llm_prompt_tokens": 636,
+    "llm_completion_tokens": 107
+  },
+  {
+    "query_id": "q10",
+    "status": "answered",
+    "question": "Một hành vi nào được xem là tấn công mạng?",
+    "model": "openai/gpt-4o-mini",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "model_query": "Một hành vi nào được xem là tấn công mạng?",
+        "actual_query": "Một hành vi nào được xem là tấn công mạng?",
+        "context_ids": [
+          "luat-anm-2018-p18-p1",
+          "luat-anm-2018-p2-p4",
+          "luat-anm-2018-p21-p3"
+        ],
+        "context": "[luat-anm-2018-p18-p1 | data\\24-2018-qh14.pdf | page 18]\ne) Hành vi khác sử dụng không gian mạng, công nghệ thông tin, phương tiện điện tử để vi phạm pháp luật về an ninh quốc gia, trật tự, an toàn xã hội.\n2. Lực lượng chuyên trách bảo vệ an ninh mạng có trách nhiệm phòng, chống hành vi sử dụng không gian mạng, công nghệ thông tin, phương tiện điện tử để vi phạm pháp luật về an ninh quốc gia, trật tự, an toàn xã hội.\nĐiều 19. Phòng, chống tấn công mạng\n1. Hành vi tấn công mạng và hành vi có liên quan đến tấn công mạng bao gồm:\n\n[luat-anm-2018-p2-p4 | data\\24-2018-qh14.pdf | page 2]\n8. Tấn công mạng là hành vi sử dụng không gian mạng, công nghệ thông tin hoặc phương tiện điện tử để phá hoại, gây gián đoạn hoạt động của mạng viễn thông, mạng Internet, mạng máy tính, hệ thống thông tin, hệ thống xử lý và điều khiển thông tin, cơ sở dữ liệu, phương tiện điện tử.\n9. Khủng bố mạng là việc sử dụng không gian mạng, công nghệ thông tin hoặc phương tiện điện tử để thực hiện hành vi khủng bố, tài trợ khủng bố.\n\n[luat-anm-2018-p21-p3 | data\\24-2018-qh14.pdf | page 21]\nb) Thủ tướng Chính phủ xem xét, quyết định hoặc ủy quyền cho Bộ trưởng Bộ Công an xem xét, quyết định, xử lý tình huống nguy hiểm về an ninh mạng trong phạm vi cả nước hoặc từng địa phương hoặc đối với một mục tiêu cụ thể. Thủ tướng Chính phủ xem xét, quyết định hoặc ủy quyền cho Bộ trưởng Bộ Quốc phòng xem xét, quyết định, xử lý tình huống nguy hiểm về an ninh mạng đối với hệ thống thông tin quân sự và hệ thống thông tin cơ yếu thuộc Ban Cơ yếu Chính phủ;"
+      }
+    ],
+    "answer": "Một hành vi được xem là tấn công mạng bao gồm việc sử dụng không gian mạng, công nghệ thông tin hoặc phương tiện điện tử để phá hoại, gây gián đoạn hoạt động của mạng viễn thông, mạng Internet, mạng máy tính, hệ thống thông tin, hệ thống xử lý và điều khiển thông tin, cũng như cơ sở dữ liệu và các phương tiện điện tử khác [chunk-id: luat-anm-2018-p2-p4].",
+    "citations": [
+      "chunk-id: luat-anm-2018-p2-p4"
+    ],
+    "invalid_citations": [
+      "chunk-id: luat-anm-2018-p2-p4"
+    ],
+    "elapsed_ms": 3958.2432999741286,
+    "llm_prompt_tokens": 710,
+    "llm_completion_tokens": 122
+  },
+  {
+    "query_id": "q11",
+    "status": "answered",
+    "question": "Thông tin tuyên truyền chống Nhà nước gồm hành vi nào?",
+    "model": "openai/gpt-4o-mini",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "model_query": "thông tin tuyên truyền chống Nhà nước",
+        "actual_query": "Thông tin tuyên truyền chống Nhà nước gồm hành vi nào?",
+        "context_ids": [
+          "luat-anm-2018-p14-p0",
+          "luat-anm-2018-p6-p5",
+          "luat-anm-2018-p30-p2"
+        ],
+        "context": "[luat-anm-2018-p14-p0 | data\\24-2018-qh14.pdf | page 14]\nChương III PHÒNG NGỪA, XỬ LÝ HÀNH VI XÂM PHẠM AN NINH MẠNG\nĐiều 16. Phòng ngừa, xử lý thông tin trên không gian mạng có nội dung tuyên truyền chống Nhà nước Cộng hòa xã hội chủ nghĩa Việt Nam; kích động gây bạo loạn, phá rối an ninh, gây rối trật tự công cộng; làm nhục, vu khống; xâm phạm trật tự quản lý kinh tế\n1. Thông tin trên không gian mạng có nội dung tuyên truyền chống Nhà nước Cộng hòa xã hội chủ nghĩa Việt Nam bao gồm:\na) Tuyên truyền xuyên tạc, phỉ báng chính quyền nhân dân;\n\n[luat-anm-2018-p6-p5 | data\\24-2018-qh14.pdf | page 6]\nd) Thông tin sai sự thật gây hoang mang trong Nhân dân, gây thiệt hại cho hoạt động kinh tế - xã hội, gây khó khăn cho hoạt động của cơ quan nhà nước hoặc người thi hành công vụ, xâm phạm quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân khác;\nđ) Hoạt động mại dâm, tệ nạn xã hội, mua bán người; đăng tải thông tin dâm ô, đồi trụy, tội ác; phá hoại thuần phong, mỹ tục của dân tộc, đạo đức xã hội, sức khỏe của cộng đồng;\ne) Xúi giục, lôi kéo, kích động người khác phạm tội.\n\n[luat-anm-2018-p30-p2 | data\\24-2018-qh14.pdf | page 30]\nĐiều 38. Trách nhiệm của Bộ Thông tin và Truyền thông\n1. Phối hợp với Bộ Công an, Bộ Quốc phòng trong bảo vệ an ninh mạng.\n2. Phối hợp với các cơ quan liên quan tổ chức tuyên truyền, phản bác thông tin có nội dung chống Nhà nước Cộng hòa xã hội chủ nghĩa Việt Nam quy định tại khoản 1 Điều 16 của Luật này."
+      }
+    ],
+    "answer": "Theo Luật An ninh mạng, thông tin tuyên truyền chống Nhà nước Cộng hòa xã hội chủ nghĩa Việt Nam bao gồm các hành vi như:\n\n1. Tuyên truyền xuyên tạc, phỉ báng chính quyền nhân dân [chunk-id: luat-anm-2018-p14-p0].\n2. Đăng tải thông tin sai sự thật gây hoang mang trong Nhân dân, gây thiệt hại cho hoạt động kinh tế - xã hội, hoặc xâm phạm quyền và lợi ích hợp pháp của cơ quan, tổ chức [chunk-id: luat-anm-2018-p6-p5].\n3. Xúi giục, lôi kéo, kích động người khác phạm tội [chunk-id: luat-anm-2018-p6-p5].\n\nCác hành vi này được quy định để bảo vệ an ninh mạng và trật tự xã hội.",
+    "citations": [
+      "chunk-id: luat-anm-2018-p14-p0",
+      "chunk-id: luat-anm-2018-p6-p5",
+      "chunk-id: luat-anm-2018-p6-p5"
+    ],
+    "invalid_citations": [
+      "chunk-id: luat-anm-2018-p14-p0",
+      "chunk-id: luat-anm-2018-p6-p5",
+      "chunk-id: luat-anm-2018-p6-p5"
+    ],
+    "elapsed_ms": 4760.373500001151,
+    "llm_prompt_tokens": 743,
+    "llm_completion_tokens": 208
+  },
+  {
+    "query_id": "q12",
+    "status": "answered",
+    "question": "Chủ quản hệ thống thông tin có trách nhiệm gì để phát hiện mã độc?",
+    "model": "openai/gpt-4o-mini",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "model_query": "Chủ quản hệ thống thông tin có trách nhiệm gì để phát hiện mã độc?",
+        "actual_query": "Chủ quản hệ thống thông tin có trách nhiệm gì để phát hiện mã độc?",
+        "context_ids": [
+          "luat-anm-2018-p15-p1",
+          "luat-anm-2018-p16-p1",
+          "luat-anm-2018-p12-p4"
+        ],
+        "context": "[luat-anm-2018-p15-p1 | data\\24-2018-qh14.pdf | page 15]\n6. Chủ quản hệ thống thông tin có trách nhiệm triển khai biện pháp quản lý, kỹ thuật để phòng ngừa, phát hiện, ngăn chặn, gỡ bỏ thông tin có nội dung quy định tại các khoản 1, 2, 3, 4 và 5 Điều này trên hệ thống thông tin thuộc phạm vi quản lý khi có yêu cầu của lực lượng chuyên trách bảo vệ an ninh mạng.\n\n[luat-anm-2018-p16-p1 | data\\24-2018-qh14.pdf | page 16]\ne) Hành vi khác cố ý xâm phạm bí mật nhà nước, bí mật công tác, bí mật kinh doanh, bí mật cá nhân, bí mật gia đình và đời sống riêng tư.\n2. Chủ quản hệ thống thông tin có trách nhiệm sau đây:\na) Kiểm tra an ninh mạng nhằm phát hiện, loại bỏ mã độc, phần cứng độc hại, khắc phục điểm yếu, lỗ hổng bảo mật; phát hiện, ngăn chặn và xử lý các hoạt động xâm nhập bất hợp pháp hoặc nguy cơ khác đe dọa an ninh mạng;\n\n[luat-anm-2018-p12-p4 | data\\24-2018-qh14.pdf | page 12]\n3. Lực lượng chuyên trách bảo vệ an ninh mạng thực hiện giám sát an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia thuộc phạm vi quản lý; cảnh báo và phối hợp với chủ quản hệ thống thông tin trong khắc phục, xử lý các nguy cơ đe dọa an ninh mạng, sự cố an ninh mạng, điểm yếu, lỗ hổng bảo mật, mã độc, phần cứng độc hại xảy ra đối với hệ thống thông tin quan trọng về an ninh quốc gia."
+      }
+    ],
+    "answer": "Chủ quản hệ thống thông tin có trách nhiệm kiểm tra an ninh mạng nhằm phát hiện, loại bỏ mã độc, phần cứng độc hại, khắc phục điểm yếu, lỗ hổng bảo mật; đồng thời phát hiện, ngăn chặn và xử lý các hoạt động xâm nhập bất hợp pháp hoặc nguy cơ khác đe dọa an ninh mạng [chunk-id: luat-anm-2018-p16-p1].",
+    "citations": [
+      "chunk-id: luat-anm-2018-p16-p1"
+    ],
+    "invalid_citations": [
+      "chunk-id: luat-anm-2018-p16-p1"
+    ],
+    "elapsed_ms": 4193.999300012365,
+    "llm_prompt_tokens": 685,
+    "llm_completion_tokens": 125
+  },
+  {
+    "query_id": "q13",
+    "status": "answered",
+    "question": "Doanh nghiệp phải xóa bỏ thông tin vi phạm trong thời hạn tối đa bao lâu kể từ khi có yêu cầu?",
+    "model": "openai/gpt-4o-mini",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "model_query": "Doanh nghiệp phải xóa bỏ thông tin vi phạm trong thời hạn tối đa bao lâu kể từ khi có yêu cầu?",
+        "actual_query": "Doanh nghiệp phải xóa bỏ thông tin vi phạm trong thời hạn tối đa bao lâu kể từ khi có yêu cầu?",
+        "context_ids": [
+          "luat-anm-2018-p25-p1",
+          "luat-anm-2018-p11-p4",
+          "luat-anm-2018-p5-p0"
+        ],
+        "context": "[luat-anm-2018-p25-p1 | data\\24-2018-qh14.pdf | page 25]\nb) Ngăn chặn việc chia sẻ thông tin, xóa bỏ thông tin có nội dung quy định tại các khoản 1, 2, 3, 4 và 5 Điều 16 của Luật này trên dịch vụ hoặc hệ thống thông tin do cơ quan, tổ chức trực tiếp quản lý chậm nhất là 24 giờ kể từ thời điểm có yêu cầu của lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an hoặc cơ quan có thẩm quyền của Bộ Thông tin và Truyền thông và lưu nhật ký hệ thống để phục vụ điều tra, xử lý hành vi vi phạm pháp luật về an ninh mạng trong thời gian theo quy định của C\n\n[luat-anm-2018-p11-p4 | data\\24-2018-qh14.pdf | page 11]\nb) Trong thời hạn 30 ngày kể từ ngày kết thúc kiểm tra, lực lượng chuyên trách bảo vệ an ninh mạng thông báo kết quả kiểm tra và đưa ra yêu cầu đối với chủ quản hệ thống thông tin trong trường hợp phát hiện điểm yếu, lỗ hổng bảo mật; hướng dẫn hoặc tham gia khắc phục khi có đề nghị của chủ quản hệ thống thông tin;\n\n[luat-anm-2018-p5-p0 | data\\24-2018-qh14.pdf | page 5]\ni) Yêu cầu xóa bỏ, truy cập xóa bỏ thông tin trái pháp luật hoặc thông tin sai sự thật trên không gian mạng xâm phạm an ninh quốc gia, trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân;\nk) Thu thập dữ liệu điện tử liên quan đến hoạt động xâm phạm an ninh quốc gia, trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân trên không gian mạng;"
+      }
+    ],
+    "answer": "Doanh nghiệp phải xóa bỏ thông tin vi phạm trong thời hạn tối đa là 24 giờ kể từ thời điểm có yêu cầu của lực lượng chuyên trách bảo vệ an ninh mạng hoặc cơ quan có thẩm quyền của Bộ Thông tin và Truyền thông [chunk-id: luat-anm-2018-p25-p1].",
+    "citations": [
+      "chunk-id: luat-anm-2018-p25-p1"
+    ],
+    "invalid_citations": [
+      "chunk-id: luat-anm-2018-p25-p1"
+    ],
+    "elapsed_ms": 3644.7728000057396,
+    "llm_prompt_tokens": 716,
+    "llm_completion_tokens": 109
+  },
+  {
+    "query_id": "q14",
+    "status": "answered",
+    "question": "Doanh nghiệp xử lý dữ liệu người dùng tại Việt Nam phải lưu dữ liệu ở đâu?",
+    "model": "openai/gpt-4o-mini",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "model_query": "Doanh nghiệp xử lý dữ liệu người dùng tại Việt Nam phải lưu dữ liệu ở đâu?",
+        "actual_query": "Doanh nghiệp xử lý dữ liệu người dùng tại Việt Nam phải lưu dữ liệu ở đâu?",
+        "context_ids": [
+          "luat-anm-2018-p25-p4",
+          "luat-anm-2018-p24-p4",
+          "luat-anm-2018-p7-p2"
+        ],
+        "context": "[luat-anm-2018-p25-p4 | data\\24-2018-qh14.pdf | page 25]\n3. Doanh nghiệp trong nước và ngoài nước cung cấp dịch vụ trên mạng viễn thông, mạng Internet, các dịch vụ gia tăng trên không gian mạng tại Việt Nam có hoạt động thu thập, khai thác, phân tích, xử lý dữ liệu về thông tin cá nhân, dữ liệu về mối quan hệ của người sử dụng dịch vụ, dữ liệu do người sử dụng dịch vụ tại Việt Nam tạo ra phải lưu trữ dữ liệu này tại Việt Nam trong thời gian theo quy định của Chính phủ. Doanh nghiệp ngoài nước quy định tại khoản này phải đặt chi nhánh hoặc văn phòng đạ\n\n[luat-anm-2018-p24-p4 | data\\24-2018-qh14.pdf | page 24]\n1. Trang thông tin điện tử, cổng thông tin điện tử hoặc chuyên trang trên mạng xã hội của cơ quan, tổ chức, cá nhân không được cung cấp, đăng tải, truyền đưa thông tin có nội dung quy định tại các khoản 1, 2, 3, 4 và 5 Điều 16 của Luật này và thông tin khác có nội dung xâm phạm an ninh quốc gia.\n2. Doanh nghiệp trong nước và ngoài nước cung cấp dịch vụ trên mạng viễn thông, mạng Internet, các dịch vụ gia tăng trên không gian mạng tại Việt Nam có trách nhiệm sau đây:\n\n[luat-anm-2018-p7-p2 | data\\24-2018-qh14.pdf | page 7]\nệ thống xử lý và điều khiển thông tin, cơ sở dữ liệu, phương tiện điện tử của người khác."
+      }
+    ],
+    "answer": "Doanh nghiệp xử lý dữ liệu người dùng tại Việt Nam phải lưu trữ dữ liệu này tại Việt Nam trong thời gian theo quy định của Chính phủ. Điều này áp dụng cho cả doanh nghiệp trong nước và doanh nghiệp nước ngoài cung cấp dịch vụ trên mạng tại Việt Nam [chunk-id: luat-anm-2018-p25-p4].",
+    "citations": [
+      "chunk-id: luat-anm-2018-p25-p4"
+    ],
+    "invalid_citations": [
+      "chunk-id: luat-anm-2018-p25-p4"
+    ],
+    "elapsed_ms": 3707.4958000157494,
+    "llm_prompt_tokens": 638,
+    "llm_completion_tokens": 104
+  },
+  {
+    "query_id": "q15",
+    "status": "answered",
+    "question": "Lực lượng chuyên trách bảo vệ an ninh mạng được bố trí ở đâu?",
+    "model": "openai/gpt-4o-mini",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "model_query": "Lực lượng chuyên trách bảo vệ an ninh mạng được bố trí ở đâu",
+        "actual_query": "Lực lượng chuyên trách bảo vệ an ninh mạng được bố trí ở đâu?",
+        "context_ids": [
+          "luat-anm-2018-p27-p3",
+          "luat-anm-2018-p27-p2",
+          "luat-anm-2018-p23-p4"
+        ],
+        "context": "[luat-anm-2018-p27-p3 | data\\24-2018-qh14.pdf | page 27]\n2. Lực lượng bảo vệ an ninh mạng được bố trí tại Bộ, ngành, Ủy ban nhân dân cấp tỉnh, cơ quan, tổ chức quản lý trực tiếp hệ thống thông tin quan trọng về an ninh quốc gia.\n3. Tổ chức, cá nhân được huy động tham gia bảo vệ an ninh mạng.\nĐiều 31. Bảo đảm nguồn nhân lực bảo vệ an ninh mạng\n1. Công dân Việt Nam có kiến thức về an ninh mạng, an toàn thông tin mạng, công nghệ thông tin là nguồn lực cơ bản, chủ yếu bảo vệ an ninh mạng.\n\n[luat-anm-2018-p27-p2 | data\\24-2018-qh14.pdf | page 27]\n5. Lực lượng chuyên trách bảo vệ an ninh mạng và các cơ quan chức năng có trách nhiệm áp dụng biện pháp để phòng ngừa, phát hiện, ngăn chặn, xử lý nghiêm hành vi sử dụng không gian mạng gây nguy hại cho trẻ em, xâm phạm đến trẻ em, quyền trẻ em.\nChương V BẢO ĐẢM HOẠT ĐỘNG BẢO VỆ AN NINH MẠNG\nĐiều 30. Lực lượng bảo vệ an ninh mạng\n1. Lực lượng chuyên trách bảo vệ an ninh mạng được bố trí tại Bộ Công an, Bộ Quốc phòng.\n\n[luat-anm-2018-p23-p4 | data\\24-2018-qh14.pdf | page 23]\n4. Lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an tiến hành kiểm tra an ninh mạng đối với hệ thống thông tin của cơ quan, tổ chức trong các trường hợp quy định tại khoản 1 Điều này."
+      }
+    ],
+    "answer": "Lực lượng chuyên trách bảo vệ an ninh mạng được bố trí tại Bộ Công an và Bộ Quốc phòng [luat-anm-2018-p27-p2].",
+    "citations": [
+      "luat-anm-2018-p27-p2"
+    ],
+    "invalid_citations": [],
+    "elapsed_ms": 3459.2949000070803,
+    "llm_prompt_tokens": 668,
+    "llm_completion_tokens": 64
+  },
+  {
+    "query_id": "q16",
+    "status": "answered",
+    "question": "Không gian mạng được hiểu là gì?",
+    "model": "openai/gpt-4o-mini",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "model_query": "Không gian mạng được hiểu là gì?",
+        "actual_query": "Không gian mạng được hiểu là gì?",
+        "context_ids": [
+          "luat-anm-2018-p1-p1",
+          "luat-anm-2018-p1-p2",
+          "luat-anm-2018-p2-p4"
+        ],
+        "context": "[luat-anm-2018-p1-p1 | data\\24-2018-qh14.pdf | page 1]\nĐiều 2. Giải thích từ ngữ Trong Luật này, các từ ngữ dưới đây được hiểu như sau:\n1. An ninh mạng là sự bảo đảm hoạt động trên không gian mạng không gây phương hại đến an ninh quốc gia, trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân.\n2. Bảo vệ an ninh mạng là phòng ngừa, phát hiện, ngăn chặn, xử lý hành vi xâm phạm an ninh mạng.\n\n[luat-anm-2018-p1-p2 | data\\24-2018-qh14.pdf | page 1]\n3. Không gian mạng là mạng lưới kết nối của cơ sở hạ tầng công nghệ thông tin, bao gồm mạng viễn thông, mạng Internet, mạng máy tính, hệ thống thông tin, hệ thống xử lý và điều khiển thông tin, cơ sở dữ liệu; là nơi con người thực hiện các hành vi xã hội không bị giới hạn bởi không gian và thời gian.\n4. Không gian mạng quốc gia là không gian mạng do Chính phủ xác lập, quản lý và kiểm soát.\n\n[luat-anm-2018-p2-p4 | data\\24-2018-qh14.pdf | page 2]\n8. Tấn công mạng là hành vi sử dụng không gian mạng, công nghệ thông tin hoặc phương tiện điện tử để phá hoại, gây gián đoạn hoạt động của mạng viễn thông, mạng Internet, mạng máy tính, hệ thống thông tin, hệ thống xử lý và điều khiển thông tin, cơ sở dữ liệu, phương tiện điện tử.\n9. Khủng bố mạng là việc sử dụng không gian mạng, công nghệ thông tin hoặc phương tiện điện tử để thực hiện hành vi khủng bố, tài trợ khủng bố."
+      }
+    ],
+    "answer": "Không gian mạng được định nghĩa là \"mạng lưới kết nối của cơ sở hạ tầng công nghệ thông tin, bao gồm mạng viễn thông, mạng Internet, mạng máy tính, hệ thống thông tin, hệ thống xử lý và điều khiển thông tin, cơ sở dữ liệu; là nơi con người thực hiện các hành vi xã hội không bị giới hạn bởi không gian và thời gian\" [luat-anm-2018-p1-p2].",
+    "citations": [
+      "luat-anm-2018-p1-p2"
+    ],
+    "invalid_citations": [],
+    "elapsed_ms": 4562.7573000092525,
+    "llm_prompt_tokens": 659,
+    "llm_completion_tokens": 117
+  },
+  {
+    "query_id": "q17",
+    "status": "answered",
+    "question": "Đấu tranh bảo vệ an ninh mạng là hoạt động gì?",
+    "model": "openai/gpt-4o-mini",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "model_query": "Đấu tranh bảo vệ an ninh mạng là hoạt động gì?",
+        "actual_query": "Đấu tranh bảo vệ an ninh mạng là hoạt động gì?",
+        "context_ids": [
+          "luat-anm-2018-p22-p0",
+          "luat-anm-2018-p22-p1",
+          "luat-anm-2018-p22-p2"
+        ],
+        "context": "[luat-anm-2018-p22-p0 | data\\24-2018-qh14.pdf | page 22]\nĐiều 22. Đấu tranh bảo vệ an ninh mạng\n1. Đấu tranh bảo vệ an ninh mạng là hoạt động có tổ chức do lực lượng chuyên trách bảo vệ an ninh mạng thực hiện trên không gian mạng nhằm bảo vệ an ninh quốc gia và bảo đảm trật tự, an toàn xã hội.\n2. Nội dung đấu tranh bảo vệ an ninh mạng bao gồm:\na) Tổ chức nắm tình hình có liên quan đến hoạt động bảo vệ an ninh quốc gia;\nb) Phòng, chống tấn công và bảo vệ hoạt động ổn định của hệ thống thông tin quan trọng về an ninh quốc gia;\n\n[luat-anm-2018-p22-p1 | data\\24-2018-qh14.pdf | page 22]\nc) Làm tê liệt hoặc hạn chế hoạt động sử dụng không gian mạng nhằm gây phương hại an ninh quốc gia hoặc gây tổn hại đặc biệt nghiêm trọng trật tự, an toàn xã hội;\nd) Chủ động tấn công vô hiệu hóa mục tiêu trên không gian mạng nhằm bảo vệ an ninh quốc gia và bảo đảm trật tự, an toàn xã hội.\n3. Bộ Công an chủ trì, phối hợp với Bộ, ngành có liên quan thực hiện đấu tranh bảo vệ an ninh mạng.\nChương IV HOẠT ĐỘNG BẢO VỆ AN NINH MẠNG\n\n[luat-anm-2018-p22-p2 | data\\24-2018-qh14.pdf | page 22]\nĐiều 23. Triển khai hoạt động bảo vệ an ninh mạng trong cơ quan nhà nước, tổ chức chính trị ở trung ương và địa phương\n1. Nội dung triển khai hoạt động bảo vệ an ninh mạng bao gồm:\na) Xây dựng, hoàn thiện quy định, quy chế sử dụng mạng máy tính nội bộ, mạng máy tính có kết nối mạng Internet; phương án bảo đảm an ninh mạng đối với hệ thống thông tin; phương án ứng phó, khắc phục sự cố an ninh mạng;"
+      }
+    ],
+    "answer": "Đấu tranh bảo vệ an ninh mạng là hoạt động có tổ chức do lực lượng chuyên trách bảo vệ an ninh mạng thực hiện trên không gian mạng nhằm bảo vệ an ninh quốc gia và bảo đảm trật tự, an toàn xã hội. Nội dung của hoạt động này bao gồm việc nắm tình hình liên quan đến bảo vệ an ninh quốc gia, phòng chống tấn công, bảo vệ hoạt động ổn định của hệ thống thông tin quan trọng, làm tê liệt hoặc hạn chế các hoạt động gây hại cho an ninh quốc gia, và chủ động tấn công để vô hiệu hóa mục tiêu trên không gian mạng nhằm bảo vệ an ninh quốc gia và trật tự xã hội [luat-anm-2018-p22-p0].",
+    "citations": [
+      "luat-anm-2018-p22-p0"
+    ],
+    "invalid_citations": [],
+    "elapsed_ms": 4031.9512999849394,
+    "llm_prompt_tokens": 728,
+    "llm_completion_tokens": 188
+  },
+  {
+    "query_id": "dev_absent_01",
+    "status": "abstain",
+    "question": "Luật An ninh mạng năm 2018 quy định lệ phí cấp chứng chỉ an ninh mạng là bao nhiêu?",
+    "model": "openai/gpt-4o-mini",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "model_query": "Lệ phí cấp chứng chỉ an ninh mạng",
+        "actual_query": "Luật An ninh mạng năm 2018 quy định lệ phí cấp chứng chỉ an ninh mạng là bao nhiêu?",
+        "context_ids": [
+          "luat-anm-2018-p29-p0",
+          "luat-anm-2018-p4-p2",
+          "luat-anm-2018-p31-p5"
+        ],
+        "context": "[luat-anm-2018-p29-p0 | data\\24-2018-qh14.pdf | page 29]\nĐiều 35. Kinh phí bảo vệ an ninh mạng\n1. Kinh phí bảo vệ an ninh mạng của cơ quan nhà nước, tổ chức chính trị do ngân sách nhà nước bảo đảm, được bố trí trong dự toán ngân sách nhà nước hàng năm. Việc quản lý, sử dụng kinh phí từ ngân sách nhà nước thực hiện theo quy định của pháp luật về ngân sách nhà nước.\n2. Kinh phí bảo vệ an ninh mạng cho hệ thống thông tin của cơ quan, tổ chức ngoài quy định tại khoản 1 Điều này do cơ quan, tổ chức tự bảo đảm.\n\n[luat-anm-2018-p4-p2 | data\\24-2018-qh14.pdf | page 4]\n6. Hệ thống thông tin quan trọng về an ninh quốc gia được thẩm định, chứng nhận đủ điều kiện về an ninh mạng trước khi đưa vào vận hành, sử dụng; thường xuyên kiểm tra, giám sát về an ninh mạng trong quá trình sử dụng và kịp thời ứng phó, khắc phục sự cố an ninh mạng.\n7. Mọi hành vi vi phạm pháp luật về an ninh mạng phải được xử lý kịp thời, nghiêm minh.\nĐiều 5. Biện pháp bảo vệ an ninh mạng\n1. Biện pháp bảo vệ an ninh mạng bao gồm:\na) Thẩm định an ninh mạng;\nb) Đánh giá điều kiện an ninh mạng;\n\n[luat-anm-2018-p31-p5 | data\\24-2018-qh14.pdf | page 31]\nd) Phối hợp, tạo điều kiện cho lực lượng chuyên trách bảo vệ an ninh mạng trong bảo vệ an ninh mạng.\n2. Doanh nghiệp cung cấp dịch vụ trên mạng viễn thông, mạng Internet, các dịch vụ gia tăng trên không gian mạng tại Việt Nam có trách nhiệm thực hiện quy định tại khoản 1 Điều này, khoản 2 và khoản 3 Điều 26 của Luật này.\nĐiều 42. Trách nhiệm của cơ quan, tổ chức, cá nhân sử dụng không gian mạng\n1. Tuân thủ quy định của pháp luật về an ninh mạng."
+      }
+    ],
+    "answer": "Không đủ bằng chứng về lệ phí cấp chứng chỉ an ninh mạng theo quy định trong Luật An ninh mạng năm 2018.",
+    "citations": [],
+    "invalid_citations": [],
+    "elapsed_ms": 3027.0023999910336,
+    "llm_prompt_tokens": 772,
+    "llm_completion_tokens": 52
+  },
+  {
+    "query_id": "dev_absent_02",
+    "status": "abstain",
+    "question": "Luật An ninh mạng năm 2018 quy định mật khẩu tài khoản phải có tối thiểu bao nhiêu ký tự?",
+    "model": "openai/gpt-4o-mini",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "model_query": "Luật An ninh mạng năm 2018 quy định mật khẩu tài khoản phải có tối thiểu bao nhiêu ký tự?",
+        "actual_query": "Luật An ninh mạng năm 2018 quy định mật khẩu tài khoản phải có tối thiểu bao nhiêu ký tự?",
+        "context_ids": [
+          "luat-anm-2018-p25-p0",
+          "luat-anm-2018-p32-p2",
+          "luat-anm-2018-p11-p3"
+        ],
+        "context": "[luat-anm-2018-p25-p0 | data\\24-2018-qh14.pdf | page 25]\na) Xác thực thông tin khi người dùng đăng ký tài khoản số; bảo mật thông tin, tài khoản của người dùng; cung cấp thông tin người dùng cho lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an khi có yêu cầu bằng văn bản để phục vụ điều tra, xử lý hành vi vi phạm pháp luật về an ninh mạng;\n\n[luat-anm-2018-p32-p2 | data\\24-2018-qh14.pdf | page 32]\n2. Hệ thống thông tin đang vận hành, sử dụng được đưa vào Danh mục hệ thống thông tin quan trọng về an ninh quốc gia thì trong thời hạn 12 tháng kể từ ngày Luật này có hiệu lực, chủ quản hệ thống thông tin có trách nhiệm bảo đảm đủ điều kiện an ninh mạng, lực lượng chuyên trách bảo vệ an ninh mạng đánh giá điều kiện an ninh mạng theo quy định tại Điều 12 của Luật này; trường hợp cần gia hạn do Thủ tướng Chính phủ quyết định nhưng không quá 12 tháng.\n\n[luat-anm-2018-p11-p3 | data\\24-2018-qh14.pdf | page 11]\na) Trước thời điểm tiến hành kiểm tra, lực lượng chuyên trách bảo vệ an ninh mạng có trách nhiệm thông báo bằng văn bản cho chủ quản hệ thống thông tin ít nhất là 12 giờ trong trường hợp xảy ra sự cố an ninh mạng, hành vi xâm phạm an ninh mạng; ít nhất là 72 giờ trong trường hợp có yêu cầu quản lý nhà nước về an ninh mạng hoặc hết thời hạn khắc phục điểm yếu, lỗ hổng bảo mật theo khuyến cáo của lực lượng chuyên trách bảo vệ an ninh mạng;"
+      }
+    ],
+    "answer": "Không đủ bằng chứng.",
+    "citations": [],
+    "invalid_citations": [],
+    "elapsed_ms": 2749.803200014867,
+    "llm_prompt_tokens": 693,
+    "llm_completion_tokens": 45
+  }
+]

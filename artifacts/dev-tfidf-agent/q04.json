@@ -1,0 +1,68 @@
+{
+  "query_id": "q04",
+  "status": "pending_review",
+  "question": "Gián điệp mạng được định nghĩa thế nào?",
+  "model": "openai/gpt-4o-mini",
+  "strategy": "tfidf",
+  "budget_chars": 800,
+  "events": [
+    {
+      "event": "search",
+      "tool": "search_documents",
+      "model_query": "Gián điệp mạng được định nghĩa thế nào?",
+      "actual_query": "Gián điệp mạng được định nghĩa thế nào?",
+      "context_ids": [
+        "luat-anm-2018-p7-p0",
+        "luat-anm-2018-p1-p0"
+      ],
+      "context": "[luat-anm-2018-p7-p0 | data\\24-2018-qh14.pdf | page 7]\n2. Thực hiện tấn công mạng, khủng bố mạng, gián điệp mạng, tội phạm mạng; gây sự cố, tấn công, xâm nhập, chiếm quyền điều khiển, làm sai lệch, gián đoạn, ngưng trệ, tê liệt hoặc phá hoại hệ thống thông tin quan trọng về an ninh quốc gia.\n\n[luat-anm-2018-p1-p0 | data\\24-2018-qh14.pdf | page 1]\nQUỐC HỘI CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc Luật số: 24/2018/QH14 LUẬT AN NINH MẠNG Căn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam; Quốc hội ban hành Luật An ninh mạng.\nChương I NHỮNG QUY ĐỊNH CHUNG\nĐiều 1. Phạm vi điều chỉnh Luật này quy định về hoạt động bảo vệ an ninh quốc gia và bảo đảm trật tự, an toàn xã hội trên không gian mạng; trách nhiệm của cơ quan, tổ chức, cá nhân có liên quan.",
+      "results": [
+        {
+          "id": "luat-anm-2018-p7-p0",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 7,
+          "text": "2. Thực hiện tấn công mạng, khủng bố mạng, gián điệp mạng, tội phạm mạng; gây sự cố, tấn công, xâm nhập, chiếm quyền điều khiển, làm sai lệch, gián đoạn, ngưng trệ, tê liệt hoặc phá hoại hệ thống thông tin quan trọng về an ninh quốc gia.",
+          "metadata": {
+            "chapter": 1,
+            "chapter_title": "NHỮNG QUY ĐỊNH CHUNG"
+          },
+          "score": 0.23427346199882024,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-anm-2018-p1-p0",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 1,
+          "text": "QUỐC HỘI CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc Luật số: 24/2018/QH14 LUẬT AN NINH MẠNG Căn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam; Quốc hội ban hành Luật An ninh mạng.\nChương I NHỮNG QUY ĐỊNH CHUNG\nĐiều 1. Phạm vi điều chỉnh Luật này quy định về hoạt động bảo vệ an ninh quốc gia và bảo đảm trật tự, an toàn xã hội trên không gian mạng; trách nhiệm của cơ quan, tổ chức, cá nhân có liên quan.",
+          "metadata": {
+            "chapter": 1,
+            "chapter_title": "NHỮNG QUY ĐỊNH CHUNG"
+          },
+          "score": 0.146157934959607,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-anm-2018-p16-p3",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 16,
+          "text": "c) Phối hợp, thực hiện yêu cầu của lực lượng chuyên trách an ninh mạng về phòng, chống gián điệp mạng, bảo vệ thông tin thuộc bí mật nhà nước, bí mật công tác, bí mật kinh doanh, bí mật cá nhân, bí mật gia đình và đời sống riêng tư trên hệ thống thông tin.",
+          "metadata": {
+            "chapter": 3,
+            "chapter_title": "PHÒNG NGỪA, XỬ LÝ HÀNH VI XÂM PHẠM AN NINH MẠNG"
+          },
+          "score": 0.13795294183029194,
+          "strategy": "tfidf"
+        }
+      ]
+    }
+  ],
+  "answer": "Không đủ bằng chứng.",
+  "citations": [],
+  "invalid_citations": [],
+  "elapsed_ms": 2258.741400000872,
+  "llm_prompt_tokens": 603,
+  "llm_completion_tokens": 29
+}

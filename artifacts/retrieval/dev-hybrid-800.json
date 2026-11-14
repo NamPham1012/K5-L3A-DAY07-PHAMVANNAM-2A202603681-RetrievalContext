@@ -1,0 +1,15 @@
+{
+  "strategy": "hybrid_rrf",
+  "split": "dev",
+  "n": 17,
+  "candidate_top_k_each": 3,
+  "rrf_k": 60,
+  "output_top_k": 3,
+  "budget_chars": 800,
+  "hit1": 13,
+  "hit3": 16,
+  "context_hit": 13,
+  "avg_context_chars": 591.4117647058823,
+  "median_offline_fusion_ms": 0.295000005280599,
+  "note": "Dense rankings cached: offline timing excludes embedding and pgvector; cost not measured."
+}

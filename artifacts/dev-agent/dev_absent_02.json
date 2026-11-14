@@ -1,0 +1,26 @@
+{
+  "query_id": "dev_absent_02",
+  "status": "pending_review",
+  "question": "Luật An ninh mạng năm 2018 quy định mật khẩu tài khoản phải có tối thiểu bao nhiêu ký tự?",
+  "model": "openai/gpt-4o-mini",
+  "events": [
+    {
+      "event": "search",
+      "tool": "search_documents",
+      "model_query": "Luật An ninh mạng năm 2018 quy định mật khẩu tài khoản phải có tối thiểu bao nhiêu ký tự?",
+      "actual_query": "Luật An ninh mạng năm 2018 quy định mật khẩu tài khoản phải có tối thiểu bao nhiêu ký tự?",
+      "context_ids": [
+        "luat-anm-2018-p25-p0",
+        "luat-anm-2018-p32-p2",
+        "luat-anm-2018-p11-p3"
+      ],
+      "context": "[luat-anm-2018-p25-p0 | data\\24-2018-qh14.pdf | page 25]\na) Xác thực thông tin khi người dùng đăng ký tài khoản số; bảo mật thông tin, tài khoản của người dùng; cung cấp thông tin người dùng cho lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an khi có yêu cầu bằng văn bản để phục vụ điều tra, xử lý hành vi vi phạm pháp luật về an ninh mạng;\n\n[luat-anm-2018-p32-p2 | data\\24-2018-qh14.pdf | page 32]\n2. Hệ thống thông tin đang vận hành, sử dụng được đưa vào Danh mục hệ thống thông tin quan trọng về an ninh quốc gia thì trong thời hạn 12 tháng kể từ ngày Luật này có hiệu lực, chủ quản hệ thống thông tin có trách nhiệm bảo đảm đủ điều kiện an ninh mạng, lực lượng chuyên trách bảo vệ an ninh mạng đánh giá điều kiện an ninh mạng theo quy định tại Điều 12 của Luật này; trường hợp cần gia hạn do Thủ tướng Chính phủ quyết định nhưng không quá 12 tháng.\n\n[luat-anm-2018-p11-p3 | data\\24-2018-qh14.pdf | page 11]\na) Trước thời điểm tiến hành kiểm tra, lực lượng chuyên trách bảo vệ an ninh mạng có trách nhiệm thông báo bằng văn bản cho chủ quản hệ thống thông tin ít nhất là 12 giờ trong trường hợp xảy ra sự cố an ninh mạng, hành vi xâm phạm an ninh mạng; ít nhất là 72 giờ trong trường hợp có yêu cầu quản lý nhà nước về an ninh mạng hoặc hết thời hạn khắc phục điểm yếu, lỗ hổng bảo mật theo khuyến cáo của lực lượng chuyên trách bảo vệ an ninh mạng;"
+    }
+  ],
+  "answer": "Không đủ bằng chứng.",
+  "citations": [],
+  "invalid_citations": [],
+  "elapsed_ms": 2749.803200014867,
+  "llm_prompt_tokens": 693,
+  "llm_completion_tokens": 45
+}

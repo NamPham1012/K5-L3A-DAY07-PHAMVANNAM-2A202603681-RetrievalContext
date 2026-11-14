@@ -1,0 +1,118 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "An ninh mạng là gì?",
+    "answerable": true
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "Luật An ninh mạng điều chỉnh những nội dung gì?",
+    "answerable": true
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "Tấn công mạng là hành vi gì?",
+    "answerable": true
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "Gián điệp mạng được định nghĩa thế nào?",
+    "answerable": true
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "Tội phạm mạng là gì?",
+    "answerable": true
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "Tài khoản số là gì?",
+    "answerable": true
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "Thẩm định an ninh mạng là hoạt động gì?",
+    "answerable": true
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "Khi kiểm tra đột xuất do xảy ra sự cố an ninh mạng, phải thông báo trước cho chủ quản ít nhất bao nhiêu giờ?",
+    "answerable": true
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "Giám sát an ninh mạng là hoạt động gì?",
+    "answerable": true
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "Một hành vi nào được xem là tấn công mạng?",
+    "answerable": true
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "Thông tin tuyên truyền chống Nhà nước gồm hành vi nào?",
+    "answerable": true
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "Chủ quản hệ thống thông tin có trách nhiệm gì để phát hiện mã độc?",
+    "answerable": true
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "Doanh nghiệp phải xóa bỏ thông tin vi phạm trong thời hạn tối đa bao lâu kể từ khi có yêu cầu?",
+    "answerable": true
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "Doanh nghiệp xử lý dữ liệu người dùng tại Việt Nam phải lưu dữ liệu ở đâu?",
+    "answerable": true
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "Lực lượng chuyên trách bảo vệ an ninh mạng được bố trí ở đâu?",
+    "answerable": true
+  },
+  {
+    "id": "q16",
+    "split": "dev",
+    "question": "Không gian mạng được hiểu là gì?",
+    "answerable": true
+  },
+  {
+    "id": "q17",
+    "split": "dev",
+    "question": "Đấu tranh bảo vệ an ninh mạng là hoạt động gì?",
+    "answerable": true
+  },
+  {
+    "id": "dev_absent_01",
+    "split": "dev",
+    "question": "Luật An ninh mạng năm 2018 quy định lệ phí cấp chứng chỉ an ninh mạng là bao nhiêu?",
+    "answerable": false,
+    "absence_reason": "Kiểm tra sơ bộ toàn bộ chunk B: không thấy cụm 'lệ phí' hoặc 'chứng chỉ'. Cần đọc đối chiếu toàn văn trước khi chốt nhãn."
+  },
+  {
+    "id": "dev_absent_02",
+    "split": "dev",
+    "question": "Luật An ninh mạng năm 2018 quy định mật khẩu tài khoản phải có tối thiểu bao nhiêu ký tự?",
+    "answerable": false,
+    "absence_reason": "Kiểm tra sơ bộ toàn bộ chunk B: không thấy cụm 'mật khẩu' hoặc 'ký tự'. Cần đọc đối chiếu toàn văn trước khi chốt nhãn."
+  }
+]

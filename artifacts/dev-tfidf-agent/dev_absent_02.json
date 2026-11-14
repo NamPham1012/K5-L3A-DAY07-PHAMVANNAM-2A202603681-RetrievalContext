@@ -1,0 +1,67 @@
+{
+  "query_id": "dev_absent_02",
+  "status": "pending_review",
+  "question": "Luật An ninh mạng năm 2018 quy định mật khẩu tài khoản phải có tối thiểu bao nhiêu ký tự?",
+  "model": "openai/gpt-4o-mini",
+  "strategy": "tfidf",
+  "budget_chars": 800,
+  "events": [
+    {
+      "event": "search",
+      "tool": "search_documents",
+      "model_query": "Luật An ninh mạng năm 2018 quy định mật khẩu tài khoản phải có tối thiểu bao nhiêu ký tự",
+      "actual_query": "Luật An ninh mạng năm 2018 quy định mật khẩu tài khoản phải có tối thiểu bao nhiêu ký tự?",
+      "context_ids": [
+        "luat-anm-2018-p25-p0"
+      ],
+      "context": "[luat-anm-2018-p25-p0 | data\\24-2018-qh14.pdf | page 25]\na) Xác thực thông tin khi người dùng đăng ký tài khoản số; bảo mật thông tin, tài khoản của người dùng; cung cấp thông tin người dùng cho lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an khi có yêu cầu bằng văn bản để phục vụ điều tra, xử lý hành vi vi phạm pháp luật về an ninh mạng;",
+      "results": [
+        {
+          "id": "luat-anm-2018-p25-p0",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 25,
+          "text": "a) Xác thực thông tin khi người dùng đăng ký tài khoản số; bảo mật thông tin, tài khoản của người dùng; cung cấp thông tin người dùng cho lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an khi có yêu cầu bằng văn bản để phục vụ điều tra, xử lý hành vi vi phạm pháp luật về an ninh mạng;",
+          "metadata": {
+            "chapter": 4,
+            "chapter_title": "HOẠT ĐỘNG BẢO VỆ AN NINH MẠNG"
+          },
+          "score": 0.24870760723836946,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-anm-2018-p28-p0",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 28,
+          "text": "3. Khi xảy ra tình huống nguy hiểm về an ninh mạng, khủng bố mạng, tấn công mạng, sự cố an ninh mạng hoặc nguy cơ đe dọa an ninh mạng, cơ quan nhà nước có thẩm quyền quyết định huy động nhân lực bảo vệ an ninh mạng. Thẩm quyền, trách nhiệm, trình tự, thủ tục huy động nhân lực bảo vệ an ninh mạng được thực hiện theo quy định của Luật An ninh quốc gia, Luật Quốc phòng, Luật Công an nhân dân và quy định khác của pháp luật có liên quan.",
+          "metadata": {
+            "chapter": 5,
+            "chapter_title": "BẢO ĐẢM HOẠT ĐỘNG BẢO VỆ AN NINH MẠNG"
+          },
+          "score": 0.21740877857879762,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-anm-2018-p15-p4",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 15,
+          "text": "9. Tổ chức, cá nhân soạn thảo, đăng tải, phát tán thông tin trên không gian mạng có nội dung quy định tại các khoản 1, 2, 3, 4 và 5 Điều này phải gỡ bỏ thông tin khi có yêu cầu của lực lượng chuyên trách bảo vệ an ninh mạng và chịu trách nhiệm theo quy định của pháp luật.\nĐiều 17. Phòng, chống gián điệp mạng; bảo vệ thông tin thuộc bí mật nhà nước, bí mật công tác, bí mật kinh doanh, bí mật cá nhân, bí mật gia đình và đời sống riêng tư trên không gian mạng",
+          "metadata": {
+            "chapter": 3,
+            "chapter_title": "PHÒNG NGỪA, XỬ LÝ HÀNH VI XÂM PHẠM AN NINH MẠNG"
+          },
+          "score": 0.2138921464748832,
+          "strategy": "tfidf"
+        }
+      ]
+    }
+  ],
+  "answer": "Không đủ bằng chứng.",
+  "citations": [],
+  "invalid_citations": [],
+  "elapsed_ms": 2406.4685000048485,
+  "llm_prompt_tokens": 455,
+  "llm_completion_tokens": 44
+}

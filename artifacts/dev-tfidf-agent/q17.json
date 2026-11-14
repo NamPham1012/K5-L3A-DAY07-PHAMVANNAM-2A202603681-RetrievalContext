@@ -1,0 +1,69 @@
+{
+  "query_id": "q17",
+  "status": "pending_review",
+  "question": "Đấu tranh bảo vệ an ninh mạng là hoạt động gì?",
+  "model": "openai/gpt-4o-mini",
+  "strategy": "tfidf",
+  "budget_chars": 800,
+  "events": [
+    {
+      "event": "search",
+      "tool": "search_documents",
+      "model_query": "Đấu tranh bảo vệ an ninh mạng là hoạt động gì?",
+      "actual_query": "Đấu tranh bảo vệ an ninh mạng là hoạt động gì?",
+      "context_ids": [
+        "luat-anm-2018-p22-p0"
+      ],
+      "context": "[luat-anm-2018-p22-p0 | data\\24-2018-qh14.pdf | page 22]\nĐiều 22. Đấu tranh bảo vệ an ninh mạng\n1. Đấu tranh bảo vệ an ninh mạng là hoạt động có tổ chức do lực lượng chuyên trách bảo vệ an ninh mạng thực hiện trên không gian mạng nhằm bảo vệ an ninh quốc gia và bảo đảm trật tự, an toàn xã hội.\n2. Nội dung đấu tranh bảo vệ an ninh mạng bao gồm:\na) Tổ chức nắm tình hình có liên quan đến hoạt động bảo vệ an ninh quốc gia;\nb) Phòng, chống tấn công và bảo vệ hoạt động ổn định của hệ thống thông tin quan trọng về an ninh quốc gia;",
+      "results": [
+        {
+          "id": "luat-anm-2018-p22-p0",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 22,
+          "text": "Điều 22. Đấu tranh bảo vệ an ninh mạng\n1. Đấu tranh bảo vệ an ninh mạng là hoạt động có tổ chức do lực lượng chuyên trách bảo vệ an ninh mạng thực hiện trên không gian mạng nhằm bảo vệ an ninh quốc gia và bảo đảm trật tự, an toàn xã hội.\n2. Nội dung đấu tranh bảo vệ an ninh mạng bao gồm:\na) Tổ chức nắm tình hình có liên quan đến hoạt động bảo vệ an ninh quốc gia;\nb) Phòng, chống tấn công và bảo vệ hoạt động ổn định của hệ thống thông tin quan trọng về an ninh quốc gia;",
+          "metadata": {
+            "chapter": 3,
+            "chapter_title": "PHÒNG NGỪA, XỬ LÝ HÀNH VI XÂM PHẠM AN NINH MẠNG"
+          },
+          "score": 0.7120385451471801,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-anm-2018-p22-p1",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 22,
+          "text": "c) Làm tê liệt hoặc hạn chế hoạt động sử dụng không gian mạng nhằm gây phương hại an ninh quốc gia hoặc gây tổn hại đặc biệt nghiêm trọng trật tự, an toàn xã hội;\nd) Chủ động tấn công vô hiệu hóa mục tiêu trên không gian mạng nhằm bảo vệ an ninh quốc gia và bảo đảm trật tự, an toàn xã hội.\n3. Bộ Công an chủ trì, phối hợp với Bộ, ngành có liên quan thực hiện đấu tranh bảo vệ an ninh mạng.\nChương IV HOẠT ĐỘNG BẢO VỆ AN NINH MẠNG",
+          "metadata": {
+            "chapter": 3,
+            "chapter_title": "PHÒNG NGỪA, XỬ LÝ HÀNH VI XÂM PHẠM AN NINH MẠNG"
+          },
+          "score": 0.3733926694235528,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-anm-2018-p4-p1",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 4,
+          "text": "4. Chủ động phòng ngừa, phát hiện, ngăn chặn, đấu tranh, làm thất bại mọi hoạt động sử dụng không gian mạng xâm phạm an ninh quốc gia, trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân; sẵn sàng ngăn chặn các nguy cơ đe dọa an ninh mạng.\n5. Triển khai hoạt động bảo vệ an ninh mạng đối với cơ sở hạ tầng không gian mạng quốc gia; áp dụng các biện pháp bảo vệ hệ thống thông tin quan trọng về an ninh quốc gia.",
+          "metadata": {
+            "chapter": 1,
+            "chapter_title": "NHỮNG QUY ĐỊNH CHUNG"
+          },
+          "score": 0.3660348120386788,
+          "strategy": "tfidf"
+        }
+      ]
+    }
+  ],
+  "answer": "Đấu tranh bảo vệ an ninh mạng là hoạt động có tổ chức do lực lượng chuyên trách bảo vệ an ninh mạng thực hiện trên không gian mạng nhằm bảo vệ an ninh quốc gia và bảo đảm trật tự, an toàn xã hội. Nội dung của đấu tranh bảo vệ an ninh mạng bao gồm tổ chức nắm tình hình có liên quan đến hoạt động bảo vệ an ninh quốc gia, phòng, chống tấn công và bảo vệ hoạt động ổn định của hệ thống thông tin quan trọng về an ninh quốc gia [luat-anm-2018-p22-p0].",
+  "citations": [
+    "luat-anm-2018-p22-p0"
+  ],
+  "invalid_citations": [],
+  "elapsed_ms": 3830.0065000075847,
+  "llm_prompt_tokens": 480,
+  "llm_completion_tokens": 152
+}

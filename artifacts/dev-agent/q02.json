@@ -1,0 +1,29 @@
+{
+  "query_id": "q02",
+  "status": "pending_review",
+  "question": "Luật An ninh mạng điều chỉnh những nội dung gì?",
+  "model": "openai/gpt-4o-mini",
+  "events": [
+    {
+      "event": "search",
+      "tool": "search_documents",
+      "model_query": "Luật An ninh mạng điều chỉnh những nội dung gì?",
+      "actual_query": "Luật An ninh mạng điều chỉnh những nội dung gì?",
+      "context_ids": [
+        "luat-anm-2018-p1-p0",
+        "luat-anm-2018-p21-p1",
+        "luat-anm-2018-p1-p1"
+      ],
+      "context": "[luat-anm-2018-p1-p0 | data\\24-2018-qh14.pdf | page 1]\nQUỐC HỘI CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc Luật số: 24/2018/QH14 LUẬT AN NINH MẠNG Căn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam; Quốc hội ban hành Luật An ninh mạng.\nChương I NHỮNG QUY ĐỊNH CHUNG\nĐiều 1. Phạm vi điều chỉnh Luật này quy định về hoạt động bảo vệ an ninh quốc gia và bảo đảm trật tự, an toàn xã hội trên không gian mạng; trách nhiệm của cơ quan, tổ chức, cá nhân có liên quan.\n\n[luat-anm-2018-p21-p1 | data\\24-2018-qh14.pdf | page 21]\nd) Phân tích, đánh giá thông tin, dự báo khả năng, phạm vi ảnh hưởng và mức độ thiệt hại do tình huống nguy hiểm về an ninh mạng gây ra;\nđ) Ngừng cung cấp thông tin mạng tại khu vực cụ thể hoặc ngắt cổng kết nối mạng quốc tế;\ne) Bố trí lực lượng, phương tiện ngăn chặn, loại bỏ tình huống nguy hiểm về an ninh mạng;\ng) Biện pháp khác theo quy định của Luật An ninh quốc gia.\n4. Việc xử lý tình huống nguy hiểm về an ninh mạng được quy định như sau:\n\n[luat-anm-2018-p1-p1 | data\\24-2018-qh14.pdf | page 1]\nĐiều 2. Giải thích từ ngữ Trong Luật này, các từ ngữ dưới đây được hiểu như sau:\n1. An ninh mạng là sự bảo đảm hoạt động trên không gian mạng không gây phương hại đến an ninh quốc gia, trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân.\n2. Bảo vệ an ninh mạng là phòng ngừa, phát hiện, ngăn chặn, xử lý hành vi xâm phạm an ninh mạng."
+    }
+  ],
+  "answer": "Luật An ninh mạng Điều 1 quy định về phạm vi điều chỉnh của luật này, bao gồm các nội dung liên quan đến hoạt động bảo vệ an ninh quốc gia và bảo đảm trật tự, an toàn xã hội trên không gian mạng, cũng như trách nhiệm của các cơ quan, tổ chức, cá nhân có liên quan [luat-anm-2018-p1-p0]. \n\nNgoài ra, Luật An ninh mạng còn nêu rõ các định nghĩa và khái niệm, trong đó \"an ninh mạng\" được hiểu là sự bảo đảm hoạt động trên không gian mạng không gây phương hại đến an ninh quốc gia, trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân. Bảo vệ an ninh mạng bao gồm các hoạt động như phòng ngừa, phát hiện, ngăn chặn và xử lý hành vi xâm phạm an ninh mạng [luat-anm-2018-p1-p1].",
+  "citations": [
+    "luat-anm-2018-p1-p0",
+    "luat-anm-2018-p1-p1"
+  ],
+  "invalid_citations": [],
+  "elapsed_ms": 5295.709800004261,
+  "llm_prompt_tokens": 750,
+  "llm_completion_tokens": 239
+}

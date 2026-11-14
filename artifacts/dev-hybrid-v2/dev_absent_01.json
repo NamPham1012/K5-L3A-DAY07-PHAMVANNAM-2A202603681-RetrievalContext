@@ -1,0 +1,66 @@
+{
+  "query_id": "dev_absent_01",
+  "status": "pending_review",
+  "question": "Luật An ninh mạng năm 2018 quy định lệ phí cấp chứng chỉ an ninh mạng là bao nhiêu?",
+  "model": "openai/gpt-4o-mini",
+  "strategy": "hybrid",
+  "budget_chars": 1600,
+  "events": [
+    {
+      "event": "search",
+      "tool": "search_documents",
+      "model_query": "Lệ phí cấp chứng chỉ an ninh mạng",
+      "actual_query": "Luật An ninh mạng năm 2018 quy định lệ phí cấp chứng chỉ an ninh mạng là bao nhiêu?",
+      "context_ids": [
+        "luat-anm-2018-p29-p0",
+        "luat-anm-2018-p4-p2",
+        "luat-anm-2018-p31-p5"
+      ],
+      "context": "[luat-anm-2018-p29-p0 | data\\24-2018-qh14.pdf | page 29]\nĐiều 35. Kinh phí bảo vệ an ninh mạng\n1. Kinh phí bảo vệ an ninh mạng của cơ quan nhà nước, tổ chức chính trị do ngân sách nhà nước bảo đảm, được bố trí trong dự toán ngân sách nhà nước hàng năm. Việc quản lý, sử dụng kinh phí từ ngân sách nhà nước thực hiện theo quy định của pháp luật về ngân sách nhà nước.\n2. Kinh phí bảo vệ an ninh mạng cho hệ thống thông tin của cơ quan, tổ chức ngoài quy định tại khoản 1 Điều này do cơ quan, tổ chức tự bảo đảm.\n\n[luat-anm-2018-p4-p2 | data\\24-2018-qh14.pdf | page 4]\n6. Hệ thống thông tin quan trọng về an ninh quốc gia được thẩm định, chứng nhận đủ điều kiện về an ninh mạng trước khi đưa vào vận hành, sử dụng; thường xuyên kiểm tra, giám sát về an ninh mạng trong quá trình sử dụng và kịp thời ứng phó, khắc phục sự cố an ninh mạng.\n7. Mọi hành vi vi phạm pháp luật về an ninh mạng phải được xử lý kịp thời, nghiêm minh.\nĐiều 5. Biện pháp bảo vệ an ninh mạng\n1. Biện pháp bảo vệ an ninh mạng bao gồm:\na) Thẩm định an ninh mạng;\nb) Đánh giá điều kiện an ninh mạng;\n\n[luat-anm-2018-p31-p5 | data\\24-2018-qh14.pdf | page 31]\nd) Phối hợp, tạo điều kiện cho lực lượng chuyên trách bảo vệ an ninh mạng trong bảo vệ an ninh mạng.\n2. Doanh nghiệp cung cấp dịch vụ trên mạng viễn thông, mạng Internet, các dịch vụ gia tăng trên không gian mạng tại Việt Nam có trách nhiệm thực hiện quy định tại khoản 1 Điều này, khoản 2 và khoản 3 Điều 26 của Luật này.\nĐiều 42. Trách nhiệm của cơ quan, tổ chức, cá nhân sử dụng không gian mạng\n1. Tuân thủ quy định của pháp luật về an ninh mạng.",
+      "results": [
+        {
+          "id": "luat-anm-2018-p29-p0",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 29,
+          "text": "Điều 35. Kinh phí bảo vệ an ninh mạng\n1. Kinh phí bảo vệ an ninh mạng của cơ quan nhà nước, tổ chức chính trị do ngân sách nhà nước bảo đảm, được bố trí trong dự toán ngân sách nhà nước hàng năm. Việc quản lý, sử dụng kinh phí từ ngân sách nhà nước thực hiện theo quy định của pháp luật về ngân sách nhà nước.\n2. Kinh phí bảo vệ an ninh mạng cho hệ thống thông tin của cơ quan, tổ chức ngoài quy định tại khoản 1 Điều này do cơ quan, tổ chức tự bảo đảm.",
+          "metadata": {
+            "chapter": 6,
+            "chapter_title": "TRÁCH NHIỆM CỦA CƠ QUAN, TỔ CHỨC, CÁ NHÂN"
+          },
+          "score": 0.03252247488101534
+        },
+        {
+          "id": "luat-anm-2018-p4-p2",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 4,
+          "text": "6. Hệ thống thông tin quan trọng về an ninh quốc gia được thẩm định, chứng nhận đủ điều kiện về an ninh mạng trước khi đưa vào vận hành, sử dụng; thường xuyên kiểm tra, giám sát về an ninh mạng trong quá trình sử dụng và kịp thời ứng phó, khắc phục sự cố an ninh mạng.\n7. Mọi hành vi vi phạm pháp luật về an ninh mạng phải được xử lý kịp thời, nghiêm minh.\nĐiều 5. Biện pháp bảo vệ an ninh mạng\n1. Biện pháp bảo vệ an ninh mạng bao gồm:\na) Thẩm định an ninh mạng;\nb) Đánh giá điều kiện an ninh mạng;",
+          "metadata": {
+            "chapter": 1,
+            "chapter_title": "NHỮNG QUY ĐỊNH CHUNG"
+          },
+          "score": 0.031746031746031744
+        },
+        {
+          "id": "luat-anm-2018-p31-p5",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 31,
+          "text": "d) Phối hợp, tạo điều kiện cho lực lượng chuyên trách bảo vệ an ninh mạng trong bảo vệ an ninh mạng.\n2. Doanh nghiệp cung cấp dịch vụ trên mạng viễn thông, mạng Internet, các dịch vụ gia tăng trên không gian mạng tại Việt Nam có trách nhiệm thực hiện quy định tại khoản 1 Điều này, khoản 2 và khoản 3 Điều 26 của Luật này.\nĐiều 42. Trách nhiệm của cơ quan, tổ chức, cá nhân sử dụng không gian mạng\n1. Tuân thủ quy định của pháp luật về an ninh mạng.",
+          "metadata": {
+            "chapter": 6,
+            "chapter_title": "TRÁCH NHIỆM CỦA CƠ QUAN, TỔ CHỨC, CÁ NHÂN"
+          },
+          "score": 0.01639344262295082
+        }
+      ]
+    }
+  ],
+  "answer": "Không đủ bằng chứng về lệ phí cấp chứng chỉ an ninh mạng trong Luật An ninh mạng năm 2018.",
+  "citations": [],
+  "invalid_citations": [],
+  "elapsed_ms": 3413.9289000013378,
+  "llm_prompt_tokens": 826,
+  "llm_completion_tokens": 49
+}

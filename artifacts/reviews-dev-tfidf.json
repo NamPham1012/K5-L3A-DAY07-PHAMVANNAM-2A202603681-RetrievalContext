@@ -1,0 +1,21 @@
+[
+ {"query_id":"q01","answer_grade":2,"citation_support":[true],"reason":"Định nghĩa trong p1-p1."},
+ {"query_id":"q02","answer_grade":2,"citation_support":[true],"reason":"Phạm vi điều chỉnh trong p1-p0."},
+ {"query_id":"q03","answer_grade":0,"citation_support":[false,false],"reason":"Nhầm vi phạm pháp luật nói chung thành định nghĩa tấn công mạng; citation thứ hai không hỗ trợ khẳng định."},
+ {"query_id":"q04","answer_grade":0,"citation_support":[],"reason":"Từ chối dù tài liệu có định nghĩa."},
+ {"query_id":"q05","answer_grade":2,"citation_support":[true],"reason":"Định nghĩa trong p2-p3."},
+ {"query_id":"q06","answer_grade":2,"citation_support":[true],"reason":"Định nghĩa trong p3-p0."},
+ {"query_id":"q07","answer_grade":1,"citation_support":[true],"reason":"Mô tả một phần nội dung thẩm định cụ thể, chưa nêu định nghĩa đầy đủ."},
+ {"query_id":"q08","answer_grade":2,"citation_support":[true],"reason":"Điều kiện sự cố và 12 giờ trong p11-p3."},
+ {"query_id":"q09","answer_grade":2,"citation_support":[true],"reason":"Định nghĩa giám sát trong p12-p2."},
+ {"query_id":"q10","answer_grade":0,"citation_support":[false],"reason":"Lặp tiêu đề, không đưa ra hành vi ví dụ hay định nghĩa có ý nghĩa."},
+ {"query_id":"q11","answer_grade":1,"citation_support":[false],"reason":"Một ví dụ đúng nhưng gộp tiêu đề các nhóm khác thành cùng loại thông tin."},
+ {"query_id":"q12","answer_grade":0,"citation_support":[false],"reason":"Đoạn p15-p1 nói thông tin vi phạm, không phải trách nhiệm phát hiện mã độc."},
+ {"query_id":"q13","answer_grade":2,"citation_support":[true],"reason":"Thời hạn 24 giờ tại p25-p1."},
+ {"query_id":"q14","answer_grade":2,"citation_support":[true],"reason":"Vị trí lưu dữ liệu và phạm vi tại p25-p4."},
+ {"query_id":"q15","answer_grade":2,"citation_support":[true],"reason":"Hai bộ trong p27-p2."},
+ {"query_id":"q16","answer_grade":0,"citation_support":[false],"reason":"Đưa ra định nghĩa không có trong context rồi nói thiếu bằng chứng; không tính là từ chối sạch."},
+ {"query_id":"q17","answer_grade":2,"citation_support":[true],"reason":"Định nghĩa và nội dung bổ sung được p22-p0 hỗ trợ."},
+ {"query_id":"dev_absent_01","abstention_correct":true,"citation_support":[],"reason":"Agent từ chối; xác nhận dựa trên trích xuất toàn văn, người học cần review."},
+ {"query_id":"dev_absent_02","abstention_correct":true,"citation_support":[],"reason":"Agent từ chối; xác nhận dựa trên trích xuất toàn văn, người học cần review."}
+]

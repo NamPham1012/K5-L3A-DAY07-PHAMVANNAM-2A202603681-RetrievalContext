@@ -1,0 +1,69 @@
+{
+  "query_id": "q07",
+  "status": "pending_review",
+  "question": "Thẩm định an ninh mạng là hoạt động gì?",
+  "model": "openai/gpt-4o-mini",
+  "strategy": "tfidf",
+  "budget_chars": 800,
+  "events": [
+    {
+      "event": "search",
+      "tool": "search_documents",
+      "model_query": "Thẩm định an ninh mạng là hoạt động gì?",
+      "actual_query": "Thẩm định an ninh mạng là hoạt động gì?",
+      "context_ids": [
+        "luat-anm-2018-p9-p0"
+      ],
+      "context": "[luat-anm-2018-p9-p0 | data\\24-2018-qh14.pdf | page 9]\n3. Nội dung thẩm định an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia bao gồm:\na) Việc tuân thủ quy định, điều kiện an ninh mạng trong thiết kế;\nb) Sự phù hợp với phương án bảo vệ, ứng phó, khắc phục sự cố và bố trí nhân lực bảo vệ an ninh mạng.\n4. Thẩm quyền thẩm định an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia được quy định như sau:",
+      "results": [
+        {
+          "id": "luat-anm-2018-p9-p0",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 9,
+          "text": "3. Nội dung thẩm định an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia bao gồm:\na) Việc tuân thủ quy định, điều kiện an ninh mạng trong thiết kế;\nb) Sự phù hợp với phương án bảo vệ, ứng phó, khắc phục sự cố và bố trí nhân lực bảo vệ an ninh mạng.\n4. Thẩm quyền thẩm định an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia được quy định như sau:",
+          "metadata": {
+            "chapter": 2,
+            "chapter_title": "BẢO VỆ AN NINH MẠNG ĐỐI VỚI HỆ THỐNG THÔNG TIN"
+          },
+          "score": 0.3852736384518133,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-anm-2018-p9-p1",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 9,
+          "text": "a) Lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an thẩm định an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia, trừ trường hợp quy định tại điểm b và điểm c khoản này;\nb) Lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Quốc phòng thẩm định an ninh mạng đối với hệ thống thông tin quân sự;\nc) Ban Cơ yếu Chính phủ thẩm định an ninh mạng đối với hệ thống thông tin cơ yếu thuộc Ban Cơ yếu Chính phủ.",
+          "metadata": {
+            "chapter": 2,
+            "chapter_title": "BẢO VỆ AN NINH MẠNG ĐỐI VỚI HỆ THỐNG THÔNG TIN"
+          },
+          "score": 0.358021614082165,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-anm-2018-p28-p0",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 28,
+          "text": "3. Khi xảy ra tình huống nguy hiểm về an ninh mạng, khủng bố mạng, tấn công mạng, sự cố an ninh mạng hoặc nguy cơ đe dọa an ninh mạng, cơ quan nhà nước có thẩm quyền quyết định huy động nhân lực bảo vệ an ninh mạng. Thẩm quyền, trách nhiệm, trình tự, thủ tục huy động nhân lực bảo vệ an ninh mạng được thực hiện theo quy định của Luật An ninh quốc gia, Luật Quốc phòng, Luật Công an nhân dân và quy định khác của pháp luật có liên quan.",
+          "metadata": {
+            "chapter": 5,
+            "chapter_title": "BẢO ĐẢM HOẠT ĐỘNG BẢO VỆ AN NINH MẠNG"
+          },
+          "score": 0.35764260333999326,
+          "strategy": "tfidf"
+        }
+      ]
+    }
+  ],
+  "answer": "Thẩm định an ninh mạng là hoạt động đánh giá sự tuân thủ quy định, điều kiện an ninh mạng trong thiết kế hệ thống thông tin, cũng như sự phù hợp với phương án bảo vệ, ứng phó, khắc phục sự cố và bố trí nhân lực bảo vệ an ninh mạng. Điều này được nêu rõ trong nội dung thẩm định an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia [luat-anm-2018-p9-p0].",
+  "citations": [
+    "luat-anm-2018-p9-p0"
+  ],
+  "invalid_citations": [],
+  "elapsed_ms": 3397.0052000076976,
+  "llm_prompt_tokens": 449,
+  "llm_completion_tokens": 133
+}

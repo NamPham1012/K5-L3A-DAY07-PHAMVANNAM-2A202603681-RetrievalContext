@@ -1,0 +1,18 @@
+[
+  {
+    "id": "dev_absent_01",
+    "split": "dev",
+    "question": "Luật An ninh mạng năm 2018 quy định lệ phí cấp chứng chỉ an ninh mạng là bao nhiêu?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Kiểm tra sơ bộ toàn bộ chunk B: không thấy cụm 'lệ phí' hoặc 'chứng chỉ'. Cần đọc đối chiếu toàn văn trước khi chốt nhãn."
+  },
+  {
+    "id": "dev_absent_02",
+    "split": "dev",
+    "question": "Luật An ninh mạng năm 2018 quy định mật khẩu tài khoản phải có tối thiểu bao nhiêu ký tự?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Kiểm tra sơ bộ toàn bộ chunk B: không thấy cụm 'mật khẩu' hoặc 'ký tự'. Cần đọc đối chiếu toàn văn trước khi chốt nhãn."
+  }
+]

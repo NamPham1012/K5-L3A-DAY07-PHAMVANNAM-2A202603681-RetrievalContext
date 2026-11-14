@@ -1,0 +1,69 @@
+{
+  "query_id": "q11",
+  "status": "pending_review",
+  "question": "Thông tin tuyên truyền chống Nhà nước gồm hành vi nào?",
+  "model": "openai/gpt-4o-mini",
+  "strategy": "tfidf",
+  "budget_chars": 800,
+  "events": [
+    {
+      "event": "search",
+      "tool": "search_documents",
+      "model_query": "Thông tin tuyên truyền chống Nhà nước",
+      "actual_query": "Thông tin tuyên truyền chống Nhà nước gồm hành vi nào?",
+      "context_ids": [
+        "luat-anm-2018-p14-p0"
+      ],
+      "context": "[luat-anm-2018-p14-p0 | data\\24-2018-qh14.pdf | page 14]\nChương III PHÒNG NGỪA, XỬ LÝ HÀNH VI XÂM PHẠM AN NINH MẠNG\nĐiều 16. Phòng ngừa, xử lý thông tin trên không gian mạng có nội dung tuyên truyền chống Nhà nước Cộng hòa xã hội chủ nghĩa Việt Nam; kích động gây bạo loạn, phá rối an ninh, gây rối trật tự công cộng; làm nhục, vu khống; xâm phạm trật tự quản lý kinh tế\n1. Thông tin trên không gian mạng có nội dung tuyên truyền chống Nhà nước Cộng hòa xã hội chủ nghĩa Việt Nam bao gồm:\na) Tuyên truyền xuyên tạc, phỉ báng chính quyền nhân dân;",
+      "results": [
+        {
+          "id": "luat-anm-2018-p14-p0",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 14,
+          "text": "Chương III PHÒNG NGỪA, XỬ LÝ HÀNH VI XÂM PHẠM AN NINH MẠNG\nĐiều 16. Phòng ngừa, xử lý thông tin trên không gian mạng có nội dung tuyên truyền chống Nhà nước Cộng hòa xã hội chủ nghĩa Việt Nam; kích động gây bạo loạn, phá rối an ninh, gây rối trật tự công cộng; làm nhục, vu khống; xâm phạm trật tự quản lý kinh tế\n1. Thông tin trên không gian mạng có nội dung tuyên truyền chống Nhà nước Cộng hòa xã hội chủ nghĩa Việt Nam bao gồm:\na) Tuyên truyền xuyên tạc, phỉ báng chính quyền nhân dân;",
+          "metadata": {
+            "chapter": 3,
+            "chapter_title": "PHÒNG NGỪA, XỬ LÝ HÀNH VI XÂM PHẠM AN NINH MẠNG"
+          },
+          "score": 0.3809253239711485,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-anm-2018-p30-p2",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 30,
+          "text": "Điều 38. Trách nhiệm của Bộ Thông tin và Truyền thông\n1. Phối hợp với Bộ Công an, Bộ Quốc phòng trong bảo vệ an ninh mạng.\n2. Phối hợp với các cơ quan liên quan tổ chức tuyên truyền, phản bác thông tin có nội dung chống Nhà nước Cộng hòa xã hội chủ nghĩa Việt Nam quy định tại khoản 1 Điều 16 của Luật này.",
+          "metadata": {
+            "chapter": 6,
+            "chapter_title": "TRÁCH NHIỆM CỦA CƠ QUAN, TỔ CHỨC, CÁ NHÂN"
+          },
+          "score": 0.28937334263691017,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-anm-2018-p23-p3",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 23,
+          "text": "b) Thông tin được lưu trữ, xử lý, truyền đưa trong hệ thống thông tin;\nc) Biện pháp bảo vệ bí mật nhà nước và phòng, chống lộ, mất bí mật nhà nước qua các kênh kỹ thuật.\n3. Chủ quản hệ thống thông tin có trách nhiệm thông báo cho lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an khi phát hiện hành vi vi phạm pháp luật về an ninh mạng trên hệ thống thông tin thuộc phạm vi quản lý.",
+          "metadata": {
+            "chapter": 4,
+            "chapter_title": "HOẠT ĐỘNG BẢO VỆ AN NINH MẠNG"
+          },
+          "score": 0.26761307936044476,
+          "strategy": "tfidf"
+        }
+      ]
+    }
+  ],
+  "answer": "Thông tin tuyên truyền chống Nhà nước gồm các hành vi như sau: \"tuyên truyền xuyên tạc, phỉ báng chính quyền nhân dân\" và \"kích động gây bạo loạn, phá rối an ninh, gây rối trật tự công cộng; làm nhục, vu khống; xâm phạm trật tự quản lý kinh tế\" [luat-anm-2018-p14-p0].",
+  "citations": [
+    "luat-anm-2018-p14-p0"
+  ],
+  "invalid_citations": [],
+  "elapsed_ms": 3453.918299986981,
+  "llm_prompt_tokens": 496,
+  "llm_completion_tokens": 112
+}

@@ -1,0 +1,70 @@
+{
+  "query_id": "q14",
+  "status": "pending_review",
+  "question": "Doanh nghiệp xử lý dữ liệu người dùng tại Việt Nam phải lưu dữ liệu ở đâu?",
+  "model": "openai/gpt-4o-mini",
+  "strategy": "tfidf",
+  "budget_chars": 800,
+  "events": [
+    {
+      "event": "search",
+      "tool": "search_documents",
+      "model_query": "Doanh nghiệp xử lý dữ liệu người dùng tại Việt Nam phải lưu dữ liệu ở đâu?",
+      "actual_query": "Doanh nghiệp xử lý dữ liệu người dùng tại Việt Nam phải lưu dữ liệu ở đâu?",
+      "context_ids": [
+        "luat-anm-2018-p25-p4",
+        "luat-anm-2018-p7-p2"
+      ],
+      "context": "[luat-anm-2018-p25-p4 | data\\24-2018-qh14.pdf | page 25]\n3. Doanh nghiệp trong nước và ngoài nước cung cấp dịch vụ trên mạng viễn thông, mạng Internet, các dịch vụ gia tăng trên không gian mạng tại Việt Nam có hoạt động thu thập, khai thác, phân tích, xử lý dữ liệu về thông tin cá nhân, dữ liệu về mối quan hệ của người sử dụng dịch vụ, dữ liệu do người sử dụng dịch vụ tại Việt Nam tạo ra phải lưu trữ dữ liệu này tại Việt Nam trong thời gian theo quy định của Chính phủ. Doanh nghiệp ngoài nước quy định tại khoản này phải đặt chi nhánh hoặc văn phòng đạ\n\n[luat-anm-2018-p7-p2 | data\\24-2018-qh14.pdf | page 7]\nệ thống xử lý và điều khiển thông tin, cơ sở dữ liệu, phương tiện điện tử của người khác.",
+      "results": [
+        {
+          "id": "luat-anm-2018-p25-p4",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 25,
+          "text": "3. Doanh nghiệp trong nước và ngoài nước cung cấp dịch vụ trên mạng viễn thông, mạng Internet, các dịch vụ gia tăng trên không gian mạng tại Việt Nam có hoạt động thu thập, khai thác, phân tích, xử lý dữ liệu về thông tin cá nhân, dữ liệu về mối quan hệ của người sử dụng dịch vụ, dữ liệu do người sử dụng dịch vụ tại Việt Nam tạo ra phải lưu trữ dữ liệu này tại Việt Nam trong thời gian theo quy định của Chính phủ. Doanh nghiệp ngoài nước quy định tại khoản này phải đặt chi nhánh hoặc văn phòng đạ",
+          "metadata": {
+            "chapter": 4,
+            "chapter_title": "HOẠT ĐỘNG BẢO VỆ AN NINH MẠNG"
+          },
+          "score": 0.5862706862972163,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-anm-2018-p7-p2",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 7,
+          "text": "ệ thống xử lý và điều khiển thông tin, cơ sở dữ liệu, phương tiện điện tử của người khác.",
+          "metadata": {
+            "chapter": 1,
+            "chapter_title": "NHỮNG QUY ĐỊNH CHUNG"
+          },
+          "score": 0.33035379454519354,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-anm-2018-p25-p0",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 25,
+          "text": "a) Xác thực thông tin khi người dùng đăng ký tài khoản số; bảo mật thông tin, tài khoản của người dùng; cung cấp thông tin người dùng cho lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an khi có yêu cầu bằng văn bản để phục vụ điều tra, xử lý hành vi vi phạm pháp luật về an ninh mạng;",
+          "metadata": {
+            "chapter": 4,
+            "chapter_title": "HOẠT ĐỘNG BẢO VỆ AN NINH MẠNG"
+          },
+          "score": 0.25512414348604684,
+          "strategy": "tfidf"
+        }
+      ]
+    }
+  ],
+  "answer": "Doanh nghiệp trong nước và ngoài nước cung cấp dịch vụ trên mạng tại Việt Nam phải lưu trữ dữ liệu về thông tin cá nhân và dữ liệu do người sử dụng dịch vụ tại Việt Nam tạo ra tại Việt Nam, trong thời gian theo quy định của Chính phủ [luat-anm-2018-p25-p4].",
+  "citations": [
+    "luat-anm-2018-p25-p4"
+  ],
+  "invalid_citations": [],
+  "elapsed_ms": 4473.723300005076,
+  "llm_prompt_tokens": 536,
+  "llm_completion_tokens": 100
+}

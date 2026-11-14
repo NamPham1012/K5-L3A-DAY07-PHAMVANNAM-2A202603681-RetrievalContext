@@ -1,0 +1,28 @@
+{
+  "query_id": "q01",
+  "status": "pending_review",
+  "question": "An ninh mạng là gì?",
+  "model": "openai/gpt-4o-mini",
+  "events": [
+    {
+      "event": "search",
+      "tool": "search_documents",
+      "model_query": "An ninh mạng là gì?",
+      "actual_query": "An ninh mạng là gì?",
+      "context_ids": [
+        "luat-anm-2018-p1-p1",
+        "luat-anm-2018-p12-p2",
+        "luat-anm-2018-p3-p1"
+      ],
+      "context": "[luat-anm-2018-p1-p1 | data\\24-2018-qh14.pdf | page 1]\nĐiều 2. Giải thích từ ngữ Trong Luật này, các từ ngữ dưới đây được hiểu như sau:\n1. An ninh mạng là sự bảo đảm hoạt động trên không gian mạng không gây phương hại đến an ninh quốc gia, trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân.\n2. Bảo vệ an ninh mạng là phòng ngừa, phát hiện, ngăn chặn, xử lý hành vi xâm phạm an ninh mạng.\n\n[luat-anm-2018-p12-p2 | data\\24-2018-qh14.pdf | page 12]\n1. Giám sát an ninh mạng là hoạt động thu thập, phân tích tình hình nhằm xác định nguy cơ đe dọa an ninh mạng, sự cố an ninh mạng, điểm yếu, lỗ hổng bảo mật, mã độc, phần cứng độc hại để cảnh báo, khắc phục, xử lý.\n\n[luat-anm-2018-p3-p1 | data\\24-2018-qh14.pdf | page 3]\n13. Sự cố an ninh mạng là sự việc bất ngờ xảy ra trên không gian mạng xâm phạm an ninh quốc gia, trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân.\n14. Tình huống nguy hiểm về an ninh mạng là sự việc xảy ra trên không gian mạng khi có hành vi xâm phạm nghiêm trọng an ninh quốc gia, gây tổn hại đặc biệt nghiêm trọng trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân.\nĐiều 3. Chính sách của Nhà nước về an ninh mạng"
+    }
+  ],
+  "answer": "An ninh mạng là sự bảo đảm hoạt động trên không gian mạng không gây phương hại đến an ninh quốc gia, trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân. Bảo vệ an ninh mạng bao gồm các hoạt động như phòng ngừa, phát hiện, ngăn chặn và xử lý hành vi xâm phạm an ninh mạng [luat-anm-2018-p1-p1].",
+  "citations": [
+    "luat-anm-2018-p1-p1"
+  ],
+  "invalid_citations": [],
+  "elapsed_ms": 5823.546599975089,
+  "llm_prompt_tokens": 652,
+  "llm_completion_tokens": 120
+}

@@ -1,0 +1,70 @@
+{
+  "query_id": "q09",
+  "status": "pending_review",
+  "question": "Giám sát an ninh mạng là hoạt động gì?",
+  "model": "openai/gpt-4o-mini",
+  "strategy": "tfidf",
+  "budget_chars": 800,
+  "events": [
+    {
+      "event": "search",
+      "tool": "search_documents",
+      "model_query": "Giám sát an ninh mạng là hoạt động gì?",
+      "actual_query": "Giám sát an ninh mạng là hoạt động gì?",
+      "context_ids": [
+        "luat-anm-2018-p12-p2",
+        "luat-anm-2018-p12-p1"
+      ],
+      "context": "[luat-anm-2018-p12-p2 | data\\24-2018-qh14.pdf | page 12]\n1. Giám sát an ninh mạng là hoạt động thu thập, phân tích tình hình nhằm xác định nguy cơ đe dọa an ninh mạng, sự cố an ninh mạng, điểm yếu, lỗ hổng bảo mật, mã độc, phần cứng độc hại để cảnh báo, khắc phục, xử lý.\n\n[luat-anm-2018-p12-p1 | data\\24-2018-qh14.pdf | page 12]\nd) Chủ quản hệ thống thông tin quan trọng về an ninh quốc gia có trách nhiệm phối hợp với lực lượng chuyên trách bảo vệ an ninh mạng tiến hành kiểm tra an ninh mạng đột xuất.\n6. Kết quả kiểm tra an ninh mạng được bảo mật theo quy định của pháp luật.\nĐiều 14. Giám sát an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia",
+      "results": [
+        {
+          "id": "luat-anm-2018-p12-p2",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 12,
+          "text": "1. Giám sát an ninh mạng là hoạt động thu thập, phân tích tình hình nhằm xác định nguy cơ đe dọa an ninh mạng, sự cố an ninh mạng, điểm yếu, lỗ hổng bảo mật, mã độc, phần cứng độc hại để cảnh báo, khắc phục, xử lý.",
+          "metadata": {
+            "chapter": 2,
+            "chapter_title": "BẢO VỆ AN NINH MẠNG ĐỐI VỚI HỆ THỐNG THÔNG TIN"
+          },
+          "score": 0.38555846961315204,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-anm-2018-p12-p1",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 12,
+          "text": "d) Chủ quản hệ thống thông tin quan trọng về an ninh quốc gia có trách nhiệm phối hợp với lực lượng chuyên trách bảo vệ an ninh mạng tiến hành kiểm tra an ninh mạng đột xuất.\n6. Kết quả kiểm tra an ninh mạng được bảo mật theo quy định của pháp luật.\nĐiều 14. Giám sát an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia",
+          "metadata": {
+            "chapter": 2,
+            "chapter_title": "BẢO VỆ AN NINH MẠNG ĐỐI VỚI HỆ THỐNG THÔNG TIN"
+          },
+          "score": 0.2959979839196506,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-anm-2018-p9-p3",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 9,
+          "text": "b) Bảo đảm an ninh mạng đối với trang thiết bị, phần cứng, phần mềm là thành phần hệ thống;\nc) Biện pháp kỹ thuật để giám sát, bảo vệ an ninh mạng; biện pháp bảo vệ hệ thống điều khiển và giám sát tự động, Internet vạn vật, hệ thống phức hợp thực - ảo, điện toán đám mây, hệ thống dữ liệu lớn, hệ thống dữ liệu nhanh, hệ thống trí tuệ nhân tạo;\nd) Biện pháp bảo đảm an ninh vật lý bao gồm cách ly cô lập đặc biệt, chống rò rỉ dữ liệu, chống thu tin, kiểm soát ra vào.",
+          "metadata": {
+            "chapter": 2,
+            "chapter_title": "BẢO VỆ AN NINH MẠNG ĐỐI VỚI HỆ THỐNG THÔNG TIN"
+          },
+          "score": 0.27210730012543455,
+          "strategy": "tfidf"
+        }
+      ]
+    }
+  ],
+  "answer": "Giám sát an ninh mạng là hoạt động thu thập, phân tích tình hình nhằm xác định nguy cơ đe dọa an ninh mạng, sự cố an ninh mạng, điểm yếu, lỗ hổng bảo mật, mã độc, phần cứng độc hại để cảnh báo, khắc phục, xử lý [luat-anm-2018-p12-p2].",
+  "citations": [
+    "luat-anm-2018-p12-p2"
+  ],
+  "invalid_citations": [],
+  "elapsed_ms": 3378.1127000111155,
+  "llm_prompt_tokens": 527,
+  "llm_completion_tokens": 107
+}

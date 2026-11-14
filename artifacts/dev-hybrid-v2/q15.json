@@ -1,0 +1,69 @@
+{
+  "query_id": "q15",
+  "status": "pending_review",
+  "question": "Lực lượng chuyên trách bảo vệ an ninh mạng được bố trí ở đâu?",
+  "model": "openai/gpt-4o-mini",
+  "strategy": "hybrid",
+  "budget_chars": 1600,
+  "events": [
+    {
+      "event": "search",
+      "tool": "search_documents",
+      "model_query": "Lực lượng chuyên trách bảo vệ an ninh mạng được bố trí ở đâu?",
+      "actual_query": "Lực lượng chuyên trách bảo vệ an ninh mạng được bố trí ở đâu?",
+      "context_ids": [
+        "luat-anm-2018-p27-p3",
+        "luat-anm-2018-p27-p2",
+        "luat-anm-2018-p23-p4"
+      ],
+      "context": "[luat-anm-2018-p27-p3 | data\\24-2018-qh14.pdf | page 27]\n2. Lực lượng bảo vệ an ninh mạng được bố trí tại Bộ, ngành, Ủy ban nhân dân cấp tỉnh, cơ quan, tổ chức quản lý trực tiếp hệ thống thông tin quan trọng về an ninh quốc gia.\n3. Tổ chức, cá nhân được huy động tham gia bảo vệ an ninh mạng.\nĐiều 31. Bảo đảm nguồn nhân lực bảo vệ an ninh mạng\n1. Công dân Việt Nam có kiến thức về an ninh mạng, an toàn thông tin mạng, công nghệ thông tin là nguồn lực cơ bản, chủ yếu bảo vệ an ninh mạng.\n\n[luat-anm-2018-p27-p2 | data\\24-2018-qh14.pdf | page 27]\n5. Lực lượng chuyên trách bảo vệ an ninh mạng và các cơ quan chức năng có trách nhiệm áp dụng biện pháp để phòng ngừa, phát hiện, ngăn chặn, xử lý nghiêm hành vi sử dụng không gian mạng gây nguy hại cho trẻ em, xâm phạm đến trẻ em, quyền trẻ em.\nChương V BẢO ĐẢM HOẠT ĐỘNG BẢO VỆ AN NINH MẠNG\nĐiều 30. Lực lượng bảo vệ an ninh mạng\n1. Lực lượng chuyên trách bảo vệ an ninh mạng được bố trí tại Bộ Công an, Bộ Quốc phòng.\n\n[luat-anm-2018-p23-p4 | data\\24-2018-qh14.pdf | page 23]\n4. Lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an tiến hành kiểm tra an ninh mạng đối với hệ thống thông tin của cơ quan, tổ chức trong các trường hợp quy định tại khoản 1 Điều này.",
+      "results": [
+        {
+          "id": "luat-anm-2018-p27-p3",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 27,
+          "text": "2. Lực lượng bảo vệ an ninh mạng được bố trí tại Bộ, ngành, Ủy ban nhân dân cấp tỉnh, cơ quan, tổ chức quản lý trực tiếp hệ thống thông tin quan trọng về an ninh quốc gia.\n3. Tổ chức, cá nhân được huy động tham gia bảo vệ an ninh mạng.\nĐiều 31. Bảo đảm nguồn nhân lực bảo vệ an ninh mạng\n1. Công dân Việt Nam có kiến thức về an ninh mạng, an toàn thông tin mạng, công nghệ thông tin là nguồn lực cơ bản, chủ yếu bảo vệ an ninh mạng.",
+          "metadata": {
+            "chapter": 4,
+            "chapter_title": "HOẠT ĐỘNG BẢO VỆ AN NINH MẠNG"
+          },
+          "score": 0.03252247488101534
+        },
+        {
+          "id": "luat-anm-2018-p27-p2",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 27,
+          "text": "5. Lực lượng chuyên trách bảo vệ an ninh mạng và các cơ quan chức năng có trách nhiệm áp dụng biện pháp để phòng ngừa, phát hiện, ngăn chặn, xử lý nghiêm hành vi sử dụng không gian mạng gây nguy hại cho trẻ em, xâm phạm đến trẻ em, quyền trẻ em.\nChương V BẢO ĐẢM HOẠT ĐỘNG BẢO VỆ AN NINH MẠNG\nĐiều 30. Lực lượng bảo vệ an ninh mạng\n1. Lực lượng chuyên trách bảo vệ an ninh mạng được bố trí tại Bộ Công an, Bộ Quốc phòng.",
+          "metadata": {
+            "chapter": 4,
+            "chapter_title": "HOẠT ĐỘNG BẢO VỆ AN NINH MẠNG"
+          },
+          "score": 0.01639344262295082
+        },
+        {
+          "id": "luat-anm-2018-p23-p4",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 23,
+          "text": "4. Lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an tiến hành kiểm tra an ninh mạng đối với hệ thống thông tin của cơ quan, tổ chức trong các trường hợp quy định tại khoản 1 Điều này.",
+          "metadata": {
+            "chapter": 4,
+            "chapter_title": "HOẠT ĐỘNG BẢO VỆ AN NINH MẠNG"
+          },
+          "score": 0.016129032258064516
+        }
+      ]
+    }
+  ],
+  "answer": "Lực lượng chuyên trách bảo vệ an ninh mạng được bố trí tại Bộ Công an, Bộ Quốc phòng, cũng như tại Bộ, ngành, Ủy ban nhân dân cấp tỉnh, cơ quan, tổ chức quản lý trực tiếp hệ thống thông tin quan trọng về an ninh quốc gia [luat-anm-2018-p27-p2], [luat-anm-2018-p27-p3].",
+  "citations": [
+    "luat-anm-2018-p27-p2",
+    "luat-anm-2018-p27-p3"
+  ],
+  "invalid_citations": [],
+  "elapsed_ms": 4677.066200005356,
+  "llm_prompt_tokens": 723,
+  "llm_completion_tokens": 116
+}

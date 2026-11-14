@@ -1,0 +1,68 @@
+{
+  "query_id": "test_new_05",
+  "status": "pending_review",
+  "question": "Ủy ban nhân dân cấp tỉnh có trách nhiệm gì về phổ biến kiến thức an ninh mạng tại địa phương?",
+  "model": "openai/gpt-4o-mini",
+  "strategy": "hybrid",
+  "budget_chars": 1600,
+  "events": [
+    {
+      "event": "search",
+      "tool": "search_documents",
+      "model_query": "Ủy ban nhân dân cấp tỉnh có trách nhiệm gì về phổ biến kiến thức an ninh mạng tại địa phương?",
+      "actual_query": "Ủy ban nhân dân cấp tỉnh có trách nhiệm gì về phổ biến kiến thức an ninh mạng tại địa phương?",
+      "context_ids": [
+        "luat-anm-2018-p28-p5",
+        "luat-anm-2018-p28-p4",
+        "luat-anm-2018-p31-p1"
+      ],
+      "context": "[luat-anm-2018-p28-p5 | data\\24-2018-qh14.pdf | page 28]\n3. Ủy ban nhân dân cấp tỉnh có trách nhiệm xây dựng và triển khai hoạt động phổ biến kiến thức, nâng cao nhận thức về an ninh mạng cho cơ quan, tổ chức, cá nhân của địa phương.\n\n[luat-anm-2018-p28-p4 | data\\24-2018-qh14.pdf | page 28]\n1. Nhà nước có chính sách phổ biến kiến thức về an ninh mạng trong phạm vi cả nước, khuyến khích cơ quan nhà nước phối hợp với tổ chức tư nhân, cá nhân thực hiện chương trình giáo dục và nâng cao nhận thức về an ninh mạng.\n2. Bộ, ngành, cơ quan, tổ chức có trách nhiệm xây dựng và triển khai hoạt động phổ biến kiến thức về an ninh mạng cho cán bộ, công chức, viên chức, người lao động trong Bộ, ngành, cơ quan, tổ chức.\n\n[luat-anm-2018-p31-p1 | data\\24-2018-qh14.pdf | page 31]\nĐiều 40. Trách nhiệm của Bộ, ngành, Ủy ban nhân dân cấp tỉnh Trong phạm vi nhiệm vụ, quyền hạn của mình, Bộ, ngành, Ủy ban nhân dân cấp tỉnh có trách nhiệm thực hiện công tác bảo vệ an ninh mạng đối với thông tin, hệ thống thông tin thuộc phạm vi quản lý; phối hợp với Bộ Công an thực hiện quản lý nhà nước về an ninh mạng của Bộ, ngành, địa phương.\nĐiều 41. Trách nhiệm của doanh nghiệp cung cấp dịch vụ trên không gian mạng",
+      "results": [
+        {
+          "id": "luat-anm-2018-p28-p5",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 28,
+          "text": "3. Ủy ban nhân dân cấp tỉnh có trách nhiệm xây dựng và triển khai hoạt động phổ biến kiến thức, nâng cao nhận thức về an ninh mạng cho cơ quan, tổ chức, cá nhân của địa phương.",
+          "metadata": {
+            "chapter": 5,
+            "chapter_title": "BẢO ĐẢM HOẠT ĐỘNG BẢO VỆ AN NINH MẠNG"
+          },
+          "score": 0.03278688524590164
+        },
+        {
+          "id": "luat-anm-2018-p28-p4",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 28,
+          "text": "1. Nhà nước có chính sách phổ biến kiến thức về an ninh mạng trong phạm vi cả nước, khuyến khích cơ quan nhà nước phối hợp với tổ chức tư nhân, cá nhân thực hiện chương trình giáo dục và nâng cao nhận thức về an ninh mạng.\n2. Bộ, ngành, cơ quan, tổ chức có trách nhiệm xây dựng và triển khai hoạt động phổ biến kiến thức về an ninh mạng cho cán bộ, công chức, viên chức, người lao động trong Bộ, ngành, cơ quan, tổ chức.",
+          "metadata": {
+            "chapter": 5,
+            "chapter_title": "BẢO ĐẢM HOẠT ĐỘNG BẢO VỆ AN NINH MẠNG"
+          },
+          "score": 0.03200204813108039
+        },
+        {
+          "id": "luat-anm-2018-p31-p1",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 31,
+          "text": "Điều 40. Trách nhiệm của Bộ, ngành, Ủy ban nhân dân cấp tỉnh Trong phạm vi nhiệm vụ, quyền hạn của mình, Bộ, ngành, Ủy ban nhân dân cấp tỉnh có trách nhiệm thực hiện công tác bảo vệ an ninh mạng đối với thông tin, hệ thống thông tin thuộc phạm vi quản lý; phối hợp với Bộ Công an thực hiện quản lý nhà nước về an ninh mạng của Bộ, ngành, địa phương.\nĐiều 41. Trách nhiệm của doanh nghiệp cung cấp dịch vụ trên không gian mạng",
+          "metadata": {
+            "chapter": 6,
+            "chapter_title": "TRÁCH NHIỆM CỦA CƠ QUAN, TỔ CHỨC, CÁ NHÂN"
+          },
+          "score": 0.016129032258064516
+        }
+      ]
+    }
+  ],
+  "answer": "Ủy ban nhân dân cấp tỉnh có trách nhiệm xây dựng và triển khai hoạt động phổ biến kiến thức, nâng cao nhận thức về an ninh mạng cho cơ quan, tổ chức, cá nhân của địa phương [luat-anm-2018-p28-p5].",
+  "citations": [
+    "luat-anm-2018-p28-p5"
+  ],
+  "invalid_citations": [],
+  "elapsed_ms": 4201.694400020642,
+  "llm_prompt_tokens": 702,
+  "llm_completion_tokens": 93
+}

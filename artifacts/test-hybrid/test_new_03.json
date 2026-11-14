@@ -1,0 +1,68 @@
+{
+  "query_id": "test_new_03",
+  "status": "pending_review",
+  "question": "Kiến thức an ninh mạng được đưa vào môn học nào trong nhà trường?",
+  "model": "openai/gpt-4o-mini",
+  "strategy": "hybrid",
+  "budget_chars": 1600,
+  "events": [
+    {
+      "event": "search",
+      "tool": "search_documents",
+      "model_query": "Kiến thức an ninh mạng được đưa vào môn học nào trong nhà trường?",
+      "actual_query": "Kiến thức an ninh mạng được đưa vào môn học nào trong nhà trường?",
+      "context_ids": [
+        "luat-anm-2018-p28-p4",
+        "luat-anm-2018-p28-p2",
+        "luat-anm-2018-p26-p0"
+      ],
+      "context": "[luat-anm-2018-p28-p4 | data\\24-2018-qh14.pdf | page 28]\n1. Nhà nước có chính sách phổ biến kiến thức về an ninh mạng trong phạm vi cả nước, khuyến khích cơ quan nhà nước phối hợp với tổ chức tư nhân, cá nhân thực hiện chương trình giáo dục và nâng cao nhận thức về an ninh mạng.\n2. Bộ, ngành, cơ quan, tổ chức có trách nhiệm xây dựng và triển khai hoạt động phổ biến kiến thức về an ninh mạng cho cán bộ, công chức, viên chức, người lao động trong Bộ, ngành, cơ quan, tổ chức.\n\n[luat-anm-2018-p28-p2 | data\\24-2018-qh14.pdf | page 28]\n3. Ưu tiên phát triển cơ sở đào tạo an ninh mạng đạt tiêu chuẩn quốc tế; khuyến khích liên kết, tạo cơ hội hợp tác về an ninh mạng giữa khu vực nhà nước và khu vực tư nhân, trong nước và ngoài nước.\nĐiều 33. Giáo dục, bồi dưỡng kiến thức, nghiệp vụ an ninh mạng\n1. Nội dung giáo dục, bồi dưỡng kiến thức an ninh mạng được đưa vào môn học giáo dục quốc phòng và an ninh trong nhà trường, chương trình bồi dưỡng kiến thức quốc phòng và an ninh theo quy định của Luật Giáo dục quốc phòng và an ninh.\n\n[luat-anm-2018-p26-p0 | data\\24-2018-qh14.pdf | page 26]\nd) Phương pháp bảo vệ bí mật nhà nước, bí mật công tác, bí mật kinh doanh, bí mật cá nhân, bí mật gia đình và đời sống riêng tư; khả năng bảo mật khi truyền đưa thông tin trên không gian mạng;\nđ) Xác định nguồn gốc của thông tin được truyền đưa trên không gian mạng;\ne) Giải quyết nguy cơ đe dọa an ninh mạng;\ng) Xây dựng thao trường mạng, môi trường thử nghiệm an ninh mạng;\nh) Sáng kiến kỹ thuật nâng cao nhận thức, kỹ năng về an ninh mạng;\ni) Dự báo an ninh mạng;",
+      "results": [
+        {
+          "id": "luat-anm-2018-p28-p4",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 28,
+          "text": "1. Nhà nước có chính sách phổ biến kiến thức về an ninh mạng trong phạm vi cả nước, khuyến khích cơ quan nhà nước phối hợp với tổ chức tư nhân, cá nhân thực hiện chương trình giáo dục và nâng cao nhận thức về an ninh mạng.\n2. Bộ, ngành, cơ quan, tổ chức có trách nhiệm xây dựng và triển khai hoạt động phổ biến kiến thức về an ninh mạng cho cán bộ, công chức, viên chức, người lao động trong Bộ, ngành, cơ quan, tổ chức.",
+          "metadata": {
+            "chapter": 5,
+            "chapter_title": "BẢO ĐẢM HOẠT ĐỘNG BẢO VỆ AN NINH MẠNG"
+          },
+          "score": 0.03252247488101534
+        },
+        {
+          "id": "luat-anm-2018-p28-p2",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 28,
+          "text": "3. Ưu tiên phát triển cơ sở đào tạo an ninh mạng đạt tiêu chuẩn quốc tế; khuyến khích liên kết, tạo cơ hội hợp tác về an ninh mạng giữa khu vực nhà nước và khu vực tư nhân, trong nước và ngoài nước.\nĐiều 33. Giáo dục, bồi dưỡng kiến thức, nghiệp vụ an ninh mạng\n1. Nội dung giáo dục, bồi dưỡng kiến thức an ninh mạng được đưa vào môn học giáo dục quốc phòng và an ninh trong nhà trường, chương trình bồi dưỡng kiến thức quốc phòng và an ninh theo quy định của Luật Giáo dục quốc phòng và an ninh.",
+          "metadata": {
+            "chapter": 5,
+            "chapter_title": "BẢO ĐẢM HOẠT ĐỘNG BẢO VỆ AN NINH MẠNG"
+          },
+          "score": 0.032266458495966696
+        },
+        {
+          "id": "luat-anm-2018-p26-p0",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 26,
+          "text": "d) Phương pháp bảo vệ bí mật nhà nước, bí mật công tác, bí mật kinh doanh, bí mật cá nhân, bí mật gia đình và đời sống riêng tư; khả năng bảo mật khi truyền đưa thông tin trên không gian mạng;\nđ) Xác định nguồn gốc của thông tin được truyền đưa trên không gian mạng;\ne) Giải quyết nguy cơ đe dọa an ninh mạng;\ng) Xây dựng thao trường mạng, môi trường thử nghiệm an ninh mạng;\nh) Sáng kiến kỹ thuật nâng cao nhận thức, kỹ năng về an ninh mạng;\ni) Dự báo an ninh mạng;",
+          "metadata": {
+            "chapter": 4,
+            "chapter_title": "HOẠT ĐỘNG BẢO VỆ AN NINH MẠNG"
+          },
+          "score": 0.03200204813108039
+        }
+      ]
+    }
+  ],
+  "answer": "Kiến thức an ninh mạng được đưa vào môn học giáo dục quốc phòng và an ninh trong nhà trường, theo quy định của Luật Giáo dục quốc phòng và an ninh [luat-anm-2018-p28-p2].",
+  "citations": [
+    "luat-anm-2018-p28-p2"
+  ],
+  "invalid_citations": [],
+  "elapsed_ms": 4166.403500013985,
+  "llm_prompt_tokens": 793,
+  "llm_completion_tokens": 82
+}

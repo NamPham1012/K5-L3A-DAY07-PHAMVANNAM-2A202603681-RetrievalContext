@@ -1,0 +1,484 @@
+[
+  {
+    "query_id": "test_new_01",
+    "status": "answered",
+    "question": "Hợp tác quốc tế về an ninh mạng được thực hiện trên những cơ sở nào?",
+    "model": "openai/gpt-4o-mini",
+    "strategy": "tfidf",
+    "budget_chars": 800,
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "model_query": "Hợp tác quốc tế về an ninh mạng được thực hiện trên những cơ sở nào?",
+        "actual_query": "Hợp tác quốc tế về an ninh mạng được thực hiện trên những cơ sở nào?",
+        "context_ids": [
+          "luat-anm-2018-p6-p0"
+        ],
+        "context": "[luat-anm-2018-p6-p0 | data\\24-2018-qh14.pdf | page 6]\ne) Tổ chức hội nghị, hội thảo và diễn đàn quốc tế về an ninh mạng;\ng) Ký kết và thực hiện điều ước quốc tế, thỏa thuận quốc tế về an ninh mạng;\nh) Thực hiện chương trình, dự án hợp tác quốc tế về an ninh mạng;\ni) Hoạt động hợp tác quốc tế khác về an ninh mạng.",
+        "results": [
+          {
+            "id": "luat-anm-2018-p6-p0",
+            "source_id": "luat-anm-2018",
+            "source": "data\\24-2018-qh14.pdf",
+            "page": 6,
+            "text": "e) Tổ chức hội nghị, hội thảo và diễn đàn quốc tế về an ninh mạng;\ng) Ký kết và thực hiện điều ước quốc tế, thỏa thuận quốc tế về an ninh mạng;\nh) Thực hiện chương trình, dự án hợp tác quốc tế về an ninh mạng;\ni) Hoạt động hợp tác quốc tế khác về an ninh mạng.",
+            "metadata": {
+              "chapter": 1,
+              "chapter_title": "NHỮNG QUY ĐỊNH CHUNG"
+            },
+            "score": 0.41584265077895893,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "luat-anm-2018-p6-p1",
+            "source_id": "luat-anm-2018",
+            "source": "data\\24-2018-qh14.pdf",
+            "page": 6,
+            "text": "3. Bộ Công an chịu trách nhiệm trước Chính phủ chủ trì, phối hợp thực hiện hợp tác quốc tế về an ninh mạng, trừ hoạt động hợp tác quốc tế của Bộ Quốc phòng. Bộ Quốc phòng chịu trách nhiệm trước Chính phủ thực hiện hợp tác quốc tế về an ninh mạng trong phạm vi quản lý. Bộ Ngoại giao có trách nhiệm phối hợp với Bộ Công an, Bộ Quốc phòng trong hoạt động hợp tác quốc tế về an ninh mạng. Trường hợp hợp tác quốc tế về an ninh mạng có liên quan đến trách nhiệm của nhiều Bộ, ngành do Chính phủ quyết địn",
+            "metadata": {
+              "chapter": 1,
+              "chapter_title": "NHỮNG QUY ĐỊNH CHUNG"
+            },
+            "score": 0.39082015012900617,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "luat-anm-2018-p5-p3",
+            "source_id": "luat-anm-2018",
+            "source": "data\\24-2018-qh14.pdf",
+            "page": 5,
+            "text": "1. Hợp tác quốc tế về an ninh mạng được thực hiện trên cơ sở tôn trọng độc lập, chủ quyền và toàn vẹn lãnh thổ, không can thiệp vào công việc nội bộ của nhau, bình đẳng và cùng có lợi.\n2. Nội dung hợp tác quốc tế về an ninh mạng bao gồm:\na) Nghiên cứu, phân tích xu hướng an ninh mạng;\nb) Xây dựng cơ chế, chính sách nhằm đẩy mạnh hợp tác giữa tổ chức, cá nhân Việt Nam với tổ chức, cá nhân nước ngoài, tổ chức quốc tế hoạt động về an ninh mạng;",
+            "metadata": {
+              "chapter": 1,
+              "chapter_title": "NHỮNG QUY ĐỊNH CHUNG"
+            },
+            "score": 0.35688847318275463,
+            "strategy": "tfidf"
+          }
+        ]
+      }
+    ],
+    "answer": "Hợp tác quốc tế về an ninh mạng được thực hiện trên những cơ sở như sau: tổ chức hội nghị, hội thảo và diễn đàn quốc tế về an ninh mạng; ký kết và thực hiện điều ước quốc tế, thỏa thuận quốc tế về an ninh mạng; thực hiện chương trình, dự án hợp tác quốc tế về an ninh mạng; và hoạt động hợp tác quốc tế khác về an ninh mạng [luat-anm-2018-p6-p0].",
+    "citations": [
+      "luat-anm-2018-p6-p0"
+    ],
+    "invalid_citations": [],
+    "elapsed_ms": 3857.5419999833684,
+    "llm_prompt_tokens": 440,
+    "llm_completion_tokens": 136
+  },
+  {
+    "query_id": "test_new_02",
+    "status": "answered",
+    "question": "Trẻ em có những quyền nào khi tham gia trên không gian mạng theo Điều 29?",
+    "model": "openai/gpt-4o-mini",
+    "strategy": "tfidf",
+    "budget_chars": 800,
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "model_query": "Trẻ em có những quyền nào khi tham gia trên không gian mạng theo Điều 29?",
+        "actual_query": "Trẻ em có những quyền nào khi tham gia trên không gian mạng theo Điều 29?",
+        "context_ids": [
+          "luat-anm-2018-p27-p1"
+        ],
+        "context": "[luat-anm-2018-p27-p1 | data\\24-2018-qh14.pdf | page 27]\n3. Cơ quan, tổ chức, cá nhân tham gia hoạt động trên không gian mạng có trách nhiệm phối hợp với cơ quan có thẩm quyền trong bảo đảm quyền của trẻ em trên không gian mạng, ngăn chặn thông tin có nội dung gây nguy hại cho trẻ em theo quy định của Luật này và pháp luật về trẻ em.\n4. Cơ quan, tổ chức, cha mẹ, giáo viên, người chăm sóc trẻ em và cá nhân khác liên quan có trách nhiệm bảo đảm quyền của trẻ em, bảo vệ trẻ em khi tham gia không gian mạng theo quy định của pháp luật về trẻ em.",
+        "results": [
+          {
+            "id": "luat-anm-2018-p27-p1",
+            "source_id": "luat-anm-2018",
+            "source": "data\\24-2018-qh14.pdf",
+            "page": 27,
+            "text": "3. Cơ quan, tổ chức, cá nhân tham gia hoạt động trên không gian mạng có trách nhiệm phối hợp với cơ quan có thẩm quyền trong bảo đảm quyền của trẻ em trên không gian mạng, ngăn chặn thông tin có nội dung gây nguy hại cho trẻ em theo quy định của Luật này và pháp luật về trẻ em.\n4. Cơ quan, tổ chức, cha mẹ, giáo viên, người chăm sóc trẻ em và cá nhân khác liên quan có trách nhiệm bảo đảm quyền của trẻ em, bảo vệ trẻ em khi tham gia không gian mạng theo quy định của pháp luật về trẻ em.",
+            "metadata": {
+              "chapter": 4,
+              "chapter_title": "HOẠT ĐỘNG BẢO VỆ AN NINH MẠNG"
+            },
+            "score": 0.5598345225046569,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "luat-anm-2018-p27-p0",
+            "source_id": "luat-anm-2018",
+            "source": "data\\24-2018-qh14.pdf",
+            "page": 27,
+            "text": "kiểm soát nội dung thông tin trên hệ thống thông tin hoặc trên dịch vụ do doanh nghiệp cung cấp để không gây nguy hại cho trẻ em, xâm phạm đến trẻ em, quyền trẻ em; ngăn chặn việc chia sẻ và xóa bỏ thông tin có nội dung gây nguy hại cho trẻ em, xâm phạm đến trẻ em, quyền trẻ em; kịp thời thông báo, phối hợp với lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an để xử lý.",
+            "metadata": {
+              "chapter": 4,
+              "chapter_title": "HOẠT ĐỘNG BẢO VỆ AN NINH MẠNG"
+            },
+            "score": 0.44829407455833753,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "luat-anm-2018-p26-p3",
+            "source_id": "luat-anm-2018",
+            "source": "data\\24-2018-qh14.pdf",
+            "page": 26,
+            "text": "d) Tăng cường môi trường kinh doanh, cải thiện điều kiện cạnh tranh hỗ trợ doanh nghiệp nghiên cứu, sản xuất sản phẩm, dịch vụ, ứng dụng để bảo vệ an ninh mạng.\nĐiều 29. Bảo vệ trẻ em trên không gian mạng\n1. Trẻ em có quyền được bảo vệ, tiếp cận thông tin, tham gia hoạt động xã hội, vui chơi, giải trí, giữ bí mật cá nhân, đời sống riêng tư và các quyền khác khi tham gia trên không gian mạng.",
+            "metadata": {
+              "chapter": 4,
+              "chapter_title": "HOẠT ĐỘNG BẢO VỆ AN NINH MẠNG"
+            },
+            "score": 0.43629527921909456,
+            "strategy": "tfidf"
+          }
+        ]
+      }
+    ],
+    "answer": "Theo Điều 29, trẻ em có quyền được bảo vệ khi tham gia không gian mạng. Cụ thể, cơ quan, tổ chức, cá nhân có trách nhiệm phối hợp với cơ quan có thẩm quyền trong việc bảo đảm quyền của trẻ em trên không gian mạng và ngăn chặn thông tin có nội dung gây nguy hại cho trẻ em. Ngoài ra, cha mẹ, giáo viên, người chăm sóc trẻ em và các cá nhân liên quan cũng có trách nhiệm bảo đảm quyền và bảo vệ trẻ em trong không gian mạng [luat-anm-2018-p27-p1].",
+    "citations": [
+      "luat-anm-2018-p27-p1"
+    ],
+    "invalid_citations": [],
+    "elapsed_ms": 3903.5710000025574,
+    "llm_prompt_tokens": 486,
+    "llm_completion_tokens": 155
+  },
+  {
+    "query_id": "test_new_03",
+    "status": "answered",
+    "question": "Kiến thức an ninh mạng được đưa vào môn học nào trong nhà trường?",
+    "model": "openai/gpt-4o-mini",
+    "strategy": "tfidf",
+    "budget_chars": 800,
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "model_query": "Kiến thức an ninh mạng được đưa vào môn học nào trong nhà trường?",
+        "actual_query": "Kiến thức an ninh mạng được đưa vào môn học nào trong nhà trường?",
+        "context_ids": [
+          "luat-anm-2018-p28-p2"
+        ],
+        "context": "[luat-anm-2018-p28-p2 | data\\24-2018-qh14.pdf | page 28]\n3. Ưu tiên phát triển cơ sở đào tạo an ninh mạng đạt tiêu chuẩn quốc tế; khuyến khích liên kết, tạo cơ hội hợp tác về an ninh mạng giữa khu vực nhà nước và khu vực tư nhân, trong nước và ngoài nước.\nĐiều 33. Giáo dục, bồi dưỡng kiến thức, nghiệp vụ an ninh mạng\n1. Nội dung giáo dục, bồi dưỡng kiến thức an ninh mạng được đưa vào môn học giáo dục quốc phòng và an ninh trong nhà trường, chương trình bồi dưỡng kiến thức quốc phòng và an ninh theo quy định của Luật Giáo dục quốc phòng và an ninh.",
+        "results": [
+          {
+            "id": "luat-anm-2018-p28-p2",
+            "source_id": "luat-anm-2018",
+            "source": "data\\24-2018-qh14.pdf",
+            "page": 28,
+            "text": "3. Ưu tiên phát triển cơ sở đào tạo an ninh mạng đạt tiêu chuẩn quốc tế; khuyến khích liên kết, tạo cơ hội hợp tác về an ninh mạng giữa khu vực nhà nước và khu vực tư nhân, trong nước và ngoài nước.\nĐiều 33. Giáo dục, bồi dưỡng kiến thức, nghiệp vụ an ninh mạng\n1. Nội dung giáo dục, bồi dưỡng kiến thức an ninh mạng được đưa vào môn học giáo dục quốc phòng và an ninh trong nhà trường, chương trình bồi dưỡng kiến thức quốc phòng và an ninh theo quy định của Luật Giáo dục quốc phòng và an ninh.",
+            "metadata": {
+              "chapter": 5,
+              "chapter_title": "BẢO ĐẢM HOẠT ĐỘNG BẢO VỆ AN NINH MẠNG"
+            },
+            "score": 0.3474854148376782,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "luat-anm-2018-p28-p4",
+            "source_id": "luat-anm-2018",
+            "source": "data\\24-2018-qh14.pdf",
+            "page": 28,
+            "text": "1. Nhà nước có chính sách phổ biến kiến thức về an ninh mạng trong phạm vi cả nước, khuyến khích cơ quan nhà nước phối hợp với tổ chức tư nhân, cá nhân thực hiện chương trình giáo dục và nâng cao nhận thức về an ninh mạng.\n2. Bộ, ngành, cơ quan, tổ chức có trách nhiệm xây dựng và triển khai hoạt động phổ biến kiến thức về an ninh mạng cho cán bộ, công chức, viên chức, người lao động trong Bộ, ngành, cơ quan, tổ chức.",
+            "metadata": {
+              "chapter": 5,
+              "chapter_title": "BẢO ĐẢM HOẠT ĐỘNG BẢO VỆ AN NINH MẠNG"
+            },
+            "score": 0.23992153792535692,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "luat-anm-2018-p26-p0",
+            "source_id": "luat-anm-2018",
+            "source": "data\\24-2018-qh14.pdf",
+            "page": 26,
+            "text": "d) Phương pháp bảo vệ bí mật nhà nước, bí mật công tác, bí mật kinh doanh, bí mật cá nhân, bí mật gia đình và đời sống riêng tư; khả năng bảo mật khi truyền đưa thông tin trên không gian mạng;\nđ) Xác định nguồn gốc của thông tin được truyền đưa trên không gian mạng;\ne) Giải quyết nguy cơ đe dọa an ninh mạng;\ng) Xây dựng thao trường mạng, môi trường thử nghiệm an ninh mạng;\nh) Sáng kiến kỹ thuật nâng cao nhận thức, kỹ năng về an ninh mạng;\ni) Dự báo an ninh mạng;",
+            "metadata": {
+              "chapter": 4,
+              "chapter_title": "HOẠT ĐỘNG BẢO VỆ AN NINH MẠNG"
+            },
+            "score": 0.19824366755899575,
+            "strategy": "tfidf"
+          }
+        ]
+      }
+    ],
+    "answer": "Kiến thức an ninh mạng được đưa vào môn học giáo dục quốc phòng và an ninh trong nhà trường, theo quy định của Luật Giáo dục quốc phòng và an ninh [luat-anm-2018-p28-p2].",
+    "citations": [
+      "luat-anm-2018-p28-p2"
+    ],
+    "invalid_citations": [],
+    "elapsed_ms": 3019.335199991474,
+    "llm_prompt_tokens": 491,
+    "llm_completion_tokens": 82
+  },
+  {
+    "query_id": "test_new_04",
+    "status": "answered",
+    "question": "Doanh nghiệp cung cấp dịch vụ trên không gian mạng phải cảnh báo và hướng dẫn khách hàng về điều gì?",
+    "model": "openai/gpt-4o-mini",
+    "strategy": "tfidf",
+    "budget_chars": 800,
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "model_query": "Doanh nghiệp cung cấp dịch vụ trên không gian mạng phải cảnh báo và hướng dẫn khách hàng về điều gì",
+        "actual_query": "Doanh nghiệp cung cấp dịch vụ trên không gian mạng phải cảnh báo và hướng dẫn khách hàng về điều gì?",
+        "context_ids": [
+          "luat-anm-2018-p31-p2",
+          "luat-anm-2018-p26-p4"
+        ],
+        "context": "[luat-anm-2018-p31-p2 | data\\24-2018-qh14.pdf | page 31]\n1. Doanh nghiệp cung cấp dịch vụ trên không gian mạng tại Việt Nam có trách nhiệm sau đây:\na) Cảnh báo khả năng mất an ninh mạng trong việc sử dụng dịch vụ trên không gian mạng do mình cung cấp và hướng dẫn biện pháp phòng ngừa;\n\n[luat-anm-2018-p26-p4 | data\\24-2018-qh14.pdf | page 26]\n2. Chủ quản hệ thống thông tin, doanh nghiệp cung cấp dịch vụ trên mạng viễn thông, mạng Internet, các dịch vụ gia tăng trên không gian mạng có trách nhiệm",
+        "results": [
+          {
+            "id": "luat-anm-2018-p31-p2",
+            "source_id": "luat-anm-2018",
+            "source": "data\\24-2018-qh14.pdf",
+            "page": 31,
+            "text": "1. Doanh nghiệp cung cấp dịch vụ trên không gian mạng tại Việt Nam có trách nhiệm sau đây:\na) Cảnh báo khả năng mất an ninh mạng trong việc sử dụng dịch vụ trên không gian mạng do mình cung cấp và hướng dẫn biện pháp phòng ngừa;",
+            "metadata": {
+              "chapter": 6,
+              "chapter_title": "TRÁCH NHIỆM CỦA CƠ QUAN, TỔ CHỨC, CÁ NHÂN"
+            },
+            "score": 0.6023582766047693,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "luat-anm-2018-p26-p4",
+            "source_id": "luat-anm-2018",
+            "source": "data\\24-2018-qh14.pdf",
+            "page": 26,
+            "text": "2. Chủ quản hệ thống thông tin, doanh nghiệp cung cấp dịch vụ trên mạng viễn thông, mạng Internet, các dịch vụ gia tăng trên không gian mạng có trách nhiệm",
+            "metadata": {
+              "chapter": 4,
+              "chapter_title": "HOẠT ĐỘNG BẢO VỆ AN NINH MẠNG"
+            },
+            "score": 0.4571630814111895,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "luat-anm-2018-p2-p0",
+            "source_id": "luat-anm-2018",
+            "source": "data\\24-2018-qh14.pdf",
+            "page": 2,
+            "text": "a) Hệ thống truyền dẫn bao gồm hệ thống truyền dẫn quốc gia, hệ thống truyền dẫn kết nối quốc tế, hệ thống vệ tinh, hệ thống truyền dẫn của doanh nghiệp cung cấp dịch vụ trên mạng viễn thông, mạng Internet, các dịch vụ gia tăng trên không gian mạng;",
+            "metadata": {
+              "chapter": 1,
+              "chapter_title": "NHỮNG QUY ĐỊNH CHUNG"
+            },
+            "score": 0.39947387091511694,
+            "strategy": "tfidf"
+          }
+        ]
+      }
+    ],
+    "answer": "Doanh nghiệp cung cấp dịch vụ trên không gian mạng phải cảnh báo khả năng mất an ninh mạng trong việc sử dụng dịch vụ do mình cung cấp và hướng dẫn biện pháp phòng ngừa [luat-anm-2018-p31-p2].",
+    "citations": [
+      "luat-anm-2018-p31-p2"
+    ],
+    "invalid_citations": [],
+    "elapsed_ms": 3716.697700001532,
+    "llm_prompt_tokens": 490,
+    "llm_completion_tokens": 88
+  },
+  {
+    "query_id": "test_new_05",
+    "status": "answered",
+    "question": "Ủy ban nhân dân cấp tỉnh có trách nhiệm gì về phổ biến kiến thức an ninh mạng tại địa phương?",
+    "model": "openai/gpt-4o-mini",
+    "strategy": "tfidf",
+    "budget_chars": 800,
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "model_query": "Ủy ban nhân dân cấp tỉnh có trách nhiệm gì về phổ biến kiến thức an ninh mạng tại địa phương?",
+        "actual_query": "Ủy ban nhân dân cấp tỉnh có trách nhiệm gì về phổ biến kiến thức an ninh mạng tại địa phương?",
+        "context_ids": [
+          "luat-anm-2018-p28-p5",
+          "luat-anm-2018-p31-p1"
+        ],
+        "context": "[luat-anm-2018-p28-p5 | data\\24-2018-qh14.pdf | page 28]\n3. Ủy ban nhân dân cấp tỉnh có trách nhiệm xây dựng và triển khai hoạt động phổ biến kiến thức, nâng cao nhận thức về an ninh mạng cho cơ quan, tổ chức, cá nhân của địa phương.\n\n[luat-anm-2018-p31-p1 | data\\24-2018-qh14.pdf | page 31]\nĐiều 40. Trách nhiệm của Bộ, ngành, Ủy ban nhân dân cấp tỉnh Trong phạm vi nhiệm vụ, quyền hạn của mình, Bộ, ngành, Ủy ban nhân dân cấp tỉnh có trách nhiệm thực hiện công tác bảo vệ an ninh mạng đối với thông tin, hệ thống thông tin thuộc phạm vi quản lý; phối hợp với Bộ Công an thực hiện quản lý nhà nước về an ninh mạng của Bộ, ngành, địa phương.\nĐiều 41. Trách nhiệm của doanh nghiệp cung cấp dịch vụ trên không gian mạng",
+        "results": [
+          {
+            "id": "luat-anm-2018-p28-p5",
+            "source_id": "luat-anm-2018",
+            "source": "data\\24-2018-qh14.pdf",
+            "page": 28,
+            "text": "3. Ủy ban nhân dân cấp tỉnh có trách nhiệm xây dựng và triển khai hoạt động phổ biến kiến thức, nâng cao nhận thức về an ninh mạng cho cơ quan, tổ chức, cá nhân của địa phương.",
+            "metadata": {
+              "chapter": 5,
+              "chapter_title": "BẢO ĐẢM HOẠT ĐỘNG BẢO VỆ AN NINH MẠNG"
+            },
+            "score": 0.7769042317292434,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "luat-anm-2018-p31-p1",
+            "source_id": "luat-anm-2018",
+            "source": "data\\24-2018-qh14.pdf",
+            "page": 31,
+            "text": "Điều 40. Trách nhiệm của Bộ, ngành, Ủy ban nhân dân cấp tỉnh Trong phạm vi nhiệm vụ, quyền hạn của mình, Bộ, ngành, Ủy ban nhân dân cấp tỉnh có trách nhiệm thực hiện công tác bảo vệ an ninh mạng đối với thông tin, hệ thống thông tin thuộc phạm vi quản lý; phối hợp với Bộ Công an thực hiện quản lý nhà nước về an ninh mạng của Bộ, ngành, địa phương.\nĐiều 41. Trách nhiệm của doanh nghiệp cung cấp dịch vụ trên không gian mạng",
+            "metadata": {
+              "chapter": 6,
+              "chapter_title": "TRÁCH NHIỆM CỦA CƠ QUAN, TỔ CHỨC, CÁ NHÂN"
+            },
+            "score": 0.4880640897224461,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "luat-anm-2018-p28-p4",
+            "source_id": "luat-anm-2018",
+            "source": "data\\24-2018-qh14.pdf",
+            "page": 28,
+            "text": "1. Nhà nước có chính sách phổ biến kiến thức về an ninh mạng trong phạm vi cả nước, khuyến khích cơ quan nhà nước phối hợp với tổ chức tư nhân, cá nhân thực hiện chương trình giáo dục và nâng cao nhận thức về an ninh mạng.\n2. Bộ, ngành, cơ quan, tổ chức có trách nhiệm xây dựng và triển khai hoạt động phổ biến kiến thức về an ninh mạng cho cán bộ, công chức, viên chức, người lao động trong Bộ, ngành, cơ quan, tổ chức.",
+            "metadata": {
+              "chapter": 5,
+              "chapter_title": "BẢO ĐẢM HOẠT ĐỘNG BẢO VỆ AN NINH MẠNG"
+            },
+            "score": 0.41173100333622303,
+            "strategy": "tfidf"
+          }
+        ]
+      }
+    ],
+    "answer": "Ủy ban nhân dân cấp tỉnh có trách nhiệm xây dựng và triển khai hoạt động phổ biến kiến thức, nâng cao nhận thức về an ninh mạng cho cơ quan, tổ chức, cá nhân của địa phương [luat-anm-2018-p28-p5].",
+    "citations": [
+      "luat-anm-2018-p28-p5"
+    ],
+    "invalid_citations": [],
+    "elapsed_ms": 3181.5031000005547,
+    "llm_prompt_tokens": 563,
+    "llm_completion_tokens": 93
+  },
+  {
+    "query_id": "test_absent_01",
+    "status": "abstain",
+    "question": "Luật An ninh mạng năm 2018 quy định số điện thoại đường dây nóng báo sự cố an ninh mạng là số nào?",
+    "model": "openai/gpt-4o-mini",
+    "strategy": "tfidf",
+    "budget_chars": 800,
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "model_query": "Luật An ninh mạng năm 2018 quy định số điện thoại đường dây nóng báo sự cố an ninh mạng là số nào?",
+        "actual_query": "Luật An ninh mạng năm 2018 quy định số điện thoại đường dây nóng báo sự cố an ninh mạng là số nào?",
+        "context_ids": [
+          "luat-anm-2018-p28-p0"
+        ],
+        "context": "[luat-anm-2018-p28-p0 | data\\24-2018-qh14.pdf | page 28]\n3. Khi xảy ra tình huống nguy hiểm về an ninh mạng, khủng bố mạng, tấn công mạng, sự cố an ninh mạng hoặc nguy cơ đe dọa an ninh mạng, cơ quan nhà nước có thẩm quyền quyết định huy động nhân lực bảo vệ an ninh mạng. Thẩm quyền, trách nhiệm, trình tự, thủ tục huy động nhân lực bảo vệ an ninh mạng được thực hiện theo quy định của Luật An ninh quốc gia, Luật Quốc phòng, Luật Công an nhân dân và quy định khác của pháp luật có liên quan.",
+        "results": [
+          {
+            "id": "luat-anm-2018-p28-p0",
+            "source_id": "luat-anm-2018",
+            "source": "data\\24-2018-qh14.pdf",
+            "page": 28,
+            "text": "3. Khi xảy ra tình huống nguy hiểm về an ninh mạng, khủng bố mạng, tấn công mạng, sự cố an ninh mạng hoặc nguy cơ đe dọa an ninh mạng, cơ quan nhà nước có thẩm quyền quyết định huy động nhân lực bảo vệ an ninh mạng. Thẩm quyền, trách nhiệm, trình tự, thủ tục huy động nhân lực bảo vệ an ninh mạng được thực hiện theo quy định của Luật An ninh quốc gia, Luật Quốc phòng, Luật Công an nhân dân và quy định khác của pháp luật có liên quan.",
+            "metadata": {
+              "chapter": 5,
+              "chapter_title": "BẢO ĐẢM HOẠT ĐỘNG BẢO VỆ AN NINH MẠNG"
+            },
+            "score": 0.22590014249319,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "luat-anm-2018-p13-p2",
+            "source_id": "luat-anm-2018",
+            "source": "data\\24-2018-qh14.pdf",
+            "page": 13,
+            "text": "a) Lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an chủ trì điều phối hoạt động ứng phó, khắc phục sự cố an ninh mạng xảy ra đối với hệ thống thông tin quan trọng về an ninh quốc gia, trừ trường hợp quy định tại điểm b và điểm c khoản này; tham gia ứng phó, khắc phục sự cố an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia khi có yêu cầu; thông báo cho chủ quản hệ thống thông tin khi phát hiện có tấn công mạng, sự cố an ninh mạng;",
+            "metadata": {
+              "chapter": 2,
+              "chapter_title": "BẢO VỆ AN NINH MẠNG ĐỐI VỚI HỆ THỐNG THÔNG TIN"
+            },
+            "score": 0.22199651744754317,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "luat-anm-2018-p12-p5",
+            "source_id": "luat-anm-2018",
+            "source": "data\\24-2018-qh14.pdf",
+            "page": 12,
+            "text": "Điều 15. Ứng phó, khắc phục sự cố an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia\n1. Hoạt động ứng phó, khắc phục sự cố an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia bao gồm:\na) Phát hiện, xác định sự cố an ninh mạng;",
+            "metadata": {
+              "chapter": 2,
+              "chapter_title": "BẢO VỆ AN NINH MẠNG ĐỐI VỚI HỆ THỐNG THÔNG TIN"
+            },
+            "score": 0.21468431986256659,
+            "strategy": "tfidf"
+          }
+        ]
+      }
+    ],
+    "answer": "Không đủ bằng chứng.",
+    "citations": [],
+    "invalid_citations": [],
+    "elapsed_ms": 2739.995899988571,
+    "llm_prompt_tokens": 513,
+    "llm_completion_tokens": 47
+  },
+  {
+    "query_id": "test_absent_02",
+    "status": "abstain",
+    "question": "Theo Luật An ninh mạng năm 2018, khóa mã hóa dữ liệu bắt buộc dài tối thiểu bao nhiêu bit?",
+    "model": "openai/gpt-4o-mini",
+    "strategy": "tfidf",
+    "budget_chars": 800,
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "model_query": "khóa mã hóa dữ liệu bắt buộc dài tối thiểu bao nhiêu bit",
+        "actual_query": "Theo Luật An ninh mạng năm 2018, khóa mã hóa dữ liệu bắt buộc dài tối thiểu bao nhiêu bit?",
+        "context_ids": [
+          "luat-anm-2018-p32-p4",
+          "luat-anm-2018-p25-p4"
+        ],
+        "context": "[luat-anm-2018-p32-p4 | data\\24-2018-qh14.pdf | page 32]\nhĩa Việt Nam khóa XIV, kỳ họp thứ 5 thông qua ngày 12 tháng 6 năm 2018. CHỦ TỊCH QUỐC HỘI Nguyễn Thị Kim Ngân\n\n[luat-anm-2018-p25-p4 | data\\24-2018-qh14.pdf | page 25]\n3. Doanh nghiệp trong nước và ngoài nước cung cấp dịch vụ trên mạng viễn thông, mạng Internet, các dịch vụ gia tăng trên không gian mạng tại Việt Nam có hoạt động thu thập, khai thác, phân tích, xử lý dữ liệu về thông tin cá nhân, dữ liệu về mối quan hệ của người sử dụng dịch vụ, dữ liệu do người sử dụng dịch vụ tại Việt Nam tạo ra phải lưu trữ dữ liệu này tại Việt Nam trong thời gian theo quy định của Chính phủ. Doanh nghiệp ngoài nước quy định tại khoản này phải đặt chi nhánh hoặc văn phòng đạ",
+        "results": [
+          {
+            "id": "luat-anm-2018-p32-p4",
+            "source_id": "luat-anm-2018",
+            "source": "data\\24-2018-qh14.pdf",
+            "page": 32,
+            "text": "hĩa Việt Nam khóa XIV, kỳ họp thứ 5 thông qua ngày 12 tháng 6 năm 2018. CHỦ TỊCH QUỐC HỘI Nguyễn Thị Kim Ngân",
+            "metadata": {
+              "chapter": 7,
+              "chapter_title": "ĐIỀU KHOẢN THI HÀNH"
+            },
+            "score": 0.27808474240779757,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "luat-anm-2018-p25-p4",
+            "source_id": "luat-anm-2018",
+            "source": "data\\24-2018-qh14.pdf",
+            "page": 25,
+            "text": "3. Doanh nghiệp trong nước và ngoài nước cung cấp dịch vụ trên mạng viễn thông, mạng Internet, các dịch vụ gia tăng trên không gian mạng tại Việt Nam có hoạt động thu thập, khai thác, phân tích, xử lý dữ liệu về thông tin cá nhân, dữ liệu về mối quan hệ của người sử dụng dịch vụ, dữ liệu do người sử dụng dịch vụ tại Việt Nam tạo ra phải lưu trữ dữ liệu này tại Việt Nam trong thời gian theo quy định của Chính phủ. Doanh nghiệp ngoài nước quy định tại khoản này phải đặt chi nhánh hoặc văn phòng đạ",
+            "metadata": {
+              "chapter": 4,
+              "chapter_title": "HOẠT ĐỘNG BẢO VỆ AN NINH MẠNG"
+            },
+            "score": 0.193630976810386,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "luat-anm-2018-p9-p3",
+            "source_id": "luat-anm-2018",
+            "source": "data\\24-2018-qh14.pdf",
+            "page": 9,
+            "text": "b) Bảo đảm an ninh mạng đối với trang thiết bị, phần cứng, phần mềm là thành phần hệ thống;\nc) Biện pháp kỹ thuật để giám sát, bảo vệ an ninh mạng; biện pháp bảo vệ hệ thống điều khiển và giám sát tự động, Internet vạn vật, hệ thống phức hợp thực - ảo, điện toán đám mây, hệ thống dữ liệu lớn, hệ thống dữ liệu nhanh, hệ thống trí tuệ nhân tạo;\nd) Biện pháp bảo đảm an ninh vật lý bao gồm cách ly cô lập đặc biệt, chống rò rỉ dữ liệu, chống thu tin, kiểm soát ra vào.",
+            "metadata": {
+              "chapter": 2,
+              "chapter_title": "BẢO VỆ AN NINH MẠNG ĐỐI VỚI HỆ THỐNG THÔNG TIN"
+            },
+            "score": 0.1720430372660948,
+            "strategy": "tfidf"
+          }
+        ]
+      }
+    ],
+    "answer": "Không đủ bằng chứng.",
+    "citations": [],
+    "invalid_citations": [],
+    "elapsed_ms": 2422.553299984429,
+    "llm_prompt_tokens": 574,
+    "llm_completion_tokens": 35
+  }
+]

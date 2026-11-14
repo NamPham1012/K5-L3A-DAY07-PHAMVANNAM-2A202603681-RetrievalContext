@@ -1,0 +1,21 @@
+[
+ {"query_id":"q01","answer_grade":2,"citation_support":[true],"reason":"Định nghĩa và nội dung bổ sung nằm trong p1-p1."},
+ {"query_id":"q02","answer_grade":2,"citation_support":[true,true],"reason":"Phạm vi điều chỉnh ở p1-p0; định nghĩa bổ sung ở p1-p1."},
+ {"query_id":"q03","answer_grade":2,"citation_support":[false],"reason":"Định nghĩa trong context p2-p4; citation thêm tiền tố chunk-id nên không khớp ID."},
+ {"query_id":"q04","answer_grade":2,"citation_support":[false],"reason":"Định nghĩa trong context p2-p5; citation thêm tiền tố chunk-id nên không khớp ID."},
+ {"query_id":"q05","answer_grade":2,"citation_support":[true],"reason":"Định nghĩa tội phạm mạng nằm trong p2-p3."},
+ {"query_id":"q06","answer_grade":2,"citation_support":[true],"reason":"Định nghĩa tài khoản số nằm trong p3-p0."},
+ {"query_id":"q07","answer_grade":2,"citation_support":[true],"reason":"Định nghĩa thẩm định nằm trong p8-p3."},
+ {"query_id":"q08","answer_grade":2,"citation_support":[true],"reason":"Context p11-p3 quy định ít nhất 12 giờ trong trường hợp sự cố."},
+ {"query_id":"q09","answer_grade":2,"citation_support":[true],"reason":"Định nghĩa giám sát nằm trong p12-p2."},
+ {"query_id":"q10","answer_grade":1,"citation_support":[false],"reason":"Nêu định nghĩa thay vì ví dụ phát tán mã độc được gắn gold; ID citation có thêm tiền tố. Có thể cần xem lại gold thay thế."},
+ {"query_id":"q11","answer_grade":1,"citation_support":[false,false,false],"reason":"Ý đầu được context hỗ trợ nhưng có thêm các ý phân loại chưa được đoạn dẫn chứng minh; cả ba citation sai định dạng."},
+ {"query_id":"q12","answer_grade":2,"citation_support":[false],"reason":"Nội dung trong context p16-p1; citation thêm tiền tố không khớp ID."},
+ {"query_id":"q13","answer_grade":2,"citation_support":[false],"reason":"24 giờ và điều kiện cơ quan yêu cầu có trong p25-p1; citation thêm tiền tố."},
+ {"query_id":"q14","answer_grade":2,"citation_support":[false],"reason":"Nơi lưu và phạm vi doanh nghiệp nêu trong p25-p4; citation thêm tiền tố."},
+ {"query_id":"q15","answer_grade":2,"citation_support":[true],"reason":"Điều 30 trong p27-p2 nêu Bộ Công an và Bộ Quốc phòng."},
+ {"query_id":"q16","answer_grade":2,"citation_support":[true],"reason":"Định nghĩa không gian mạng trong p1-p2."},
+ {"query_id":"q17","answer_grade":1,"citation_support":[false],"reason":"Định nghĩa và hai nội dung đầu có trong p22-p0, nhưng citation duy nhất không hỗ trợ các nội dung sau nằm tại p22-p1."},
+ {"query_id":"dev_absent_01","abstention_correct":true,"citation_support":[],"reason":"Agent từ chối; nhãn thiếu evidence là dự kiến, cần xác nhận toàn văn."},
+ {"query_id":"dev_absent_02","abstention_correct":true,"citation_support":[],"reason":"Agent từ chối; nhãn thiếu evidence là dự kiến, cần xác nhận toàn văn."}
+]

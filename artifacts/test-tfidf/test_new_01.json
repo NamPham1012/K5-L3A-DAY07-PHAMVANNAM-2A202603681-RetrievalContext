@@ -1,0 +1,69 @@
+{
+  "query_id": "test_new_01",
+  "status": "pending_review",
+  "question": "Hợp tác quốc tế về an ninh mạng được thực hiện trên những cơ sở nào?",
+  "model": "openai/gpt-4o-mini",
+  "strategy": "tfidf",
+  "budget_chars": 800,
+  "events": [
+    {
+      "event": "search",
+      "tool": "search_documents",
+      "model_query": "Hợp tác quốc tế về an ninh mạng được thực hiện trên những cơ sở nào?",
+      "actual_query": "Hợp tác quốc tế về an ninh mạng được thực hiện trên những cơ sở nào?",
+      "context_ids": [
+        "luat-anm-2018-p6-p0"
+      ],
+      "context": "[luat-anm-2018-p6-p0 | data\\24-2018-qh14.pdf | page 6]\ne) Tổ chức hội nghị, hội thảo và diễn đàn quốc tế về an ninh mạng;\ng) Ký kết và thực hiện điều ước quốc tế, thỏa thuận quốc tế về an ninh mạng;\nh) Thực hiện chương trình, dự án hợp tác quốc tế về an ninh mạng;\ni) Hoạt động hợp tác quốc tế khác về an ninh mạng.",
+      "results": [
+        {
+          "id": "luat-anm-2018-p6-p0",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 6,
+          "text": "e) Tổ chức hội nghị, hội thảo và diễn đàn quốc tế về an ninh mạng;\ng) Ký kết và thực hiện điều ước quốc tế, thỏa thuận quốc tế về an ninh mạng;\nh) Thực hiện chương trình, dự án hợp tác quốc tế về an ninh mạng;\ni) Hoạt động hợp tác quốc tế khác về an ninh mạng.",
+          "metadata": {
+            "chapter": 1,
+            "chapter_title": "NHỮNG QUY ĐỊNH CHUNG"
+          },
+          "score": 0.41584265077895893,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-anm-2018-p6-p1",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 6,
+          "text": "3. Bộ Công an chịu trách nhiệm trước Chính phủ chủ trì, phối hợp thực hiện hợp tác quốc tế về an ninh mạng, trừ hoạt động hợp tác quốc tế của Bộ Quốc phòng. Bộ Quốc phòng chịu trách nhiệm trước Chính phủ thực hiện hợp tác quốc tế về an ninh mạng trong phạm vi quản lý. Bộ Ngoại giao có trách nhiệm phối hợp với Bộ Công an, Bộ Quốc phòng trong hoạt động hợp tác quốc tế về an ninh mạng. Trường hợp hợp tác quốc tế về an ninh mạng có liên quan đến trách nhiệm của nhiều Bộ, ngành do Chính phủ quyết địn",
+          "metadata": {
+            "chapter": 1,
+            "chapter_title": "NHỮNG QUY ĐỊNH CHUNG"
+          },
+          "score": 0.39082015012900617,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-anm-2018-p5-p3",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 5,
+          "text": "1. Hợp tác quốc tế về an ninh mạng được thực hiện trên cơ sở tôn trọng độc lập, chủ quyền và toàn vẹn lãnh thổ, không can thiệp vào công việc nội bộ của nhau, bình đẳng và cùng có lợi.\n2. Nội dung hợp tác quốc tế về an ninh mạng bao gồm:\na) Nghiên cứu, phân tích xu hướng an ninh mạng;\nb) Xây dựng cơ chế, chính sách nhằm đẩy mạnh hợp tác giữa tổ chức, cá nhân Việt Nam với tổ chức, cá nhân nước ngoài, tổ chức quốc tế hoạt động về an ninh mạng;",
+          "metadata": {
+            "chapter": 1,
+            "chapter_title": "NHỮNG QUY ĐỊNH CHUNG"
+          },
+          "score": 0.35688847318275463,
+          "strategy": "tfidf"
+        }
+      ]
+    }
+  ],
+  "answer": "Hợp tác quốc tế về an ninh mạng được thực hiện trên những cơ sở như sau: tổ chức hội nghị, hội thảo và diễn đàn quốc tế về an ninh mạng; ký kết và thực hiện điều ước quốc tế, thỏa thuận quốc tế về an ninh mạng; thực hiện chương trình, dự án hợp tác quốc tế về an ninh mạng; và hoạt động hợp tác quốc tế khác về an ninh mạng [luat-anm-2018-p6-p0].",
+  "citations": [
+    "luat-anm-2018-p6-p0"
+  ],
+  "invalid_citations": [],
+  "elapsed_ms": 3857.5419999833684,
+  "llm_prompt_tokens": 440,
+  "llm_completion_tokens": 136
+}

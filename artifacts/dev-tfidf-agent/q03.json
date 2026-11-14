@@ -1,0 +1,71 @@
+{
+  "query_id": "q03",
+  "status": "pending_review",
+  "question": "Tấn công mạng là hành vi gì?",
+  "model": "openai/gpt-4o-mini",
+  "strategy": "tfidf",
+  "budget_chars": 800,
+  "events": [
+    {
+      "event": "search",
+      "tool": "search_documents",
+      "model_query": "Tấn công mạng là hành vi gì?",
+      "actual_query": "Tấn công mạng là hành vi gì?",
+      "context_ids": [
+        "luat-anm-2018-p18-p1",
+        "luat-anm-2018-p19-p2"
+      ],
+      "context": "[luat-anm-2018-p18-p1 | data\\24-2018-qh14.pdf | page 18]\ne) Hành vi khác sử dụng không gian mạng, công nghệ thông tin, phương tiện điện tử để vi phạm pháp luật về an ninh quốc gia, trật tự, an toàn xã hội.\n2. Lực lượng chuyên trách bảo vệ an ninh mạng có trách nhiệm phòng, chống hành vi sử dụng không gian mạng, công nghệ thông tin, phương tiện điện tử để vi phạm pháp luật về an ninh quốc gia, trật tự, an toàn xã hội.\nĐiều 19. Phòng, chống tấn công mạng\n1. Hành vi tấn công mạng và hành vi có liên quan đến tấn công mạng bao gồm:\n\n[luat-anm-2018-p19-p2 | data\\24-2018-qh14.pdf | page 19]\nừ hành vi tấn công mạng và cung cấp đầy đủ, kịp thời thông tin, tài liệu liên quan.",
+      "results": [
+        {
+          "id": "luat-anm-2018-p18-p1",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 18,
+          "text": "e) Hành vi khác sử dụng không gian mạng, công nghệ thông tin, phương tiện điện tử để vi phạm pháp luật về an ninh quốc gia, trật tự, an toàn xã hội.\n2. Lực lượng chuyên trách bảo vệ an ninh mạng có trách nhiệm phòng, chống hành vi sử dụng không gian mạng, công nghệ thông tin, phương tiện điện tử để vi phạm pháp luật về an ninh quốc gia, trật tự, an toàn xã hội.\nĐiều 19. Phòng, chống tấn công mạng\n1. Hành vi tấn công mạng và hành vi có liên quan đến tấn công mạng bao gồm:",
+          "metadata": {
+            "chapter": 3,
+            "chapter_title": "PHÒNG NGỪA, XỬ LÝ HÀNH VI XÂM PHẠM AN NINH MẠNG"
+          },
+          "score": 0.4746726120149897,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-anm-2018-p2-p4",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 2,
+          "text": "8. Tấn công mạng là hành vi sử dụng không gian mạng, công nghệ thông tin hoặc phương tiện điện tử để phá hoại, gây gián đoạn hoạt động của mạng viễn thông, mạng Internet, mạng máy tính, hệ thống thông tin, hệ thống xử lý và điều khiển thông tin, cơ sở dữ liệu, phương tiện điện tử.\n9. Khủng bố mạng là việc sử dụng không gian mạng, công nghệ thông tin hoặc phương tiện điện tử để thực hiện hành vi khủng bố, tài trợ khủng bố.",
+          "metadata": {
+            "chapter": 1,
+            "chapter_title": "NHỮNG QUY ĐỊNH CHUNG"
+          },
+          "score": 0.3095783580742983,
+          "strategy": "tfidf"
+        },
+        {
+          "id": "luat-anm-2018-p19-p2",
+          "source_id": "luat-anm-2018",
+          "source": "data\\24-2018-qh14.pdf",
+          "page": 19,
+          "text": "ừ hành vi tấn công mạng và cung cấp đầy đủ, kịp thời thông tin, tài liệu liên quan.",
+          "metadata": {
+            "chapter": 3,
+            "chapter_title": "PHÒNG NGỪA, XỬ LÝ HÀNH VI XÂM PHẠM AN NINH MẠNG"
+          },
+          "score": 0.30691465428874926,
+          "strategy": "tfidf"
+        }
+      ]
+    }
+  ],
+  "answer": "Tấn công mạng là hành vi \"sử dụng không gian mạng, công nghệ thông tin, phương tiện điện tử để vi phạm pháp luật về an ninh quốc gia, trật tự, an toàn xã hội\" và bao gồm các hành vi có liên quan đến tấn công mạng [luat-anm-2018-p18-p1]. Hành vi tấn công mạng cũng được đề cập trong nội dung yêu cầu cung cấp thông tin, tài liệu liên quan [luat-anm-2018-p19-p2].",
+  "citations": [
+    "luat-anm-2018-p18-p1",
+    "luat-anm-2018-p19-p2"
+  ],
+  "invalid_citations": [],
+  "elapsed_ms": 4087.747700017644,
+  "llm_prompt_tokens": 516,
+  "llm_completion_tokens": 132
+}
