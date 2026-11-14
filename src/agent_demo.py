@@ -15,9 +15,10 @@ ROOT = Path(__file__).resolve().parents[1]
 DAY6 = Path(os.getenv("DAY6_STARTER", str(ROOT.parent / "K5-L3A-Day06-PHAMVANNAM-2A202603681-DataIngestionEngineering" / "starter")))
 sys.path.insert(0, str(DAY6))
 sys.path.insert(0, str(ROOT / "starter"))
-from src.embeddings import MyEmbedder
-from src.store import PgVectorStore
-from baseline import TfidfIndex, pack_context
+
+from src.embeddings import MyEmbedder  # type: ignore
+from src.store import PgVectorStore  # type: ignore
+from baseline import TfidfIndex, pack_context  # type: ignore
 
 
 def main():

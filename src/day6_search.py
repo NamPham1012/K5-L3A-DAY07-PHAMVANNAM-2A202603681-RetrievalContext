@@ -18,8 +18,8 @@ DAY6_STARTER = Path(os.getenv(
 # Cho Python tìm thấy package src của Day 6.
 sys.path.insert(0, str(DAY6_STARTER))
 
-from src.embeddings import MyEmbedder
-from src.store import PgVectorStore
+from src.embeddings import MyEmbedder  # type: ignore
+from src.store import PgVectorStore  # type: ignore
 
 
 def main():

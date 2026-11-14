@@ -17,9 +17,9 @@ DAY6 = Path(os.getenv(
 ))
 sys.path.insert(0, str(DAY6))
 sys.path.insert(0, str(ROOT / "starter"))
-from src.embeddings import MyEmbedder
-from src.store import PgVectorStore
-from baseline import hit, pack_context, validate
+from src.embeddings import MyEmbedder  # type: ignore
+from src.store import PgVectorStore  # type: ignore
+from baseline import hit, pack_context, validate  # type: ignore
 
 
 def main():

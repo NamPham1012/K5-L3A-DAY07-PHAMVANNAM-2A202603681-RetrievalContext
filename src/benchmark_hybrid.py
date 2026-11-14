@@ -8,7 +8,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "starter"))
-from baseline import TfidfIndex, hit, pack_context, validate
+from baseline import TfidfIndex, hit, pack_context, validate  # type: ignore
 
 
 def main():
